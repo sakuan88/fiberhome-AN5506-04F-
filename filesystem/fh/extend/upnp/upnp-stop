@@ -1,0 +1,9 @@
+#!/bin/sh
+if [ -e "/fhcfg/upnpid" ]; then
+UPNPID=`cat "/fhcfg/upnpid"`
+echo $UPNPID
+kill $UPNPID
+killall upnpd
+fi
+rm /fhcfg/upnpid
+exit 0

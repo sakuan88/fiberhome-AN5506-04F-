@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="gb2312"?>
+<obj name="InternetGatewayDevice">
+	<param name="DeviceSummary">InternetGatewayDevice:1.1[](Baseline:1,EthernetLAN:1,WANDevice:1,Time:1,IPPing:1,Services:1)</param>
+	<param name="LANDeviceNumberOfEntries">4</param>
+	<param name="WANDeviceNumberOfEntries">1</param>
+	<obj name="DeviceInfo">
+		<param name="Manufacturer">fiberhome</param>
+		<param name="ManufacturerOUI">000AC2</param>
+		<param name="ModelName">AN5506_04F4G</param>
+		<param name="Description">ONU</param>
+		<param name="ProductClass">AN5506_04F4G</param>
+		<param name="SerialNumber">FHTT020049e8</param>
+		<param name="SoftwareVersion">RP2521</param>
+		<param name="SpecVersion">1.0</param>
+		<param name="ProvisioningCode">01</param>
+		<param name="UpTime"/>
+		<param name="DeviceLog"/>
+		<param name="HardwareVersion">WKE2.134.285F2</param>
+	<obj name="X_FH_Account">
+            <obj name="X_FH_WebUserInfo">
+                <param name="WebSuperUsername">admin</param>
+                <param name="WebSuperPassword">admin</param>
+                <param name="WebUsername">user</param>
+                <param name="WebPassword">user1234</param>
+            </obj>
+            
+            
+        </obj></obj>
+	<obj name="ManagementServer">
+		<param name="EnableCWMP">1</param>
+		<param name="URL">http://acs.telkom.net:9090/web/tr069</param>
+		<param name="Username">acs@acs.telkom.net</param>
+		<param name="Password">telkom</param>
+		<param name="PeriodicInformEnable">1</param>
+		<param name="PeriodicInformInterval">86400</param>
+		<param name="PeriodicInformTime"/>
+		<param name="ParameterKey"/>
+		<param name="ConnectionRequestURL"/>
+		<param name="ConnectionRequestUsername">acs</param>
+		<param name="ConnectionRequestPassword">acs</param>
+		<param name="UpgradesManaged"/>
+	</obj>
+	<obj name="Capabilities">
+		<obj name="PerformanceDiagnostic">
+			<param name="DownloadTransports">TCP,HTTP</param>
+			<param name="UploadTransports">TCP,HTTP</param>
+		</obj>
+	</obj>
+	<obj name="IPPingDiagnostics">
+		<param name="DiagnosticsState">Complete</param>
+		<param name="Interface">InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1</param>
+		<param name="Host">10.94.20.25</param>
+		<param name="NumberOfRepetitions">1</param>
+		<param name="Timeout">1</param>
+		<param name="DataBlockSize">56</param>
+		<param name="DSCP"/>
+		<param name="SuccessCount">1</param>
+		<param name="FailureCount">0</param>
+		<param name="AverageResponseTime">161</param>
+		<param name="MinimumResponseTime">161</param>
+		<param name="MaximumResponseTime">161</param> 
+	</obj>
+	<obj name="LANConfigSecurity">
+		<param name="ConfigPassword"/> 
+	</obj>
+	<obj name="LANDevice">
+		<instance id="1">
+			<param name="LANEthernetInterfaceNumberOfEntries">4</param>
+			<param name="LANUSBInterfaceNumberOfEntries">1</param>
+			<param name="LANWLANConfigurationNumberOfEntries">0</param>
+			<obj name="LANHostConfigManagement">
+				<param name="MACAddress"/>
+				<param name="DHCPServerConfigurable">1</param>
+				<param name="DHCPServerEnable">1</param>
+				<param name="DHCPRelay">0</param>
+				<param name="MinAddress">192.168.1.2</param>
+				<param name="MaxAddress">192.168.1.30</param>
+				<param name="ReservedAddresses"/>
+				<param name="SubnetMask">255.255.255.0</param>
+				<param name="DNSServers">192.168.1.1</param>
+				<param name="DomainName"/>
+				<param name="IPRouters">192.168.1.1</param>
+				<param name="UseAllocatedWAN">Normal</param>
+				<param name="IPInterfaceNumberOfEntries">1</param>
+				<param name="DHCPConditionalPoolNumberOfEntries">1</param>
+				<param name="DHCPStaticAddressNumberOfEntries">1</param>
+				<param name="DHCPOptionNumberOfEntries">1</param>
+				<param name="DHCPLeaseTime">86400</param>
+				<obj name="IPInterface">
+					<instance id="1">
+						<param name="Enable">1</param>
+						<param name="IPInterfaceIPAddress">192.168.1.1</param>
+						<param name="IPInterfaceSubnetMask">255.255.255.0</param>
+						<param name="IPInterfaceAddressingType">Static</param>
+					</instance>
+				</obj>
+				<obj name="DHCPConditionalServingPool">
+					<param name="DHCPOptionNumberOfEntries">1</param>
+					<instance id="1">
+						<param name="Enable">0</param>
+						<param name="PoolOrder">0</param>
+						<param name="SourceInterface"/>
+						<param name="VendorClassID"/>
+						<param name="ClientID"/>
+						<param name="UserClassID"/>
+						<param name="Chaddr"/>
+						<param name="ChaddrMask"/>
+						<param name="LocallyServed">1</param>
+						<param name="MinAddress"/>
+						<param name="MaxAddress"/>
+						<param name="ReservedAddresses"/>
+						<param name="SubnetMask"/>
+						<param name="DNSServers"/>
+						<param name="DomainName"/>
+						<param name="IPRouters"/>
+						<param name="DHCPLeaseTime">86400</param>
+						<param name="DHCPServerIPAddress"/>
+						<param name="DHCPOptionNumberOfEntries">1</param>
+						<obj name="DHCPOption">
+							<instance id="1">
+								<param name="Enable">0</param>
+								<param name="Tag">1</param>
+								<param name="Value"/> 
+							</instance>
+						</obj>
+					</instance>
+				</obj>
+				<obj name="DHCPOption">
+					<instance id="1">
+						<param name="Enable">0</param>
+						<param name="Tag">1</param>
+						<param name="Value"/>
+					</instance>
+				</obj>
+				<obj name="DHCPStaticAddress">
+					<instance id="1">
+						<param name="Enable">0</param>
+						<param name="Chaddr"/>
+						<param name="Yiaddr"/> 
+					</instance>
+				</obj>
+			</obj>
+			<obj name="Hosts">
+				<param name="HostNumberOfEntries"/>
+				<obj name="Host"> 
+				</obj>
+			</obj>
+			<obj name="LANEthernetInterfaceConfig">
+				<instance id="1">
+					<param name="Enable"/>
+					<param name="Status"/>
+					<param name="Name"/>
+					<param name="MACAddress"/>
+					<param name="MACAddressControlEnabled"/>
+					<param name="MaxBitRate"/>
+					<param name="DuplexMode"/>
+					<obj name="Stats">
+						<param name="BytesSent"/>
+						<param name="BytesReceived"/>
+						<param name="PacketsSent"/>
+						<param name="PacketsReceived"/> 
+					</obj>
+				</instance>
+				<instance id="2">
+					<param name="Enable"/>
+					<param name="Status"/>
+					<param name="Name"/>
+					<param name="MACAddress"/>
+					<param name="MACAddressControlEnabled"/>
+					<param name="MaxBitRate"/>
+					<param name="DuplexMode"/>
+					<obj name="Stats">
+						<param name="BytesSent"/>
+						<param name="BytesReceived"/>
+						<param name="PacketsSent"/>
+						<param name="PacketsReceived"/> 
+					</obj>
+				</instance>
+				<instance id="3">
+					<param name="Enable"/>
+					<param name="Status"/>
+					<param name="Name"/>
+					<param name="MACAddress"/>
+					<param name="MACAddressControlEnabled"/>
+					<param name="MaxBitRate"/>
+					<param name="DuplexMode"/>
+					<obj name="Stats">
+						<param name="BytesSent"/>
+						<param name="BytesReceived"/>
+						<param name="PacketsSent"/>
+						<param name="PacketsReceived"/> 
+					</obj>
+				</instance>
+				<instance id="4">
+					<param name="Enable"/>
+					<param name="Status"/>
+					<param name="Name"/>
+					<param name="MACAddress"/>
+					<param name="MACAddressControlEnabled"/>
+					<param name="MaxBitRate"/>
+					<param name="DuplexMode"/>
+					<obj name="Stats">
+						<param name="BytesSent"/>
+						<param name="BytesReceived"/>
+						<param name="PacketsSent"/>
+						<param name="PacketsReceived"/> 
+					</obj>
+				</instance>
+			</obj>
+			<obj name="WLANConfiguration">
+				<instance id="1">
+					<param name="Enable">1</param>
+					<param name="Status">Up</param>
+					<param name="Name">wlan0</param>
+					<param name="BSSID"/>
+					<param name="MaxBitRate">Auto</param>
+					<param name="Channel">1</param>
+					<param name="AutoChannelEnable">1</param>
+					<param name="SSID">3bb-wlan</param>
+					<param name="BeaconType">None</param>
+					<param name="MACAddressControlEnabled">1</param>
+					<param name="Standard">n</param>
+					<param name="WEPKeyIndex">1</param>
+					<param name="KeyPassphrase"/>
+					<param name="WEPEncryptionLevel">104-bit</param>
+					<param name="BasicEncryptionModes"/>
+					<param name="BasicAuthenticationMode"/>
+					<param name="WPAEncryptionModes">AESEncryption</param>
+					<param name="WPAAuthenticationMode">PSKAuthentication</param>
+					<param name="PossibleChannels">1-13</param>
+					<param name="BasicDataTransmitRates">1,2</param>
+					<param name="OperationalDataTransmitRates">1,2,11</param>
+					<param name="PossibleDataTransmitRates">1,2,11</param>
+					<param name="SSIDAdvertisementEnabled">0</param>
+					<param name="RadioEnabled">1</param>
+					<param name="TransmitPowerSupported">10,20,30,40,50,60,70,80,90,100</param>
+					<param name="TransmitPower">10</param>
+					<param name="AutoRateFallBackEnabled">1</param>
+					<param name="TotalBytesSent">0</param>
+					<param name="TotalBytesReceived">0</param>
+					<param name="TotalPacketsSent">0</param>
+					<param name="TotalPacketsReceived">0</param>
+					<param name="TotalAssociations">0</param>
+					<param name="DeviceOperationMode">InfrastructureAccessPoint</param>
+					<param name="AuthenticationServiceMode">None</param>
+					<obj name="Stats">
+						<param name="ErrorsSent">0</param>
+						<param name="ErrorsReceived">0</param>
+						<param name="UnicastPacketsSent">0</param>
+						<param name="UnicastPacketsReceived">0</param>
+						<param name="DiscardPacketsSent">0</param>
+						<param name="DiscardPacketsReceived">0</param>
+						<param name="MulticastPacketsSent">0</param>
+						<param name="MulticastPacketsReceived">0</param>
+						<param name="BroadcastPacketsSent">0</param>
+						<param name="BroadcastPacketsReceived">0</param>
+						<param name="UnknownProtoPacketsReceived">0</param>
+					</obj>
+					<obj name="WPS">
+						<param name="Enable">0</param>
+						<param name="DeviceName"/>
+						<param name="DevicePassword"/>
+						<param name="UUID">f81d4fae-7dec-11d0-a765-00a0c91e6bf6</param>
+						<param name="Version">1</param>
+						<param name="ConfigMethodsSupported">Ethernet</param>
+						<param name="ConfigMethodsEnabled">Ethernet</param>
+						<param name="SetupLockedState">Unlocked</param>
+						<param name="SetupLock">1</param>
+						<param name="ConfigurationState">Not_configured</param>
+						<param name="LastConfigurationError">NoError</param>
+						<param name="RegistrarNumberOfEntries">1</param>
+						<param name="RegistrarEstablished">0</param>
+						<obj name="Registrar">
+							<instance id="1">
+								<param name="Enable">0</param>
+								<param name="UUID"/>
+								<param name="DeviceName"/> 
+							</instance>
+						</obj>
+					</obj>
+					<obj name="AssociatedDevice"> 
+						<instance id="1">
+							<param name="AssociatedDeviceMACAddress"/>
+							<param name="AssociatedDeviceIPAddress"/>
+							<param name="AssociatedDeviceAuthenticationState">1</param>
+						</instance>
+						<instance id="2">
+							<param name="AssociatedDeviceMACAddress"/>
+							<param name="AssociatedDeviceIPAddress"/>
+							<param name="AssociatedDeviceAuthenticationState">1</param>
+						</instance>
+						<instance id="3">
+							<param name="AssociatedDeviceMACAddress"/>
+							<param name="AssociatedDeviceIPAddress"/>
+							<param name="AssociatedDeviceAuthenticationState">1</param>
+						</instance>
+						<instance id="4">
+							<param name="AssociatedDeviceMACAddress"/>
+							<param name="AssociatedDeviceIPAddress"/>
+							<param name="AssociatedDeviceAuthenticationState">1</param>
+						</instance>
+					</obj>
+					<obj name="WEPKey">
+						<instance id="1">
+							<param name="WEPKey"/>
+						</instance>
+						<instance id="2">
+							<param name="WEPKey"/>
+						</instance>
+						<instance id="3">
+							<param name="WEPKey"/>
+						</instance>
+						<instance id="4">
+							<param name="WEPKey"/>
+						</instance>
+					</obj>
+					<obj name="PreSharedKey">
+						<instance id="1">
+							<param name="PreSharedKey">1111100000</param>
+							<param name="KeyPassphrase"/>
+						</instance>
+					</obj>
+				</instance>
+				<instance id="2">
+					<param name="Enable">1</param>
+					<param name="Status">Up</param>
+					<param name="Name">wlan1</param>
+					<param name="BSSID"/>
+					<param name="MaxBitRate">Auto</param>
+					<param name="Channel">1</param>
+					<param name="AutoChannelEnable">1</param>
+					<param name="SSID">3bb-wlan-ssid2</param>
+					<param name="BeaconType">None</param>
+					<param name="MACAddressControlEnabled">1</param>
+					<param name="Standard">n</param>
+					<param name="WEPKeyIndex">1</param>
+					<param name="KeyPassphrase"/>
+					<param name="WEPEncryptionLevel">104-bit</param>
+					<param name="BasicEncryptionModes"/>
+					<param name="BasicAuthenticationMode"/>
+					<param name="WPAEncryptionModes">AESEncryption</param>
+					<param name="WPAAuthenticationMode">PSKAuthentication</param>
+					<param name="PossibleChannels">1-13</param>
+					<param name="BasicDataTransmitRates">1,2</param>
+					<param name="OperationalDataTransmitRates">1,2,11</param>
+					<param name="PossibleDataTransmitRates">1,2,11</param>
+					<param name="SSIDAdvertisementEnabled">0</param>
+					<param name="RadioEnabled">1</param>
+					<param name="TransmitPowerSupported">10,20,30,40,50,60,70,80,90,100</param>
+					<param name="TransmitPower">10</param>
+					<param name="AutoRateFallBackEnabled">1</param>
+					<param name="TotalBytesSent">0</param>
+					<param name="TotalBytesReceived">0</param>
+					<param name="TotalPacketsSent">0</param>
+					<param name="TotalPacketsReceived">0</param>
+					<param name="TotalAssociations">0</param>
+					<param name="DeviceOperationMode">InfrastructureAccessPoint</param>
+					<param name="AuthenticationServiceMode">None</param>
+					<obj name="Stats">
+						<param name="ErrorsSent">0</param>
+						<param name="ErrorsReceived">0</param>
+						<param name="UnicastPacketsSent">0</param>
+						<param name="UnicastPacketsReceived">0</param>
+						<param name="DiscardPacketsSent">0</param>
+						<param name="DiscardPacketsReceived">0</param>
+						<param name="MulticastPacketsSent">0</param>
+						<param name="MulticastPacketsReceived">0</param>
+						<param name="BroadcastPacketsSent">0</param>
+						<param name="BroadcastPacketsReceived">0</param>
+						<param name="UnknownProtoPacketsReceived">0</param>
+					</obj>
+					<obj name="WPS">
+						<param name="Enable">0</param>
+						<param name="DeviceName"/>
+						<param name="DevicePassword"/>
+						<param name="UUID">f81d4fae-7dec-11d0-a765-00a0c91e6bf6</param>
+						<param name="Version">1</param>
+						<param name="ConfigMethodsSupported">Ethernet</param>
+						<param name="ConfigMethodsEnabled">Ethernet</param>
+						<param name="SetupLockedState">Unlocked</param>
+						<param name="SetupLock">1</param>
+						<param name="ConfigurationState">Not_configured</param>
+						<param name="LastConfigurationError">NoError</param>
+						<param name="RegistrarNumberOfEntries">1</param>
+						<param name="RegistrarEstablished">0</param>
+						<obj name="Registrar">
+							<instance id="1">
+								<param name="Enable">0</param>
+								<param name="UUID"/>
+								<param name="DeviceName"/> 
+							</instance>
+						</obj>
+					</obj>
+					<obj name="AssociatedDevice"> 
+						<instance id="1">
+							<param name="AssociatedDeviceMACAddress"/>
+							<param name="AssociatedDeviceIPAddress"/>
+							<param name="AssociatedDeviceAuthenticationState">1</param>
+						</instance>
+						<instance id="2">
+							<param name="AssociatedDeviceMACAddress"/>
+							<param name="AssociatedDeviceIPAddress"/>
+							<param name="AssociatedDeviceAuthenticationState">1</param>
+						</instance>
+						<instance id="3">
+							<param name="AssociatedDeviceMACAddress"/>
+							<param name="AssociatedDeviceIPAddress"/>
+							<param name="AssociatedDeviceAuthenticationState">1</param>
+						</instance>
+						<instance id="4">
+							<param name="AssociatedDeviceMACAddress"/>
+							<param name="AssociatedDeviceIPAddress"/>
+							<param name="AssociatedDeviceAuthenticationState">1</param>
+						</instance>
+					</obj>
+					<obj name="WEPKey">
+						<instance id="1">
+							<param name="WEPKey"/>
+						</instance>
+						<instance id="2">
+							<param name="WEPKey"/>
+						</instance>
+						<instance id="3">
+							<param name="WEPKey"/>
+						</instance>
+						<instance id="4">
+							<param name="WEPKey"/>
+						</instance>
+					</obj>
+					<obj name="PreSharedKey">
+						<instance id="1">
+							<param name="PreSharedKey">1111100000</param>
+							<param name="KeyPassphrase"/>
+						</instance>
+					</obj>
+				</instance>
+				<instance id="3">
+					<param name="Enable">1</param>
+					<param name="Status">Up</param>
+					<param name="Name">wlan2</param>
+					<param name="BSSID"/>
+					<param name="MaxBitRate">Auto</param>
+					<param name="Channel">1</param>
+					<param name="AutoChannelEnable">1</param>
+					<param name="SSID">3bb-wlan-ssid3</param>
+					<param name="BeaconType">None</param>
+					<param name="MACAddressControlEnabled">1</param>
+					<param name="Standard">n</param>
+					<param name="WEPKeyIndex">1</param>
+					<param name="KeyPassphrase"/>
+					<param name="WEPEncryptionLevel">104-bit</param>
+					<param name="BasicEncryptionModes"/>
+					<param name="BasicAuthenticationMode"/>
+					<param name="WPAEncryptionModes">AESEncryption</param>
+					<param name="WPAAuthenticationMode">PSKAuthentication</param>
+					<param name="PossibleChannels">1-13</param>
+					<param name="BasicDataTransmitRates">1,2</param>
+					<param name="OperationalDataTransmitRates">1,2,11</param>
+					<param name="PossibleDataTransmitRates">1,2,11</param>
+					<param name="SSIDAdvertisementEnabled">0</param>
+					<param name="RadioEnabled">1</param>
+					<param name="TransmitPowerSupported">10,20,30,40,50,60,70,80,90,100</param>
+					<param name="TransmitPower">10</param>
+					<param name="AutoRateFallBackEnabled">1</param>
+					<param name="TotalBytesSent">0</param>
+					<param name="TotalBytesReceived">0</param>
+					<param name="TotalPacketsSent">0</param>
+					<param name="TotalPacketsReceived">0</param>
+					<param name="TotalAssociations">0</param>
+					<param name="DeviceOperationMode">InfrastructureAccessPoint</param>
+					<param name="AuthenticationServiceMode">None</param>
+					<obj name="Stats">
+						<param name="ErrorsSent">0</param>
+						<param name="ErrorsReceived">0</param>
+						<param name="UnicastPacketsSent">0</param>
+						<param name="UnicastPacketsReceived">0</param>
+						<param name="DiscardPacketsSent">0</param>
+						<param name="DiscardPacketsReceived">0</param>
+						<param name="MulticastPacketsSent">0</param>
+						<param name="MulticastPacketsReceived">0</param>
+						<param name="BroadcastPacketsSent">0</param>
+						<param name="BroadcastPacketsReceived">0</param>
+						<param name="UnknownProtoPacketsReceived">0</param>
+					</obj>
+					<obj name="WPS">
+						<param name="Enable">0</param>
+						<param name="DeviceName"/>
+						<param name="DevicePassword"/>
+						<param name="UUID">f81d4fae-7dec-11d0-a765-00a0c91e6bf6</param>
+						<param name="Version">1</param>
+						<param name="ConfigMethodsSupported">Ethernet</param>
+						<param name="ConfigMethodsEnabled">Ethernet</param>
+						<param name="SetupLockedState">Unlocked</param>
+						<param name="SetupLock">1</param>
+						<param name="ConfigurationState">Not_configured</param>
+						<param name="LastConfigurationError">NoError</param>
+						<param name="RegistrarNumberOfEntries">1</param>
+						<param name="RegistrarEstablished">0</param>
+						<obj name="Registrar">
+							<instance id="1">
+								<param name="Enable">0</param>
+								<param name="UUID"/>
+								<param name="DeviceName"/> 
+							</instance>
+						</obj>
+					</obj>
+					<obj name="AssociatedDevice"> 
+						<instance id="1">
+							<param name="AssociatedDeviceMACAddress"/>
+							<param name="AssociatedDeviceIPAddress"/>
+							<param name="AssociatedDeviceAuthenticationState">1</param>
+						</instance>
+						<instance id="2">
+							<param name="AssociatedDeviceMACAddress"/>
+							<param name="AssociatedDeviceIPAddress"/>
+							<param name="AssociatedDeviceAuthenticationState">1</param>
+						</instance>
+						<instance id="3">
+							<param name="AssociatedDeviceMACAddress"/>
+							<param name="AssociatedDeviceIPAddress"/>
+							<param name="AssociatedDeviceAuthenticationState">1</param>
+						</instance>
+						<instance id="4">
+							<param name="AssociatedDeviceMACAddress"/>
+							<param name="AssociatedDeviceIPAddress"/>
+							<param name="AssociatedDeviceAuthenticationState">1</param>
+						</instance>
+					</obj>
+					<obj name="WEPKey">
+						<instance id="1">
+							<param name="WEPKey"/>
+						</instance>
+						<instance id="2">
+							<param name="WEPKey"/>
+						</instance>
+						<instance id="3">
+							<param name="WEPKey"/>
+						</instance>
+						<instance id="4">
+							<param name="WEPKey"/>
+						</instance>
+					</obj>
+					<obj name="PreSharedKey">
+						<instance id="1">
+							<param name="PreSharedKey">1111100000</param>
+							<param name="KeyPassphrase"/>
+						</instance>
+					</obj>
+				</instance>
+				<instance id="4">
+					<param name="Enable">1</param>
+					<param name="Status">Up</param>
+					<param name="Name">wlan3</param>
+					<param name="BSSID"/>
+					<param name="MaxBitRate">Auto</param>
+					<param name="Channel">1</param>
+					<param name="AutoChannelEnable">1</param>
+					<param name="SSID">3bb-wlan-ssid4</param>
+					<param name="BeaconType">None</param>
+					<param name="MACAddressControlEnabled">1</param>
+					<param name="Standard">n</param>
+					<param name="WEPKeyIndex">1</param>
+					<param name="KeyPassphrase"/>
+					<param name="WEPEncryptionLevel">104-bit</param>
+					<param name="BasicEncryptionModes"/>
+					<param name="BasicAuthenticationMode"/>
+					<param name="WPAEncryptionModes">AESEncryption</param>
+					<param name="WPAAuthenticationMode">PSKAuthentication</param>
+					<param name="PossibleChannels">1-13</param>
+					<param name="BasicDataTransmitRates">1,2</param>
+					<param name="OperationalDataTransmitRates">1,2,11</param>
+					<param name="PossibleDataTransmitRates">1,2,11</param>
+					<param name="SSIDAdvertisementEnabled">0</param>
+					<param name="RadioEnabled">1</param>
+					<param name="TransmitPowerSupported">10,20,30,40,50,60,70,80,90,100</param>
+					<param name="TransmitPower">10</param>
+					<param name="AutoRateFallBackEnabled">1</param>
+					<param name="TotalBytesSent">0</param>
+					<param name="TotalBytesReceived">0</param>
+					<param name="TotalPacketsSent">0</param>
+					<param name="TotalPacketsReceived">0</param>
+					<param name="TotalAssociations">0</param>
+					<param name="DeviceOperationMode">InfrastructureAccessPoint</param>
+					<param name="AuthenticationServiceMode">None</param>
+					<obj name="Stats">
+						<param name="ErrorsSent">0</param>
+						<param name="ErrorsReceived">0</param>
+						<param name="UnicastPacketsSent">0</param>
+						<param name="UnicastPacketsReceived">0</param>
+						<param name="DiscardPacketsSent">0</param>
+						<param name="DiscardPacketsReceived">0</param>
+						<param name="MulticastPacketsSent">0</param>
+						<param name="MulticastPacketsReceived">0</param>
+						<param name="BroadcastPacketsSent">0</param>
+						<param name="BroadcastPacketsReceived">0</param>
+						<param name="UnknownProtoPacketsReceived">0</param>
+					</obj>
+					<obj name="WPS">
+						<param name="Enable">0</param>
+						<param name="DeviceName"/>
+						<param name="DevicePassword"/>
+						<param name="UUID">f81d4fae-7dec-11d0-a765-00a0c91e6bf6</param>
+						<param name="Version">1</param>
+						<param name="ConfigMethodsSupported">Ethernet</param>
+						<param name="ConfigMethodsEnabled">Ethernet</param>
+						<param name="SetupLockedState">Unlocked</param>
+						<param name="SetupLock">1</param>
+						<param name="ConfigurationState">Not_configured</param>
+						<param name="LastConfigurationError">NoError</param>
+						<param name="RegistrarNumberOfEntries">1</param>
+						<param name="RegistrarEstablished">0</param>
+						<obj name="Registrar">
+							<instance id="1">
+								<param name="Enable">0</param>
+								<param name="UUID"/>
+								<param name="DeviceName"/> 
+							</instance>
+						</obj>
+					</obj>
+					<obj name="AssociatedDevice"> 
+						<instance id="1">
+							<param name="AssociatedDeviceMACAddress"/>
+							<param name="AssociatedDeviceIPAddress"/>
+							<param name="AssociatedDeviceAuthenticationState">1</param>
+						</instance>
+						<instance id="2">
+							<param name="AssociatedDeviceMACAddress"/>
+							<param name="AssociatedDeviceIPAddress"/>
+							<param name="AssociatedDeviceAuthenticationState">1</param>
+						</instance>
+						<instance id="3">
+							<param name="AssociatedDeviceMACAddress"/>
+							<param name="AssociatedDeviceIPAddress"/>
+							<param name="AssociatedDeviceAuthenticationState">1</param>
+						</instance>
+						<instance id="4">
+							<param name="AssociatedDeviceMACAddress"/>
+							<param name="AssociatedDeviceIPAddress"/>
+							<param name="AssociatedDeviceAuthenticationState">1</param>
+						</instance>
+					</obj>
+					<obj name="WEPKey">
+						<instance id="1">
+							<param name="WEPKey"/>
+						</instance>
+						<instance id="2">
+							<param name="WEPKey"/>
+						</instance>
+						<instance id="3">
+							<param name="WEPKey"/>
+						</instance>
+						<instance id="4">
+							<param name="WEPKey"/>
+						</instance>
+					</obj>
+					<obj name="PreSharedKey">
+						<instance id="1">
+							<param name="PreSharedKey">1111100000</param>
+							<param name="KeyPassphrase"/>
+						</instance>
+					</obj>
+				</instance>
+			</obj>
+		</instance>
+	</obj>
+	<obj name="WANDevice">
+		<instance id="1">
+			<param name="WANConnectionNumberOfEntries">1</param>
+			<obj name="WANCommonInterfaceConfig">
+				<param name="EnabledForInternet">1</param>
+				<param name="WANAccessType">GPON</param>
+				<param name="Layer1UpstreamMaxBitRate">1250000000</param>
+				<param name="Layer1DownstreamMaxBitRate">2500000000</param>
+				<param name="PhysicalLinkStatus">Up</param>
+				<param name="TotalBytesSent"/>
+				<param name="TotalBytesReceived"/>
+				<param name="TotalPacketsSent"/>
+				<param name="TotalPacketsReceived"/> 
+			</obj>
+			<obj name="WANConnectionDevice">
+				<instance id="1">
+				</instance>		
+			</obj>
+			<obj name="WANEthernetInterfaceConfig">
+				<param name="Enable">0</param>
+				<param name="Status">Disabled</param>
+				<param name="MACAddress"/>
+				<param name="MaxBitRate"/>
+				<param name="DuplexMode"/>
+				<param name="ShapingRate"/>
+				<param name="ShapingBurstSize"/>  
+				<obj name="Stats">
+					<param name="BytesSent"/>
+					<param name="BytesReceived"/>
+					<param name="PacketsSent"/>
+					<param name="PacketsReceived"/>
+				</obj>          
+			</obj>
+		</instance>
+	</obj>
+	<obj name="Services">
+		<obj name="VoiceService">
+			<instance id="1">
+				<param name="VoiceProfileNumberOfEntries">1</param>
+                <obj name="Capabilities">
+					<param name="Regions">TH</param>
+				</obj>
+				<obj name="VoiceProfile">
+					<instance id="1">
+						<param name="Enable">Enabled</param>
+						<param name="Reset">0</param>
+						<param name="SignalingProtocol">SIP</param>
+						<param name="X_FH_ServerType">SIP</param>
+						<param name="MaxSessions">0</param>
+						<param name="DTMFMethodG711"/>
+						<param name="NumberOfLines">1</param>
+						<param name="Name">VoiceProfile1</param>
+						<param name="DTMFMethod">RFC2833</param>
+						<param name="DigitMap">[XABCDEF].</param>
+						<param name="Configurationswitch">0</param>
+						<obj name="SIP">
+							<param name="ProxyServer"/>
+							<param name="ProxyServerPort">5060</param>
+							<param name="ProxyServerTransport">UDP</param>
+							<param name="X_FH_Standby-ProxyServer"/>
+							<param name="X_FH_Standby-ProxyServerPort">5060</param>
+							<param name="RegistrarServer"/>
+							<param name="RegistrarServerPort">5060</param>
+							<param name="RegistrarServerTransport">UDP</param>
+							<param name="OutboundProxy"/>
+							<param name="OutboundProxyPort">5060</param>
+							<param name="UserAgentDomain"/>
+							<param name="UserAgentPort">5060</param>
+							<param name="UserAgentTransport"/>
+							<param name="VLANIDMark"/>
+							<param name="DSCPMark">5</param>
+							<param name="RegisterRetryInterval">60</param>
+							<param name="RegistrationPeriod">3600</param>
+							<param name="RegisterExpires">3600</param>
+						</obj>
+						<obj name="RTP">
+							<param name="VLANIDMark">46</param>
+							<param name="DSCPMark"/>
+							<obj  name="Redundancy"  rw="0" >
+								<param name="PayloadType"> </param>
+							</obj>
+						</obj>
+						<obj name="NumberingPlan">
+						</obj>
+						<obj name="FaxT38">
+							<param name="Enable">0</param>
+
+						</obj>
+						<obj name="Line">
+							<instance id="1">
+								<param name="Enable">Disabled</param>
+								<param name="Status">Disabled</param>
+								<obj name="SIP">
+									<param name="AuthUserName"/>
+									<param name="AuthPassword"/>
+									<param name="URI"/> 
+								</obj>
+								<obj name="CallingFeatures" rw="0">
+									<param name="CallWaitingEnable">1</param>
+									<param name="CallerIDEnable">1</param>
+								</obj>
+								<obj name="Codec">
+									<obj name="List">
+										<instance id="1">
+											<param name="EntryID">1</param>
+											<param name="Codec">G.711MuLaw</param>
+											<param name="Priority">1</param>
+											<param name="PacketizationPeriod">20</param> 
+										</instance>
+										<instance id="2">
+											<param name="EntryID">2</param>
+											<param name="Codec">G.711ALaw</param>
+											<param name="Priority">2</param>
+											<param name="PacketizationPeriod">20</param> 
+										</instance>
+										<instance id="3">
+											<param name="EntryID">3</param>
+											<param name="Codec">G.729</param>
+											<param name="Priority">3</param>
+											<param name="PacketizationPeriod">20</param> 
+										</instance>
+										<instance id="4">
+											<param name="EntryID">4</param>
+											<param name="Codec">G.722</param>
+											<param name="Priority">4</param>
+											<param name="PacketizationPeriod">20</param> 
+										</instance>
+										<instance id="5">
+											<param name="EntryID">5</param>
+											<param name="Codec"/>
+											<param name="Priority">5</param>
+											<param name="PacketizationPeriod">20</param> 
+										</instance>
+									</obj>
+								</obj>
+								<obj name="VoiceProcessing">
+									<param name="TransmitGain">0</param>
+									<param name="ReceiveGain">0</param>
+									<param name="EchoCancellationEnable">1</param>
+									<param name="EchoCancellationInUse"/>
+									<param name="EchoCancellationTail"/> 
+								</obj>
+								<obj name="Status">
+									<param name="ResetStatistics">0</param>
+									<param name="PacketsSent">0</param>
+									<param name="PacketsReceived">0</param>
+									<param name="BytesSent">0</param>
+									<param name="BytesReceived">0</param>
+									<param name="PacketsLost">0</param>
+									<param name="IncomingCallsReceived">0</param>
+									<param name="IncomingCallsAnswered">0</param>
+									<param name="IncomingCallsConnected">0</param>
+									<param name="IncomingCallsFailed">0</param>
+									<param name="OutgoingCallsAttempted">0</param>
+									<param name="OutgoingCallsAnswered">0</param>
+									<param name="OutgoingCallsConnected">0</param>
+									<param name="OutgoingCallsFailed">0</param>
+									<param name="TotalCallTime">0</param> 
+								</obj>
+							</instance>
+							<instance id="2">
+								<param name="Enable">Disabled</param>
+								<param name="Status">Disabled</param>
+								<obj name="SIP">
+									<param name="AuthUserName"/>
+									<param name="AuthPassword"/>
+									<param name="URI"/> 
+								</obj>
+								<obj name="CallingFeatures" rw="0">
+									<param name="CallWaitingEnable">1</param>
+									<param name="CallerIDEnable">1</param>
+								</obj>
+								<obj name="Codec">
+									<obj name="List">
+										<instance id="1">
+											<param name="EntryID">1</param>
+											<param name="Codec">G.711MuLaw</param>
+											<param name="Priority">1</param>
+											<param name="PacketizationPeriod">20</param> 
+										</instance>
+										<instance id="2">
+											<param name="EntryID">2</param>
+											<param name="Codec">G.711ALaw</param>
+											<param name="Priority">2</param>
+											<param name="PacketizationPeriod">20</param> 
+										</instance>
+										<instance id="3">
+											<param name="EntryID">3</param>
+											<param name="Codec">G.729</param>
+											<param name="Priority">3</param>
+											<param name="PacketizationPeriod">20</param> 
+										</instance>
+										<instance id="4">
+											<param name="EntryID">4</param>
+											<param name="Codec">G.722</param>
+											<param name="Priority">4</param>
+											<param name="PacketizationPeriod">20</param> 
+										</instance>
+										<instance id="5">
+											<param name="EntryID">5</param>
+											<param name="Codec"/>
+											<param name="Priority">5</param>
+											<param name="PacketizationPeriod">20</param> 
+										</instance>
+									</obj>
+								</obj>
+								<obj name="VoiceProcessing">
+									<param name="TransmitGain">0</param>
+									<param name="ReceiveGain">0</param>
+									<param name="EchoCancellationEnable">1</param>
+									<param name="EchoCancellationInUse"/>
+									<param name="EchoCancellationTail"/> 
+								</obj>
+								<obj name="Status">
+									<param name="ResetStatistics">0</param>
+									<param name="PacketsSent">0</param>
+									<param name="PacketsReceived">0</param>
+									<param name="BytesSent">0</param>
+									<param name="BytesReceived">0</param>
+									<param name="PacketsLost">0</param>
+									<param name="IncomingCallsReceived">0</param>
+									<param name="IncomingCallsAnswered">0</param>
+									<param name="IncomingCallsConnected">0</param>
+									<param name="IncomingCallsFailed">0</param>
+									<param name="OutgoingCallsAttempted">0</param>
+									<param name="OutgoingCallsAnswered">0</param>
+									<param name="OutgoingCallsConnected">0</param>
+									<param name="OutgoingCallsFailed">0</param>
+									<param name="TotalCallTime">0</param> 
+								</obj>
+							</instance>
+						</obj>
+					</instance>
+				</obj>
+				<obj name="Capabilities">
+					<param name="DigitMap">1</param>
+					<param name="SignalingProtocols">SIP</param>
+					<obj name="Codecs">
+						<instance id="1">
+							<param name="EntryID">1</param>
+							<param name="Codec">pcmu</param>
+							<param name="PacketizationPeriod">5,10,20,30</param> 
+						</instance>
+						<instance id="2">
+							<param name="EntryID">2</param>
+							<param name="Codec">pcmu</param>
+							<param name="PacketizationPeriod">5,10,20,30</param> 
+						</instance>
+						<instance id="3">
+							<param name="EntryID">3</param>
+							<param name="Codec">pcmu</param>
+							<param name="PacketizationPeriod">5,10,20,30</param> 
+						</instance>
+						<instance id="4">
+							<param name="EntryID">4</param>
+							<param name="Codec">pcmu</param>
+							<param name="PacketizationPeriod">5,10,20,30</param> 
+						</instance>
+						<instance id="5">
+							<param name="EntryID">5</param>
+							<param name="Codec">pcmu</param>
+							<param name="PacketizationPeriod">5,10,20,30</param> 
+						</instance>
+					</obj>
+				</obj>
+				<obj name="PhyInterface">
+					<instance id="1">
+						<param name="InterfaceID">1</param>
+						<obj name="X_FH_Extend"  rw="0">
+							<param  name="HookFlashUpTime">400</param>
+							<param  name="HookFlashDownTime">90</param>
+							<param  name="ReversePolePulse">1</param>
+						</obj>
+						<obj name="Tests">
+							<param name="TestState"/>
+							<param name="TestSelector"/>
+							<param name="PhoneConnectivity"/> 
+						</obj>
+					</instance>
+
+				</obj>
+			</instance>
+		</obj>
+	</obj>
+    <obj name="Layer2Bridging">
+        <param name="MaxBridgeEntries">2</param>
+        <param name="MaxDBridgeEntries">0</param>
+        <param name="MaxQBridgeEntries">0</param>
+        <param name="MaxFilterEntries">2</param>
+        <param name="MaxMarkingEntries">2</param>
+        <param name="BridgeNumberOfEntries">1</param>
+        <param name="FilterNumberOfEntries">1</param>
+        <param name="MarkingNumberOfEntries">1</param>
+        <param name="AvailableInterfaceNumberOfEntries">7</param>
+        <param name="MaxVLANEntries">0</param>
+        <obj name="Bridge">
+            <instance id="1">
+                <param name="BridgeKey">1</param>
+                <param name="BridgeStandard">802.1Q</param>
+                <param name="BridgeEnable">1</param>
+                <param name="BridgeStatus">Enabled</param>
+                <param name="BridgeName">Bridge_1</param>
+                <param name="VLANID">0</param>
+                <param name="PortNumberOfEntries">1</param>
+                <param name="VLANNumberOfEntries">1</param>
+                <obj name="Port">
+                    <instance id="1">
+                        <param name="PortEnable">0</param>
+                        <param name="PortInterface"/>
+                        <param name="PortState">Disabled</param>
+                        <param name="PVID">1</param>
+                        <param name="AcceptableFrameTypes">AdmitAll</param>
+                        <param name="IngressFiltering">0</param> 
+                    </instance>
+                </obj>
+                <obj name="VLAN">
+                    <instance id="1">
+                        <param name="VLANEnable">0</param>
+                        <param name="VLANName"/>
+                        <param name="VLANID">0</param>
+                    </instance>
+                </obj>
+            </instance>
+        </obj>
+        <obj name="Filter">
+            <instance id="1">
+                <param name="FilterKey">1</param>
+                <param name="FilterEnable">1</param>
+                <param name="FilterStatus">Enabled</param>
+                <param name="FilterBridgeReference">-1</param>
+                <param name="ExclusivityOrder">1</param>
+                <param name="FilterInterface">AllInterfaces</param>
+                <param name="VLANIDFilter">0</param>
+                <param name="AdmitOnlyVLANTagged">1</param>
+                <param name="EthertypeFilterList"/>
+                <param name="EthertypeFilterExclude">0</param>
+                <param name="SourceMACAddressFilterList"/>
+                <param name="SourceMACAddressFilterExclude">0</param>
+                <param name="DestMACAddressFilterList"/>
+                <param name="DestMACAddressFilterExclude">0</param> 
+            </instance>
+        </obj>
+        <obj name="Marking">
+            <instance id="1">
+                <param name="MarkingKey">0</param>
+                <param name="MarkingEnable">0</param>
+                <param name="MarkingStatus">Disabled</param>
+                <param name="MarkingBridgeReference">-1</param>
+                <param name="MarkingInterface"/>
+                <param name="VLANIDUntag">0</param>
+                <param name="VLANIDMark">-1</param>
+                <param name="VLANIDMarkOverride">0</param>
+                <param name="EthernetPriorityMark">-1</param>
+                <param name="EthernetPriorityOverride">0</param>
+            </instance>
+        </obj>
+        <obj name="AvailableInterface">
+            <instance id="1">
+                <param name="AvailableInterfaceKey">1</param>
+                <param name="InterfaceType">LANInterface</param>
+                <param name="InterfaceReference">InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.1.</param>
+
+            </instance>
+            <instance id="2">
+                <param name="AvailableInterfaceKey">2</param>
+                <param name="InterfaceType">LANInterface</param>
+                <param name="InterfaceReference">InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.2.</param>
+
+            </instance>
+            <instance id="3">
+                <param name="AvailableInterfaceKey">3</param>
+                <param name="InterfaceType">LANInterface</param>
+                <param name="InterfaceReference">InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.3</param>
+
+            </instance>
+            <instance id="4">
+                <param name="AvailableInterfaceKey">4</param>
+                <param name="InterfaceType">LANInterface</param>
+                <param name="InterfaceReference">InternetGatewayDevice.LANDevice.1.LANEthernetInterfaceConfig.4.</param>
+
+            </instance>
+            <instance id="5">
+                <param name="AvailableInterfaceKey">5</param>
+                <param name="InterfaceType">LANInterface</param>
+                <param name="InterfaceReference">InternetGatewayDevice.LANDevice.1.WLANConfiguration.1.</param>
+
+            </instance>
+            <instance id="6">
+                <param name="AvailableInterfaceKey">6</param>
+                <param name="InterfaceType">WANRouterConnection</param>
+                <param name="InterfaceReference">InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1.</param>
+
+            </instance>
+            <instance id="7">
+                <param name="AvailableInterfaceKey">7</param>
+                <param name="InterfaceType">WANInterface</param>
+                <param name="InterfaceReference">InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.</param>
+
+            </instance>
+        </obj>
+    </obj>
+	<obj name="Layer3Forwarding">
+		<param name="DefaultConnectionService">InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1</param>
+	</obj>
+	<obj name="Time">
+		<param name="Enable">1</param>
+		<param name="LocalTimeZoneName">(GMT+08:00)</param>
+		<param name="LocalTimeZone">+07:00</param>
+		<param name="CurrentLocalTime">1970-01-01T01:18:47+08:00</param>
+		<param name="NTPServer2" noti="2">2.th.pool.ntp.org</param>
+		<param name="NTPServer1">time.nist.gov</param>
+		<param name="Status"/>
+		<param name="X_FH_NTPServerType">0</param>
+		<param name="X_NTPInterval">86400</param>
+	</obj>
+	<obj name="X_FIB_AlarmDefine">
+		<param name="lastest_alarm_id">32</param>
+		<obj name="AlarmCode">
+			<param name="TXPowerHighAlarm">10001</param>
+			<param name="TXPowerLowAlarm">10002</param>
+			<param name="RXPowerHighAlarm">10003</param>
+			<param name="RXPowerLowAlarm">10004</param>
+			<param name="FE_Disconnected">10005</param> 
+		</obj>
+		<obj name="Severity">
+			<param name="TXPowerHighAlarm">1</param>
+			<param name="TXPowerLowAlarm">1</param>
+			<param name="RXPowerHighAlarm">1</param>
+			<param name="RXPowerLowAlarm">1</param>
+			<param name="FE_Disconnected">3</param> 
+		</obj>
+	</obj>
+	<obj name="X_FIB_AGENT">
+		<param name="X_FIB_COM_connect_req_port">7547</param>
+		<param name="X_FIB_COM_retry_times">10</param>
+		<param name="X_FIB_COM_flag_reboot">0</param>
+		<param name="X_FIB_COM_command_key"/>
+		<param name="CfgSavePeriod">10</param>
+		<param name="Tr069Enable">enable</param>
+		<param name="X_FIB_COM_connect_req_path">/tr069</param>
+		<param name="APP_CASE">3</param>
+		<param name="FirstInstallFlag">0</param>
+		<param name="ISPName">TH_3BB</param>
+	</obj>
+	<obj name="X_FIB_VOIP_IPPARAMS">
+		<param name="AddressingType">Static</param>
+		<param name="ExternalIPAddress">10.94.100.33</param>
+		<param name="SubnetMask">255.255.0.0</param>
+		<param name="DefaultGateway">10.94.1.254</param> 
+	</obj>
+	<obj name="DefaultManagementServer">
+		<param name="URL">http://10.90.5.13:9090/ACS-server/ACS</param>
+		<param name="Username">hgw</param>
+		<param name="Password">hgw</param>
+		<param name="PeriodicInformEnable">1</param>
+		<param name="PeriodicInformInterval">60</param>
+		<param name="ConnectionRequestUsername">itms</param>
+		<param name="ConnectionRequestPassword">itms</param> 
+	</obj>
+	<obj name="UDPEchoConfig">
+		<param name="EchoPlusSupported">1</param>
+		<param name="Enable">0</param>
+		<param name="SourceIPAddress">10.94.100.66</param>
+		<param name="UDPPort">2345</param>
+		<param name="EchoPlusEnabled">1</param>
+		<param name="Interface">wan0</param>
+
+	</obj>
+	<obj name="TraceRouteDiagnostics">
+		<param name="Interface">InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1</param>
+		<param name="NumberOfTries">3</param>
+		<param name="NumberOfTries">5000</param>
+		<param name="DataBlockSize">38</param>
+		<param name="DSCP">0</param>
+		<param name="MaxHopCount">30</param> 
+	</obj>
+	<obj name="DownloadDiagnostics">
+		<param name="Interface">InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1</param>
+		<param name="TestBytesReceived">1000</param>
+		<param name="TotalBytesReceived">1000</param> 
+	</obj>
+	<obj name="UploadDiagnostics">
+		<param name="Interface">InternetGatewayDevice.WANDevice.1.WANConnectionDevice.1.WANPPPConnection.1</param>
+		<param name="TestFileLength">2</param>
+		<param name="TotalBytesSent">1000</param> 
+	</obj>
+<obj name="X_FH_Remoteweblogin">
+		<param name="webloginenable">0</param>
+	</obj></obj>
+
+

@@ -1,0 +1,2 @@
+stdout_ptys: /dev/pts/0
+stderr_ptys: /dev/pts/1

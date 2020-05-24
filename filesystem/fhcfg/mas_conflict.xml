@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration>
+  <conflict_mode description="0: None, 1: L2 effect, 2: L3 effect, 3: First effect, 4: Second effect">
+    <Value>0</Value>
+  </conflict_mode>
+</Configration>

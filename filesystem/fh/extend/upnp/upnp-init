@@ -1,0 +1,10 @@
+#!/bin/sh
+#route add -net 239.0.0.0 netmask 255.0.0.0 br0
+#if [ -e "/fhcfg/upnpid" ]; then
+#rm /fhcfg/upnpid
+#sleep 60
+/fh/extend/upnp/./upnp-run
+#/fh/extend/upnp/./upnpd ppp0 br0&
+#/fh/extend/upnp/./upnpd wan0 br0&
+#fi
+exit 0

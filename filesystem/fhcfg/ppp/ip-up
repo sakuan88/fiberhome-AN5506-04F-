@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# This file should not be modified -- make local changes to
+# /etc/ppp/ip-up.local instead
+
+LOGDEVICE=$6
+REALDEVICE=$1

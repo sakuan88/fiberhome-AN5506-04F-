@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="GBK"?>
+<po>
+	<menu1 name="state" url="../state/deviceInfor.asp" >
+			<menu2 name="Device Information" url="../state/deviceInfor.asp" >
+					<menu3 name="Device Information" url="../state/deviceInfor.asp" />
+			</menu2>
+			<menu2 name="网络侧信息" url="../state/wan_state.asp" >
+					<menu3 name="IP连接信息" url="../state/wan_state.asp" />
+					<menu3 name="链路连接信息" url="../state/connect_info.asp" />
+					<menu3 name="链路统计信息" url="../state/pon_info.asp" />
+					<menu3 name="光模块信息" url="../state/opt_power.asp" />
+			</menu2>
+			<menu2 name="用户侧信息" url="../state/wireless_state.asp" >
+					<menu3 name="WLAN接口信息" url="../state/wireless_state.asp" />
+					<menu3 name="以太网接口信息" url="../internet/dhcp_userlist.asp" />
+					<menu3 name="USB接口信息" url="../state/usb_state.asp" />
+			</menu2>
+			<menu2 name="VOIP State" url="../state/voip_auth_status.asp" >
+					<menu3 name="VOIP State" url="../state/voip_auth_status.asp" />
+			</menu2>
+	</menu1>
+	<menu1 name="network" url="../ont_auth/sncfg.asp" >
+			<menu2 name="remote_management" url="../ont_auth/sncfg.asp" />
+					<menu3 name="olt_auth" url="../ont_auth/sncfg.asp" />
+			</menu2>
+			<menu2 name="WLAN设置" url="../wireless/basic.asp" >
+					<menu3 name="basic" url="../wireless/basic.asp" />
+					<menu3 name="security" url="../wireless/security.asp" />
+			</menu2>
+	</menu1>
+	<menu1 name="Security" url="../security/url_filter.asp" >
+			<menu2 name="广域网访问设置" url="../security/url_filter.asp" >
+					<menu3 name="广域网访问设置" url="../security/url_filter.asp" />
+			</menu2>
+			<menu2 name="firewall" url="../security/firewall_enable.asp" >
+					<menu3 name="fw_enable" url="../security/firewall_enable.asp" />
+					<menu3 name="DHCP filter" url="../security/dhcp_filter.asp" />
+					<menu3 name="攻击保护设置" url="../security/ddos.asp" />
+			</menu2>
+			<menu2 name="MAC过滤" url="../security/macaddr_filter.asp" >
+					<menu3 name="macaddr_filter" url="../security/macaddr_filter.asp" />
+					<menu3 name="IPv6 Mac Filtering" url="../security/macaddr_v6_filter.asp" />
+			</menu2>
+			<menu2 name="端口过滤" url="../security/ip_filter.asp" >
+					<menu3 name="端口过滤" url="../security/ip_filter.asp" />
+			</menu2>
+	</menu1>
+	<menu1 name="management" url="../management/account_admin.asp" >
+			<menu2 name="user_admin" url="../management/account_admin.asp" >
+					<menu3 name="user_account_admin" url="../management/account_admin.asp" />
+			</menu2>
+			<menu2 name="device_admin" url="../management/reboot.asp" >
+					<menu3 name="reboot" url="../management/reboot.asp" />
+					<menu3 name="恢复出厂设置" url="../management/adminRestore.asp" />					
+			</menu2>
+	<menu1 name="帮助" url="../help/device_info_help.asp" >
+			<menu2 name="状态帮助" url="../help/device_info_help.asp" >
+					<menu3 name="设备信息帮助" url="../help/device_info_help.asp" />
+					<menu3 name="网络侧信息帮助" url="../help/wan_info_help.asp" />
+					<menu3 name="用户侧信息帮助" url="../help/lan_info_help.asp" />
+			</menu2>
+			<menu2 name="网络帮助" url="../help/wan_help.asp" >
+					<menu3 name="WLAN设置帮助" url="../help/wlan_help.asp" />
+			</menu2>
+			<menu2 name="安全帮助" url="../help/internet_help.asp" >
+					<menu3 name="广域网访问设置帮助" url="../help/internet_help.asp" />
+					<menu3 name="防火墙帮助" url="../help/firewall_help.asp" />
+					<menu3 name="MAC过滤帮助" url="../help/mac_filter_help.asp" />
+			</menu2>
+			<menu2 name="管理帮助" url="../help/account_help.asp" >
+					<menu3 name="用户管理帮助" url="../help/account_help.asp" />
+					<menu3 name="设备管理帮助" url="../help/device_management_help.asp" />
+			</menu2>
+	</menu1>
+</po>  

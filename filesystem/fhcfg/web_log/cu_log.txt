@@ -1,0 +1,176 @@
+2018-5-2 14:38:30 [Informational] webLogin finished!
+2018-5-2 14:42:56 [Informational] webLogin finished!
+2018-5-2 14:43:47 [Informational] set 2.4G WIFI security finished!
+1970-1-1 00:07:34 [Informational] webLogin finished!
+1970-1-1 00:09:24 [Informational] webLogin finished!
+1970-1-1 00:10:57 [Informational] set wan cfg finished!
+
+1970-1-1 00:11:28 [Informational] set lan cfg finished!
+1970-1-1 00:12:11 [Informational] set 2.4G WIFI security finished!
+1970-1-1 00:13:05 [Informational] going to reboot!
+1970-1-1 00:05:24 [Informational] webLogin finished!
+1970-1-1 00:06:00 [Informational] set 2.4G wireless basic finished!
+1970-1-1 00:10:26 [Informational] set wan cfg finished!
+1970-1-1 00:11:40 [Informational] set lan cfg finished!
+1970-1-1 00:11:50 [Informational] going to reboot!
+1970-1-1 00:03:26 [Informational] webLogin finished!
+1970-1-1 00:05:05 [Informational] set wan cfg finished!
+1970-1-1 00:06:15 [Informational] webLogin finished!
+1970-1-1 00:19:05 [Informational] set lan cfg finished!
+1970-1-1 00:23:33 [Informational] set lan cfg finished!
+1970-1-1 00:23:43 [Informational] going to reboot!
+1970-1-1 00:02:34 [Informational] webLogin finished!
+1970-1-1 00:12:53 [Informational] webLogin finished!
+1970-1-1 00:18:44 [Informational] set lan cfg finished!
+1970-1-1 00:18:54 [Informational] going to reboot!
+1970-1-1 00:03:11 [Informational] webLogin finished!
+1970-1-1 00:15:20 [Informational] webLogout finished!
+1970-1-1 00:15:30 [Informational] webLogin finished!
+1970-1-1 00:15:42 [Informational] webLogin finished!
+1970-1-1 00:16:04 [Informational] wan delete finished!
+1970-1-1 00:16:34 [Informational] wan delete finished!
+1970-1-1 00:26:34 [Informational] set wan cfg finished!
+1970-1-1 00:30:29 [Informational] set IPv4 default route finished!
+1970-1-1 00:40:36 [Informational] IPv4 static route config success!
+1970-1-1 00:44:54 [Informational] Ping diagnosis finished!
+1970-1-1 00:44:54 [Informational] Ping diagnosis finished!
+1970-1-1 00:44:54 [Informational] Ping diagnosis finished!
+1970-1-1 00:44:55 [Informational] Ping diagnosis finished!
+1970-1-1 00:44:56 [Informational] Ping diagnosis finished!
+1970-1-1 00:44:57 [Informational] Ping diagnosis finished!
+1970-1-1 00:44:58 [Informational] Ping diagnosis finished!
+1970-1-1 00:44:58 [Informational] Ping diagnosis finished!
+1970-1-1 00:44:58 [Informational] Ping diagnosis finished!
+1970-1-1 00:44:58 [Informational] Ping diagnosis finished!
+1970-1-1 00:44:58 [Informational] Ping diagnosis finished!
+1970-1-1 00:44:58 [Informational] Ping diagnosis finished!
+1970-1-1 00:45:03 [Informational] Ping diagnosis finished!
+1970-1-1 00:45:03 [Informational] Ping diagnosis finished!
+1970-1-1 00:45:03 [Informational] Ping diagnosis finished!
+1970-1-1 00:45:07 [Informational] Ping diagnosis finished!
+1970-1-1 00:45:07 [Informational] Ping diagnosis finished!
+1970-1-1 00:45:14 [Informational] Ping diagnosis finished!
+1970-1-1 00:45:14 [Informational] Ping diagnosis finished!
+1970-1-1 00:45:14 [Informational] Ping diagnosis finished!
+1970-1-1 00:45:14 [Informational] Ping diagnosis finished!
+1970-1-1 00:45:32 [Informational] Ping diagnosis finished!
+1970-1-1 00:45:32 [Informational] Ping diagnosis finished!
+1970-1-1 00:45:32 [Informational] Ping diagnosis finished!
+1970-1-1 00:45:39 [Informational] Ping diagnosis finished!
+1970-1-1 00:45:39 [Informational] Ping diagnosis finished!
+1970-1-1 00:48:20 [Informational] set Remote Control finished!
+1970-1-1 00:48:34 [Informational] set set DDOS disable finished!
+1970-1-1 00:48:34 [Informational] set DDOS enable/disable finished!
+1970-1-1 00:50:41 [Informational] IPv4 static route config success!
+1970-1-1 00:51:07 [Informational] Ping diagnosis finished!
+1970-1-1 00:51:07 [Informational] Ping diagnosis finished!
+1970-1-1 00:51:07 [Informational] Ping diagnosis finished!
+1970-1-1 00:51:18 [Informational] Ping diagnosis finished!
+1970-1-1 00:51:18 [Informational] Ping diagnosis finished!
+1970-1-1 00:51:28 [Informational] Ping diagnosis finished!
+1970-1-1 00:51:31 [Informational] Ping diagnosis finished!
+1970-1-1 00:51:31 [Informational] Ping diagnosis finished!
+1970-1-1 00:51:31 [Informational] Ping diagnosis finished!
+1970-1-1 00:51:37 [Informational] Ping diagnosis finished!
+1970-1-1 00:51:51 [Informational] Ping diagnosis finished!
+1970-1-1 00:51:52 [Informational] Ping diagnosis finished!
+1970-1-1 00:53:59 [Informational] set lan cfg finished!
+1970-1-1 00:54:10 [Informational] going to reboot!
+1970-1-1 00:02:06 [Informational] webLogin finished!
+1970-1-1 00:05:19 [Informational] webLogin finished!
+1970-1-1 00:06:11 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:11 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:11 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:12 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:13 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:14 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:15 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:15 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:15 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:15 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:15 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:15 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:33 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:33 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:33 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:34 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:35 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:36 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:37 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:37 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:37 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:37 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:37 [Informational] Ping diagnosis finished!
+1970-1-1 00:06:37 [Informational] Ping diagnosis finished!
+1970-1-1 00:09:01 [Informational] Ping diagnosis finished!
+1970-1-1 00:09:01 [Informational] Ping diagnosis finished!
+1970-1-1 00:09:01 [Informational] Ping diagnosis finished!
+1970-1-1 00:09:02 [Informational] Ping diagnosis finished!
+1970-1-1 00:09:03 [Informational] Ping diagnosis finished!
+1970-1-1 00:09:04 [Informational] Ping diagnosis finished!
+1970-1-1 00:09:05 [Informational] Ping diagnosis finished!
+1970-1-1 00:09:05 [Informational] Ping diagnosis finished!
+1970-1-1 00:09:05 [Informational] Ping diagnosis finished!
+1970-1-1 00:09:05 [Informational] Ping diagnosis finished!
+1970-1-1 00:09:05 [Informational] Ping diagnosis finished!
+1970-1-1 00:09:05 [Informational] Ping diagnosis finished!
+1970-1-1 00:09:13 [Informational] webLogout finished!
+1970-1-1 00:10:37 [Informational] webLogin finished!
+1970-1-1 00:15:36 [Informational] setFtpServer finished!
+1970-1-1 00:16:15 [Informational] downCfgFileForm error!
+1970-1-1 00:18:36 [Informational] downCfgFileForm error!
+1970-1-1 00:19:50 [Informational] downCfgFileForm error!
+1970-1-1 00:20:00 [Informational] downCfgFileForm error!
+1970-1-1 00:21:57 [Informational] downCfgFileForm error!
+1970-1-1 00:22:06 [Informational] downCfgFileForm error!
+1970-1-1 00:24:47 [Informational] downCfgFileForm error!
+1970-1-1 00:25:00 [Informational] downCfgFileForm error!
+1970-1-1 00:03:40 [Informational] webLogin finished!
+1970-1-1 00:04:11 [Informational] set Remote Control finished!
+1970-1-1 00:04:23 [Informational] downCfgFileForm error!
+1970-1-1 00:08:08 [Informational] Ping diagnosis finished!
+1970-1-1 00:08:08 [Informational] Ping diagnosis finished!
+1970-1-1 00:08:08 [Informational] Ping diagnosis finished!
+1970-1-1 00:08:09 [Informational] Ping diagnosis finished!
+1970-1-1 00:08:10 [Informational] Ping diagnosis finished!
+1970-1-1 00:08:11 [Informational] Ping diagnosis finished!
+1970-1-1 00:08:12 [Informational] Ping diagnosis finished!
+1970-1-1 00:08:12 [Informational] Ping diagnosis finished!
+1970-1-1 00:08:12 [Informational] Ping diagnosis finished!
+1970-1-1 00:08:12 [Informational] Ping diagnosis finished!
+1970-1-1 00:08:12 [Informational] Ping diagnosis finished!
+1970-1-1 00:08:12 [Informational] Ping diagnosis finished!
+1970-1-1 00:08:48 [Informational] Ping diagnosis finished!
+1970-1-1 00:08:52 [Informational] Ping diagnosis finished!
+1970-1-1 00:11:58 [Informational] Ping diagnosis finished!
+1970-1-1 00:11:58 [Informational] Ping diagnosis finished!
+1970-1-1 00:11:58 [Informational] Ping diagnosis finished!
+1970-1-1 00:11:58 [Informational] Ping diagnosis finished!
+1970-1-1 00:02:41 [Informational] webLogin finished!
+1970-1-1 00:04:13 [Informational] setFtpServer finished!
+1970-1-1 00:08:26 [Informational] downCfgFileForm error!
+1970-1-1 00:09:43 [Informational] downCfgFileForm error!
+1970-1-1 00:11:04 [Informational] downCfgFileForm error!
+1970-1-1 00:22:22 [Informational] webLogout finished!
+1970-1-1 00:22:35 [Informational] webLogin finished!
+1970-1-1 00:22:46 [Informational] downCfgFileForm error!
+1970-1-1 00:27:21 [Informational] downCfgFileForm error!
+1970-1-1 00:27:41 [Informational] downCfgFileForm error!
+1970-1-1 00:35:37 [Informational] webLogout finished!
+1970-1-1 00:35:43 [Informational] webLogin finished!
+1970-1-1 00:36:41 [Informational] downCfgFileForm error!
+1970-1-1 00:39:04 [Informational] downCfgFileForm error!
+1970-1-1 00:39:28 [Informational] downCfgFileForm error!
+1970-1-1 00:41:30 [Informational] downCfgFileForm error!
+1970-1-1 00:42:15 [Informational] downCfgFileForm error!
+1970-1-1 00:42:25 [Informational] downCfgFileForm error!
+1970-1-1 00:42:58 [Informational] downCfgFileForm error!
+1970-1-1 00:49:17 [Informational] webLogin finished!
+1970-1-1 00:49:26 [Informational] downCfgFileForm error!
+1970-1-1 00:59:15 [Informational] webLogin finished!
+1970-1-1 00:59:20 [Informational] downCfgFileForm error!
+1970-1-1 00:59:38 [Informational] downCfgFileForm error!
+1970-1-1 01:00:16 [Informational] downCfgFileForm error!
+1970-1-1 01:00:26 [Informational] downCfgFileForm error!
+1970-1-1 00:16:59 [Informational] webLogout finished!
+1970-1-1 00:17:07 [Informational] webLogin finished!

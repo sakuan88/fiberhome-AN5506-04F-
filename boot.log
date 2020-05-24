@@ -1,0 +1,909 @@
+HELO
+CPUI
+L1CI
+PLLI
+PMCB
+HELO
+CPUI
+L1CI
+4.1404Apatch1-1.0.38-117.134
+DRAM
+----
+PHYS
+ZQDN
+PHYE
+DINT
+TST1
+TST2
+PASS
+----
+ZBSS
+L12F
+MAIN
+FPS0
+BT03
+0001
+BT02
+0164
+NAN3
+RFS1
+NAN5
+
+
+Base: 4.16_04patch2xpon
+CFE version 1.0.38-116.232 for BCM96838 (32bit,SP,BE)
+Build Date: 2017年 10月 25日 星期三 10:38:18 CST (root@linux-o8be)
+Copyright (C) 2000-2013 Broadcom Corporation.
+
+Boot Strap Register:  0x800078ff
+Chip ID: BCM68380_B0, MIPS: 600MHz, DDR: 533MHz, Bus: 240MHz
+RDP: 800MHz
+Main Thread: TP0
+Total Memory: 134217728 bytes (128MB)
+Boot Address: 0xbfc00000
+
+NAND ECC BCH-4, page size 0x800 bytes, spare size used 64 bytes
+NAND flash device: MXIC MX30LF1G08AA, id 0xc2f1 block 128KB size 131072KB
+Board IP address                  : 192.168.1.1:ffffff00  
+Host IP address                   : 192.168.1.100  
+Gateway IP address                :   
+Run from flash/host/tftp (f/h/c)  : f  
+Default host run file name        : vmlinux  
+Default host flash file name      : bcm963xx_fs_kernel  
+Boot delay (0-9 seconds)          : 1  
+Boot image (0=latest, 1=previous) : 0  
+App basic (0=latest, 1=previous)  : 0  
+App extend (0=latest, 1=previous) : 0  
+Default host ramdisk file name    :   
+Default ramdisk store address     :   
+Hardware version                  : WKE2.134.315R  
+Hardware configuration            : 0x69  
+SNOUI configuration               : 11  
+Board Id (0-39)                   : AN5506-04FG  
+Number of MAC Addresses (1-32)    : 8  
+Base MAC Address                  : cc:06:77:31:24:a0  
+PON MAC Address                   : 00:00:00:00:00:00  
+PSI Size (1-128) KBytes           : 24  
+Enable Backup PSI [0|1]           : 0  
+System Log Size (0-256) KBytes    : 0  
+Auxillary File System Size Percent: 0  
+Main Thread Number [0|1]          : 0  
+Console output [Y|N]              : �  
+MC memory allocation (MB)         : 0  
+TM memory allocation (MB)         : 0  
+DHD 0 memory allocation (MB)      : 0  
+DHD 1 memory allocation (MB)      : 0  
+DHD 2 memory allocation (MB)      : 0  
+WLan Feature                      : 0x00  
+Voice Board Configuration (0-1)   : LE9540  
+Partition 1 Size (MB)             :   
+Partition 2 Size (MB)             :   
+Partition 3 Size (MB)             :   
+Partition 4 Size (MB) (Data)      : 4MB  
+
+*** Press Enter key to stop auto run (1 seconds) ***
+Auto run second count down: 110
+Booting from latest image (address 0xbfc20000, flash offset 0x00020000) ...
+Correctable ECC Error detected: addr=0x00227c00, intrCtrl=0x00000090, accessCtrl=0xE3441010
+Correctable ECC Error detected: addr=0x00247600, intrCtrl=0x00000090, accessCtrl=0xE3441010
+Correctable ECC Error detected: addr=0x002caa00, intrCtrl=0x00000090, accessCtrl=0xE3441010
+Correctable ECC Error detected: addr=0x002d5800, intrCtrl=0x000000B0, accessCtrl=0xE3441010
+Correctable ECC Error detected: addr=0x00344c00, intrCtrl=0x00000090, accessCtrl=0xE3441010
+Decompression LZMA Image OK!
+Entry at 0x8041f5f0
+Starting program at 0x8041f5f0
+Linux version 3.4.11-rt19 (root@linux) (gcc version 4.6.2 (Buildroot 2011.11) ) #1 SMP PREEMPT Thu Nov 29 15:07:39 CST 2018
+AN5506-04FG prom init
+CPU revision is: 0002a080 (Broadcom BMIPS4350)
+Determined physical RAM map:
+ memory: 01400000 @ 06c00000 (reserved)
+ memory: 00400000 @ 06800000 (reserved)
+ memory: 06800000 @ 00000000 (usable)
+Zone PFN ranges:
+  DMA      0x00000000 -> 0x00001000
+  Normal   0x00001000 -> 0x00006800
+Movable zone start PFN for each node
+Early memory PFN ranges
+    0: 0x00000000 -> 0x00006800
+On node 0 totalpages: 26624
+free_area_init_node: node 0, pgdat 8053dc90, node_mem_map 81000000
+  DMA zone: 32 pages used for memmap
+  DMA zone: 0 pages reserved
+  DMA zone: 4064 pages, LIFO batch:0
+  Normal zone: 176 pages used for memmap
+  Normal zone: 22352 pages, LIFO batch:3
+PERCPU: Embedded 7 pages/cpu @810d3000 s5424 r8192 d15056 u32768
+pcpu-alloc: s5424 r8192 d15056 u32768 alloc=8*4096
+pcpu-alloc: [0] 0 [0] 1 
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 26416
+Kernel command line: ro noinitrd  irqaffinity=0
+PID hash table entries: 512 (order: -1, 2048 bytes)
+Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Primary instruction cache 64kB, VIPT, 4-way, linesize 16 bytes.
+Primary data cache 32kB, 2-way, VIPT, cache aliases, linesize 16 bytes
+Memory: 99652k/106496k available (4218k kernel code, 6844k reserved, 1086k data, 224k init, 0k highmem)
+Preemptible hierarchical RCU implementation.
+NR_IRQS:256
+console [ttyS0] enabled
+Allocating memory for DSP module core and initialization code
+Allocated DSP module memory - CORE=0x0 SIZE=0, INIT=0x0 SIZE=0
+Calibrating delay loop... 598.01 BogoMIPS (lpj=299008)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 512
+--Kernel Config--
+  SMP=1
+  PREEMPT=1
+  DEBUG_SPINLOCK=0
+  DEBUG_MUTEXES=0
+Broadcom Logger v0.1 Nov 29 2018 14:58:01
+CPU revision is: 0002a080 (Broadcom BMIPS4350)
+Primary instruction cache 64kB, VIPT, 4-way, linesize 16 bytes.
+Primary data cache 32kB, 2-way, VIPT, cache aliases, linesize 16 bytes
+Brought up 2 CPUs
+NET: Registered protocol family 16
+PMC Driver Init... done.
+registering PCI controller with io_map_base unset
+registering PCI controller with io_map_base unset
+registering PCI controller with io_map_base unset
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+PCI host bridge to bus 0000:00
+pci_bus 0000:00: root bus resource [mem 0xeff00000-0xefffffff]
+pci_bus 0000:00: root bus resource [io  0xf1000000-0xf100ffff]
+pci 0000:00:09.0: [14e4:6300] type 00 class 0x0c0310
+pci 0000:00:09.0: reg 10: [mem 0x15400400-0x154004ff]
+pci 0000:00:0a.0: [14e4:6300] type 00 class 0x0c0320
+pci 0000:00:0a.0: reg 10: [mem 0x15400300-0x154003ff]
+PCI host bridge to bus 0000:01
+pci_bus 0000:01: root bus resource [mem 0xd0000000-0xdfffffff]
+pci_bus 0000:01: root bus resource [??? 0x00000000 flags 0x0]
+pci 0000:01:00.0: [14e4:6838] type 01 class 0x060400
+pci 0000:01:00.0: PME# supported from D0 D3hot
+pci 0000:02:00.0: [14e4:a8db] type 00 class 0x028000
+pci 0000:02:00.0: reg 10: [mem 0x00000000-0x00007fff 64bit]
+pci 0000:02:00.0: supports D1 D2
+pci 0000:01:00.0: BAR 8: assigned [mem 0xd0000000-0xd00fffff]
+pci 0000:02:00.0: BAR 0: assigned [mem 0xd0000000-0xd0007fff 64bit]
+pci 0000:01:00.0: PCI bridge to [bus 02-02]
+pci 0000:01:00.0:   bridge window [mem 0xd0000000-0xd00fffff]
+PCI: Enabling device 0000:01:00.0 (0000 -> 0002)
+PCI host bridge to bus 0000:03
+pci_bus 0000:03: root bus resource [mem 0xe0000000-0xefefffff]
+pci_bus 0000:03: root bus resource [??? 0x00000000 flags 0x0]
+pci 0000:03:00.0: [14e4:6838] type 01 class 0x060400
+pci 0000:03:00.0: PME# supported from D0 D3hot
+pci 0000:03:00.0: PCI bridge to [bus 04-04]
+bcmhs_spi bcmhs_spi.1: master is unqueued, this is deprecated
+skbFreeTask created successfully
+gbpm_do_work scheduled
+BLOG v3.0 Initialized
+BLOG Rule v1.0 Initialized
+Broadcom IQoS v0.1 Nov 29 2018 15:05:51 initialized
+Broadcom GBPM v0.1 Nov 29 2018 15:05:51 initialized
+Switching to clocksource MIPS
+NET: Registered protocol family 2
+IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+TCP bind hash table entries: 4096 (order: 3, 32768 bytes)
+TCP: Hash tables configured (established 4096 bind 4096)
+TCP: reno registered
+UDP hash table entries: 128 (order: 0, 4096 bytes)
+UDP-Lite hash table entries: 128 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+PCI: CLS 16 bytes, default 16
+init_bcm_tstamp: unhandled mips_hpt_freq=300000000, adjust constants in bcm_tstamp.c
+bcm_tstamp initialized, (hpt_freq=300000000 2us_div=300 2ns_mult=0 2ns_shift=0)
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+jffs2: version 2.2. (NAND) (SUMMARY)  © 2001-2006 Red Hat, Inc.
+fuse init (API version 7.18)
+msgmni has been set to 194
+io scheduler noop registered (default)
+Broadcom NAND controller (BrcmNand Controller)
+mtd->oobsize=0, mtd->eccOobSize=0
+NAND_CS_NAND_XOR=00000000
+B4: NandSelect=40000001, nandConfig=15142200, chipSelect=0
+brcmnand_read_id: CS0: dev_id=c2f18095
+After: NandSelect=40000001, nandConfig=15142200
+DevId c2f18095 may not be supported.  Will use config info
+Spare Area Size = 16B/512B
+Block size=00020000, erase shift=17
+NAND Config: Reg=15142200, chipSize=128 MB, blockSize=128K, erase_shift=11
+busWidth=1, pageSize=2048B, page_shift=11, page_mask=000007ff
+timing1 not adjusted: 6574845b
+timing2 not adjusted: 00001e96
+ECC level changed to 4
+OOB size changed to 16
+BrcmNAND mfg 0 0 UNSUPPORTED NAND CHIP 128MB on CS0
+
+Found NAND on CS0: ACC=e3441010, cfg=15142200, flashId=c2f18095, tim1=6574845b, tim2=00001e96
+BrcmNAND version = 0x80000500 128MB @00000000
+brcmnand_scan: B4 nand_select = 40000001
+brcmnand_scan: After nand_select = 40000001
+handle_acc_control: default CORR ERR threshold  1 bits
+ACC: 16 OOB bytes per 512B ECC step; from ID probe: 16
+page_shift=11, bbt_erase_shift=17, chip_shift=27, phys_erase_shift=17
+Brcm NAND controller version = 5.0 NAND flash size 128MB @18000000
+ECC layout=brcmnand_oob_bch4_2k
+brcmnand_scan:  mtd->oobsize=64
+brcmnand_scan: oobavail=35, eccsize=512, writesize=2048
+brcmnand_scan, eccsize=512, writesize=2048, eccsteps=4, ecclevel=4, eccbytes=7
+-->brcmnand_default_bbt
+brcmnand_default_bbt: bbt_td = bbt_slc_bch4_main_descr
+Bad block table Bbt0 found at page 0000ffc0, version 0x01 for chip on CS0
+Bad block table 1tbB found at page 0000ff80, version 0x01 for chip on CS0
+brcmnand_reset_corr_threshold: default CORR ERR threshold  1 bits for CS0
+brcmnand_reset_corr_threshold: CORR ERR threshold changed to 3 bits for CS0
+nand_read_bbt: Bad block at 0x076c0000
+brcmnandCET: Status -> Deferred
+Creating 8 MTD partitions on "brcmnand.0":
+0x000000020000-0x000001480000 : "rootfs"
+0x000001480000-0x0000028e0000 : "rootfs_update"
+0x0000028e0000-0x000003d40000 : "app_basic"
+0x000003d40000-0x0000051a0000 : "app_basic_update"
+0x0000051a0000-0x000006600000 : "app_extend"
+0x000006600000-0x000007a60000 : "app_extend_update"
+0x000007a60000-0x000007f00000 : "data"
+0x000000000000-0x000000020000 : "nvram"
+PPP generic driver version 2.4.2
+PPP BSD Compression module registered
+PPP Deflate Compression module registered
+NET: Registered protocol family 24
+ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+PCI: Enabling device 0000:00:0a.0 (0000 -> 0002)
+ehci_hcd 0000:00:0a.0: setting latency timer to 64
+ehci_hcd 0000:00:0a.0: EHCI Host Controller
+ehci_hcd 0000:00:0a.0: new USB bus registered, assigned bus number 1
+ehci_hcd 0000:00:0a.0: Enabling legacy PCI PM
+ehci_hcd 0000:00:0a.0: irq 81, io mem 0x15400300
+ehci_hcd 0000:00:0a.0: USB f.f started, EHCI 1.00
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 2 ports detected
+usbcore: registered new interface driver usblp
+Initializing USB Mass Storage driver...
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+i2c /dev entries driver
+brcmboard: brcm_board_init entry
+SES: Button Interrupt 0x1 is enabled
+DYING GASP IRQ Initialized and Enabled
+Serial: BCM63XX driver $Revision: 3.00 $
+ttyS0 at MMIO 0xb4e00500 (irq = 9) is a BCM63XX
+ttyS1 at MMIO 0xb4e00520 (irq = 10) is a BCM63XX
+BPM: tot_mem_size=134217728B (128MB), buf_mem_size <8%> =10737416B (10MB), num of buffers=5326, buf size=2016
+Broadcom BPM Module Char Driver v0.1 Nov 29 2018 15:01:18 Registered<244>
+Netfilter messages via NETLINK v0.30.
+nf_conntrack version 0.5.0 (1557 buckets, 6228 max)
+xt_time: kernel timezone is -0000
+nf_nat_pt: no ports specified
+ip_tables: (C) 2000-2006 Netfilter Core Team
+TCP: cubic registered
+NET: Registered protocol family 10
+ip6_tables: (C) 2000-2006 Netfilter Core Team
+IPv6 over IPv4 tunneling driver
+NET: Registered protocol family 17
+Initializing MCPD Module
+Ebtables v2.0 registered
+ebt_time registered
+ebt_ftos registered
+ebt_wmm_mark registered
+8021q: 802.1Q VLAN Support v1.8
+VFS: Mounted root (jffs2 filesystem) readonly on device 31:0.
+Freeing unused kernel memory: 224k freed
+init started: BusyBox v1.17.2 (2018-11-29 15:12:07 CST)
+Mounting filesystems...
+jffs2: Empty flash at 0x00355200 ends at 0x00355800
+Configuring system...
+Saving kernel bootup messages for dumpsysinfo...
+
+(none) login: 
+Jan  1 00:00:15 login[565]: root login on 'ttyS0'
+
+
+BusyBox v1.17.2 (2018-11-29 15:12:07 CST) built-in shell (ash)
+Enter 'help' for a list of built-in commands.
+
+initialize.sh==
+
+Press Ctrl + C to stop auto setup
+10
+cp: can't stat '/fh/extend/regdomain': No such file or directory
+DEV=0x69
+PONTYPE=gpon
+wlcsm: module license 'Proprietary' taints kernel.
+Disabling lock debugging due to kernel taint
+jffs2: notice: (302) check_node_data: wrong data CRC in data node at 0x003541bc: read 0xa8a0d83e, calculated 0x5e066136.
+Initializing WLCSM Module
+WLCSM Module loaded successfully 
+scratchpad RdpaWanType - GPON 
+enable IH Wan-Wan forwarding...
+data_path_go Done!!
+Bridge fastpath module. compiled Nov 29 2018 , 15:04:59
+brcmchipinfo: brcm_chipinfo_init entry
+NBUFF v1.0 Initialized
+[0;36;44mInitialized fcache state[0m
+Broadcom Packet Flow Cache  Char Driver v2.2 Nov 29 2018 15:01:52 Registered<242>
+Created Proc FS /procfs/fcache
+Broadcom Packet Flow Cache registered with netdev chain
+Broadcom Packet Flow Cache learning via BLOG enabled.
+[FHW]  pktDbgLvl[0xc04a72f0]=0
+[FHW]  fhw_construct: 
+Initialized Fcache HW accelerator layer state
+flwStatsThread created
+Constructed Broadcom Packet Flow Cache v2.2 Nov 29 2018 15:01:52
+i2c i2c-0: Failed to register i2c client gpon_i2c at 0x50 (-16)
+i2c i2c-0: Failed to register i2c client gpon_i2c at 0x50 (-16)
+LOGGER driver Init Done : 0x85683700
+[L2:]<Info><L2Port>, line[1183], pon_system_init:ONU ETH port num 4
+
+[L2:]<Info><L2Port>, line[1192], pon_system_init:ONU PON type 1, 1-GPON, 2-EPON!
+DBA report mode 0, 0-nsr, 1-sr 2ms, 2-3ms, ,,,
+[L2:]<Info><L2Port>, line[1166], fh_init_global_data:OK!
+[L2:]<Info><L2Port>, line[334], fh_system_init:OK!
+START GPON SerDes Init script
+ !!!!   PLL locked !!!!!!     !!!!   RX CDR locked !!!!!!     !!!!   TX CDR locked !!!!!!    GPON BEN Calibration Done 
+GPON SerDes Initialization Sequence Done 
+enable IH Wan-Wan forwarding...
+Creating CPU ring for queue number 6 with 32 packets descriptor=0xc03f14c0
+ Done initializing Ring 6 Base=0xa469cc80 End=0xa469ce80 calculated entries= 32 RDD Base=0x0469cc80 descriptor=0xc03f14c0
+dgasp: kerSysRegisterDyingGaspHandler: gpon0 registered 
+[L2:]<Info><L2Port>, line[515], fh_gpon_init:OK!
+[L2:]<Info><L2Port>, line[1136], fh_egress_tm_init:OK!
+[L2:]<Info><L2Port>, line[1223], pon_system_init:PON SYSTEM INIT OK!!!
+
+fh_omci_drv_init !!!!!
+fh_omci_drv Init  Done
+Creating CPU ring for queue number 3 with 512 packets descriptor=0xc03f1448
+ Done initializing Ring 3 Base=0xa5790080 End=0xa5792080 calculated entries= 512 RDD Base=0x05790080 descriptor=0xc03f1448
+[L2:]<Info><Omci_Rec>, line[920], fh_omci_rx_queue_create:omci driver created
+Creating CPU ring for queue number 4 with 255 packets descriptor=0xc03f1470
+ Done initializing Ring 4 Base=0xa43c4080 End=0xa43c5070 calculated entries= 255 RDD Base=0x043c4080 descriptor=0xc03f1470
+multi driver created.
+Iomsg initialization OK!
+Broadcom BCM68380_B0 Ethernet Network Device v0.1 Nov 29 2018 15:16:48
+eth0: <Int sw port: 0> <Logical : 00> PHY_ID <0x01800001 : 0x01> MAC : CC:06:77:31:24:A0
+eth1: <Int sw port: 1> <Logical : 01> PHY_ID <0x01800002 : 0x02> MAC : CC:06:77:31:24:A0
+eth2: <Int sw port: 2> <Logical : 02> PHY_ID <0x01800003 : 0x03> MAC : CC:06:77:31:24:A0
+eth3: <Int sw port: 3> <Logical : 03> PHY_ID <0x01800004 : 0x04> MAC : CC:06:77:31:24:A0
+@@@NET_MODULE:[L:4312]fh_net_sysctl_init
+@@@NET_MODULE:[L:3186]fh_net_cfg_init
+@@@NET_MODULE:[L:796]Bridge private netfilter registered!
+Ethernet Auto Power Down and Sleep: Enabled
+All Port Bit Map: 0x000f: eth0,eth1,eth2,eth3
+   Chip WAN Only Ports 0000, Defined WAN Only Ports 0000, WAN Only Port Result: 0x0000:
+   Chip WAN Preffered Ports 0000, Defined WAN Preffered Ports 0000, WAN Preffered Port Result: 0x0000:
+   Chip LAN Only Ports 0000, Defined LAN Only Ports 0000, LAN Only Port Result: 0x0000:
+   WAN/LAN Both Capable Ports 0x000f:eth0,eth1,eth2,eth3
+Energy Efficient Ethernet: Enabled
+Creating Enet CPU ring for queue number 0 with 512 packets,Descriptor base=a6688080
+ Broadcom Packet Flow Cache HW acceleration enabled.
+Broadcom Packet Flow Cache HW acceleration enabled.
+[L2:]<Info><L2Port>, line[493], fh_config_init:OK!
+Creating CPU ring for queue number 2 with 512 packets descriptor=0xc07e8894
+ [1m[34m wfd_bind: Dev (null) wfd_idx 2 wl_radio_idx -1 Type skb configured WFD thread wfd2-thrd minQId/maxQId (10/10), status (0) qmask 0x4[0m
+Instantiating WFD 2 thread
+[1m[34mWifi Forwarding Driver is initialized![0m
+insmod: can't read '/lib/modules/3.4.11-rt19/extra/dhd.ko': No such file or directory
+--SMP support
+wl: dsl_tx_pkt_flush_len=338
+wl: norm_wmark_tot=1024, pktc_wmark_tot=1024
+PCI: Enabling device 0000:02:00.0 (0000 -> 0002)
+wl: passivemode=1
+wl0: creating kthread wl0-kthrd
+wl: napimode=0
+initvars_cis_pci: Not CIS format
+Neither SPROM nor OTP has valid image
+wl:srom/otp not programmed, using main memory mapped srom info(wombo board)
+read /fhcfg/fh_wifi/factory -2
+wl: ID=pci/2/0/
+read /fhcfg/fh_wifi/factory -2
+wl: ID=pci/2/0/
+wl: loading /etc/wlan/bcm43217_map.bin
+wl: updating srom from flash...
+wl: updating srom from flash...
+srom rev:8
+wl: reading /etc/wlan/bcmcmn_nvramvars.bin, file size=32
+wl0: allocskbmode=1 currallocskbsz=512
+Creating CPU ring for queue number 0 with 512 packets descriptor=0xc07e885c
+ [1m[34m wfd_bind: Dev wl%d wfd_idx 0 wl_radio_idx 0 Type skb configured WFD thread wfd0-thrd minQId/maxQId (8/8), status (0) qmask 0x1[0m
+Instantiating WFD 0 thread
+wfd_registerdevice Successfully registered dev wl0 ifidx 0 wfd_idx 0
+wl0: Broadcom BCM43227 802.11 Wireless Controller 7.14.124.47.cpe4.16L04patch2xpon.0-kdb
+dgasp: kerSysRegisterDyingGaspHandler: wl0 registered 
+Loading PCM shim driver
+Endpoint: endpoint_init entry
+Endpoint: endpoint_init COMPLETED
+RDPA Speed Service Command Driver
+grep: /etc/group: No such file or directory
+hwcfg:0x69
+Button Dev Drv Init Done
+I2C Init Done
+gmp_iomsg_ioc_func_register, GMP_IOMSG_IOC_OPTICAL_MODULE!
+
+===fh_user_enroll_check_temperature_and_operation_callback!
+
+===fh_user_enroll_change_power_level_callback!
+device eth0 entered promiscuous mode
+device eth1 entered promiscuous mode
+device eth2 entered promiscuous mode
+device eth3 entered promiscuous mode
+Ethernet Auto Power Down and Sleep: Enabled
+ADDRCONF(NETDEV_UP): eth0: link is not ready
+Ethernet Auto Power Down and Sleep: Enabled
+ADDRCONF(NETDEV_UP): eth1: link is not ready
+Ethernet Auto Power Down and Sleep: Enabled
+ADDRCONF(NETDEV_UP): eth2: link is not ready
+Ethernet Auto Power Down and Sleep: Enabled
+ADDRCONF(NETDEV_UP): eth3: link is not ready
+device wan entered promiscuous mode
+br0: port 5(wan) entered forwarding state
+br0: port 5(wan) entered forwarding state
+Broadcom Packet Flow Cache Learning of GRE flows Tunnel<DISABLED> PassThru<ENABLED>
+not use_edit_boot existed ...\n
+RsIntf parameter read error.
+RsIntf parameter read error.
+Start SIP
+dhcpl2 init .......... success!
+pppoe plus init .......... success!
+
+Max allow msg num is 3040!dhcpl2 Configure init .......... success!
+Waiting for SEM...init DB:    end
+log_init::log shmget creat pid: 1013
+
+========Tr104VoiceCfgInit(6)========
+log_init::log shmat get pid: 927 
+/fhcfg/gpio_cmd_line_file.cfg fopen: No such file or directory
+eth0 Link UP 1000 mbps full duplex
+ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+br0: port 1(eth0) entered forwarding state
+br0: port 1(eth0) entered forwarding state
+./fh_printf_redirect.sh
+come here: fh_ptym_proc_thread 600
+Enter mc_main().
+
+igmp_data_init Thread id : gettid() == 929.
+-->>IGMP semaphore creat ......0DONE!
+-->>IGMP  msgQ gMsgIgmp create ......
+Max allow msg_qbytes is 16384!
+
+New Max allow msg_qbytes is 327680, 1024, 320, 28!
+0x18003DONE!
+===================>>IGMP PREPARE DONE.
+-->>IGMP create tIGMPv3 task......,pri = 50
+igmp_input_task Thread id : gettid() == 1197.
+tIGMPv3 task succeed ,pid :1026.
+-->>IGMP create tIGMPclock task......,pri  = 51
+igmp_timer_one_second Thread id : gettid() == 1198.
+tIGMPclock task succeed ,pid :2051.
+
+mld_data_init Thread id : gettid() == 929.
+[MldParamsInit]: timer_start: 0x2a.
+-->>MLD  msgQ mld_msgQ_id create ......
+Max allow msg_qbytes is 16384!
+
+New Max allow msg_qbytes is 327680, 1024, 320, 140!
+mld_msgQ_id 0x20004 DONE!
+
+mld_main_task Thread id : gettid() == 1199.
+
+[mld_thread_fetch_task]: Begin...
+
+Success to create mld_api_main_task, 0xc04!
+Host-side Port(29) not add to interface list!
+[L2:]L2_multicast_enable_igmp_filter, port_index[0], port_num[0], enable[1]
+insmod: can't read 'xt_porttrig.ko': No such file or directory
+./fh_printf_redirect
+/dev/pts/0
+/dev/pts/1
+gpon
+/fh/extend/tr069/bin:/fh/bin:/lib:/fh/bin:/fh/extend:/fh/extend/upnp
+########voip init begin########
+BOS: Enter bosInit 
+bosTimerInit
+Enter bosAppInit Exit bosAppInit BOS: Exit bosInit 
+vrgEndptDriverOpen: Endpoint driver open success
+
+ filename::/etc/telephonyProfiles.d/CHN_profile.xml
+chmod: /fh/extendBOS: Enter bosInit 
+BOS: Exit bosInit 
+/tr069/bin/agent: Read-onl******* DSP: Found BCM6838 *******
+y file system
+******* DSP: In APM Mode *******
+chmod: /fh/gInterruptCounter    = 0xC154BD94 
+extend/tr069/bin/tr069_config_version_check.sh: Read-only file sygInterruptErrors     = 0xC154BD90 
+stem
+Binding 0x843a9238
+chmod: /fh/extend/tr069/bin/cpe_patch_update_control.sh: Read-only file system
+chmod: /fh/extend/tr069/bin/cpe_patch_update_process.sh: Read-only file system
+chmod: /fh/extend/tr069/bin/runtime_default_fhcfg_fetch.sh: Read-only file system
+net.ipv6.conf.all.forwarding = 1
+boardHalInit completed
+DSP: Interrupt Ids
+---------------
+InterruptId/Location      = 87/LOW 
+
+DSP: Interrupt Masks
+---------------
+IrqMask                   = 0x00001200 
+IrqMaskLow                = 0x00001200 
+IrqMask1                  = 0x00008000 
+IrqMaskLow1               = 0x00008000 
+
+DSP: Interrupt Status
+-----------------
+IrqStatus                 = 0x00000000 
+IrqStatusLow              = 0x00000000 
+IrqStatus1                = 0x00000000 
+IrqStatusLow1             = 0x00000000 
+run web server
+EndpointInit completed
+dgasp: kerSysRegisterDyingGaspHandler: endpoint registered 
+Endpoint Event task started wi
+physId=0,lineId=0,NumEndpoints=2,NumFxsEndpoints=2
+th pid 1408..ProcessVrgEndptCreate:endptType=0
+.
+Endpoint Packet task started with pid 1409 ...
+fhDSPInit-line758:fxs_num=2
+
+physId=1,lineId=1,NumEndpoints=2,NumFxsEndpoints=2
+ProcessVrgEndptCreate:endptType=0
+Enter TaskCreate SNDTTaskCreate - spawn new task SNDTExit TaskCreate ########dsp init ok########
+bosTimerCreate
+Enter TaskCreate BOSTMTSKTaskCreate - spawn new task BOSTMTSKExit TaskCreate bosTimerGetEvent
+########codec init ok########
+########private init ok########
+begin of sipInit
+end of sipInit
+chmod: webs: Read-only file system
+rm: can't remove '/etc/linuxigd': Read-only file system
+mkdir: can't create directory '/etc/linuxigd': File exists
+cp: can't create '/etc/linuxigd': No such file or directory
+log_init::log shmat get pid: 1353 
+
+Version: watchdog daemon version 10.0.0.0
+Compile: Thu, 29 Nov 2018 15:19:42 +0800, Rev721191
+
+cp: can't create '/etc/linuxigd': No such file or directory
+wan3: no IPv6 routers present
+cp: can't create '/etc/linuxigd': No such file or directory
+start ntp. 
+ntpInitControlInfo:enter. 
+ntpRWdata:fopen rb no file. 
+ntpInit:fopen no file. 
+ntpInit sucesss, Build: Nov 29 2018 15:16:58. 
+cp: can't create '/etc/linuxigd': No such file or directory
+cp: can't create '/etc/linuxigd': No such file or directory
+cp: can't create '/etc/linuxigd': No such file or directory
+ln: /lib/libupnp.so: File exists
+ln: /lib/libupnp.so.6: Read-only file system
+ln: /lib/libixml.so: File exists
+ln: /lib/libixml.so.2: File exists
+ln: /lib/libthreadutil.so: File exists
+ln: /lib/libthreadutil.so.6: Read-only file system
+ln: /etc/upnpd.conf: File exists
+tel0: no IPv6 routers present
+voip0: no IPv6 routers present
+tr0: no IPv6 routers present
+wan: no IPv6 routers present
+voip2: no IPv6 routers present
+
+ fh_bsp_version_export libnomci.so start
+
+ fh_bsp_version_export libnomci.so end,ret = 0
+The system is Big Endian.
+
+libonu_bsp_init ret = 1
+[L2]<Info><L2Port>, line[135], read_file:File size is not 10
+[L2]<Info><L2Port>, line[388], user_get_phy_password_from_file:
+The length of passowrd is 0
+
+[L2]<Info><L2Port>, line[1907], omci_pon_init:omci_pon_init, port_num[4]
+omci_pon_init  ret = 0
+web_client_Init ret = 0
+ONU_MAX_ETHERNET_UNI_PORTS = 4,ONU_MAX_ETHERNET_UNI_GE_PORTS = 4,ONU_MAX_ETHERNET_UNI_FE_PORTS = 0
+
+OMCI_INIT:omci_set_standard_status() ret[0]
+ini_get_int not find key 'onuType'
+ini_get_int not find key 'ioCtrl'
+ini_get_int not find key 'localMibMode'
+g_conflict_effect_mode = 0
+share memory is not exist! create!type = 1
+log_init::log shmat get pid: 1263 
+MAS_Init ret = 0
+mas_dhcp_server_switch_ctrl_api ret = 0
+
+========Tr104VoiceCfgInit()========
+
+========Tr104VoiceCfgInit(2)========
+omci call Tr104GetProtocolTypeFromScript,protocol_type[4]
+mkdir: can't create directory '/var/skel': File exists
+The SIP stack was constructed successfully. Version - 3.1.1.20
+end of recvInMsgThreadInit
+########voip init ok########
+[L2]<Info><L2Port>, line[1099], set_onu_logic_authenticate_state:in, state = 0
+##set state = 0
+std_get_softwareimage_version
+
+===version_len = 14
+
+===BIN0 is active
+version0 = RP2669
+(SECTION_A == active_bin), ret  = 0 RP2661
+version1 = RP2661
+std_get_softwareimage_state
+
+===bin0 is active
+
+===no commit flag!
+
+===get_app_valid!
+
+===bin0 is valid
+
+===get  image0 valid!
+
+===bin1 is valid
+
+===get  image1 valid!
+omci_get_dba_queue_status_report_capability ret = 0
+CM_CfgMngReg WIFI service success! omciCfgWifiMngId = 1610612736!
+CM_CfgMngReg WIFI 5.8Ghz service success! omciCfg58WifiMngId = 1610612737!
+CM_CfgMngReg WAN service success! omciCfgWanMngId = 1610612738!
+CM_CfgMngReg  web state ctrl success! omciCfgWebRemoteCtrlMngId = 1610612739!
+CM_CfgMngReg telnet state ctrl success! omciCfgTelnetStateCtrlMngId = 1610612740!
+CM_CfgMngReg uni web state ctrl success! omciCfgUniWebRemoteCtrlMngId = 1610612741!
+CM_CfgMngReg uni telnet state ctrl success! omciCfgUniTelnetStateCtrlMngId = 1610612742!
+CM_CfgMngReg web_service_port success! omciCfgWebServicePortMngId = 1610612743!
+
+init_omci_data function end!
+evAutoinit: msgget successfully OMCI_EVENT_MODULE msgid = 720918.
+
+evAutoinit function end!
+
+*************func:InitOnuOMCITimer    InitPerformance
+create OMCITimerRoutine_PM thread ret = 0
+fh_omci_send_packet_  fail, ret -1
+fh_omci_send_packet_  fail, ret -1
+fh_omci_send_packet_  fail, ret -1
+create fh_onu_omci_event_main thread ret = 0
+omci_clear_recv_msg_queue
+create fh_onu_omci_cli_main thread ret = 0
+create std_onu_omci_tl_process thread ret = 0
+create omci_save_cfg_info thread, ret = 0
+VoipOmInit end,voip_error = 0OMCI: omci_open_dev ret = 0
+OMCI: pthread_attr_getstacksize ok, stacksize=0x1FF000
+OMCI: pthread_attr_setstacksize ok, stacksize=0x3FF000
+OMCI: ok! pthread create process_omci ok!
+init_omci_packet_process_thread ret = 0
+
+===omci_set_optpower_enable!
+
+===cliom, set gpio 13 [0]!
+# Write omci msg failed!
+: Bad file descriptor
+# Write omci msg failed!
+: Bad file descriptor
+# Write omci msg failed!
+: Bad file descriptor
+br0: port 5(wan) entered forwarding state
+ifconfig: wl0.1: error fetching interface information: Device not found
+
+ fh_bsp_version_export libnomci.so start
+
+ fh_bsp_version_export libnomci.so end,ret = -1
+log_init::log shmat get pid: 1436 
+ifconfig: wl0.2: error fetching interface information: Device not found
+
+========Tr104VoiceCfgInit(5)========
+
+ fh_bsp_version_export libomci_cli.so start
+
+ fh_bsp_version_export libomci_cli.so end,ret = 0
+cli main init.....argc=1 [(null)]/r/n
+consoleFd = 
+
+ Initializing modules ... 3
+... CLI:Initializing environment ......  cl_onu_omci_init 2 
+cl_onu_omci_init 3, cl_install_module
+cl_onu_omci_init end
+ ntp_module_init
+ ntp_module installed
+entry installIgmpV3Command.....
+en installIgmpV3Command.....out
+g_conflict_effect_mode = 0
+log_init::log shmat get pid: 1445 
+Done.
+ Loading startup config ......  dev_mgm_web_init begin
+dev_mgm_web_init end
+Done.    
+ [2J 
+
+
+
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+==========                 welcome!         ==================
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+
+[19;10HPress <Enter> to come into this system.
+
+
+now use bin2
+cannot   open   (fh-bin)confile
+##cl_run_memfile_config  unlocked success!
+in um_add_user_added_username
+########voip_cli init ok########
+[FILE ../source/cli_adaptation_layer.c]--> recoverVoiceConf (1528) 
+now use bin2
+cannot   open   (fh-bin)confile
+[FILE ../source/cli_adaptation_layer.c]--> recoverVoiceConf (1540) -1 
+##cl_run_memfile_config  unlocked success!
+[FILE ../source/cli_adaptation_layer.c]--> recoverVoiceConf (1544) 1 
+br0: port 1(eth0) entered forwarding state
+
+ fh_bsp_version_export libnomci.so start
+
+ fh_bsp_version_export libnomci.so end,ret = -1
+Begin  start  tr069 ......
+g_conflict_effect_mode = 0
+log_init::log shmat get pid: 2055 
+cp: can't stat '/fh/extend/tr069/fhcfg/AN5506_04F4G/INDONESIA_TELKOM/tr069_pre_config_sp.xml': No such file or directory
+cp: can't stat '/fh/extend/tr069/fhcfg/AN5506_04F4G/INDONESIA_TELKOM/tr069_pre_config_sp_version': No such file or directory
+/fhcfg/tr069_config_version file existed 
+/fhcfg/cpe_mib.xml exists, we need compare tr069_config_version
+  both tr069_config_version  file is the same ,need not update  
+ifconfig: wl0.3: error fetching interface information: Device not found
+ dev  hardware  version  :  0
+Setting SSID: "04FS_3124a0"
+Setting SSID: "04FS_3124a0_ssid2"
+wfd_registerdevice Successfully registered dev wl0.1 ifidx 1 wfd_idx 0
+Setting SSID: "04FS_3124a0_ssid3"
+wfd_registerdevice Successfully registered dev wl0.2 ifidx 2 wfd_idx 0
+Setting SSID: "04FS_3124a0_ssid4"
+wfd_registerdevice Successfully registered dev wl0.3 ifidx 3 wfd_idx 0
+  _________________tr069 Msg server start ...________________________ ...
+
+========Tr104VoiceCfgInit(1)========
+mas_get_port_mapping_api: Driver API(mas_get_portmapping) didn't register!
+mas_get_port_mapping_api: Driver API(mas_get_portmapping) didn't register!
+mas_get_port_mapping_api: Driver API(mas_get_portmapping) didn't register!
+mas_get_port_mapping_api: Driver API(mas_get_portmapping) didn't register!
+mas_get_port_mapping_api: Driver API(mas_get_portmapping) didn't register!
+mas_get_port_mapping_api: Driver API(mas_get_portmapping) didn't register!
+mas_get_port_mapping_api: Driver API(mas_get_portmapping) didn't register!
+mas_get_port_mapping_api: Driver API(mas_get_portmapping) didn't register!
+mas_get_port_mapping_api: Driver API(mas_get_portmapping) didn't register!
+mas_get_port_mapping_api: Driver API(mas_get_portmapping) didn't register!
+mas_get_port_mapping_api: Driver API(mas_get_portmapping) didn't register!
+mas_get_port_mapping_api: Driver API(mas_get_portmapping) didn't register!
+
+========Tr104VoiceCfgInit(3)========
+
+-----[L2]<Error>-------------------------------------------------------------------------------
+sys_port_ratelimit 3287: g_port_rate_queue[0] = 0
+sys_port_ratelimit 3287: g_port_rate_queue[1] = 0
+sys_port_ratelimit 3287: g_port_rate_queue[2] = 0
+sys_port_ratelimit 3287: g_port_rate_queue[3] = 0
+sys_port_ratelimit 3287: g_port_rate_queue[4] = 0
+sys_port_ratelimit 3287: g_port_rate_queue[5] = 0
+sys_port_ratelimit 3287: g_port_rate_queue[6] = 0
+sys_port_ratelimit 3287: g_port_rate_queue[7] = 0
+sys_port_ratelimit 3287: g_port_rate_queue[8] = 0
+sys_port_ratelimit 3287: g_port_rate_queue[9] = 0
+sys_port_ratelimit 3287: g_port_rate_queue[10] = 0
+sys_port_ratelimit 3287: g_port_rate_queue[11] = 0
+<L2Port>, line[1540], web_set_port_ratelimit:error[0]
+g_conflict_effect_mode = 0
+voip_Configuration is start ...................
+ beginning is   voip_Configuration ..............
+voip_Configuration is stop .....................
+device wl0 entered promiscuous mode
+br0: port 6(wl0) entered forwarding state
+br0: port 6(wl0) entered forwarding state
+device wl0.1 entered promiscuous mode
+device wl0.2 entered promiscuous mode
+device wl0.3 entered promiscuous mode
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1001
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1001
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1002
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1002
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1003
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1003
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1004
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1004
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1005
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1005
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1006
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1006
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1007
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1007
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1008
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1008
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1009
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1009
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x100a
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x100a
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x100b
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x100b
+acsd: selected channel spec: 0x1007
+acsd: Adjusted channel spec: 0x1007
+acsd: selected channel spec: 0x1007
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+acsd: scan in progress ...
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1001
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1001
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1002
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1002
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1003
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1003
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1004
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1004
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1005
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1005
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1006
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1006
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1007
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1007
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1008
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1008
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x1009
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x1009
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x100a
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x100a
+ACSD >>acs_candidate_score_busy(2218): busy check failed for chanspec: 0x100b
+ACSD >>acs_candidate_score_intf(2254): intf check failed for chanspec: 0x100b
+acsd: selected channel spec: 0x1003
+acsd: Adjusted channel spec: 0x1003
+acsd: selected channel spec: 0x1003
+pid 756's current affinity mask: 2
+pid 756's new affinity mask: 3
+pid 5's current scheduling policy: SCHED_OTHER
+pid 5's current scheduling priority: 0
+br0: port 6(wl0) entered forwarding state
+##################################################
+tasks list:
+task sip : 1
+task h248 : 1
+task webs : 1
+task onu_igmpv3 : 1
+task l3mng : 1
+##################################################
+##################################################
+thread list:
+pid  : nr of thread : task name
+932  :       1      : sip
+1436  :       1      : webs
+929  :       1      : onu_igmpv3
+927  :       1      : l3mng
+##################################################
+../src/watchdog.c : 461 : open /dev/misc_dev
+../src/watchdog.c : 476 : add counter : 120
+../src/watchdog.c : 482 : cid = 1

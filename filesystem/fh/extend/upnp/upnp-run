@@ -1,0 +1,48 @@
+#!/bin/sh
+
+if [ ! -d /etc/linuxigd ]
+then
+    rm -rf /etc/linuxigd
+    mkdir /etc/linuxigd
+fi
+
+if [ ! -f /etc/linuxigd/dummy.xml ]
+then
+    cp /fh/extend/upnp/dummy.xml /etc/linuxigd
+fi
+
+if [ ! -f /etc/linuxigd/gateconnSCPD.xml ]
+then
+    cp /fh/extend/upnp/gateconnSCPD.xml /etc/linuxigd
+fi
+
+if [ ! -f /etc/linuxigd/gatedesc.skl ]
+then
+    cp /fh/extend/upnp/gatedesc.skl /etc/linuxigd
+fi
+
+if [ ! -f /etc/linuxigd/gatedesc.xml ]
+then
+    cp /fh/extend/upnp/gatedesc.xml /etc/linuxigd
+fi
+
+if [ ! -f /etc/linuxigd/gateicfgSCPD.xml ]
+then
+    cp /fh/extend/upnp/gateicfgSCPD.xml /etc/linuxigd
+fi
+
+if [ ! -f /etc/linuxigd/gateinfoSCPD.xml ]
+then
+    cp /fh/extend/upnp/gateinfoSCPD.xml /etc/linuxigd
+fi
+
+ln -s /fh/extend/upnp/libupnp.so.6.3.4 /lib/libupnp.so
+ln -s /fh/extend/upnp/libupnp.so.6.3.4 /lib/libupnp.so.6
+ln -s /fh/extend/upnp/libixml.so.2.0.8 /lib/libixml.so
+ln -s /fh/extend/upnp/libixml.so.2.0.8 /lib/libixml.so.2
+ln -s /fh/extend/upnp/libthreadutil.so.6.0.4 /lib/libthreadutil.so
+ln -s /fh/extend/upnp/libthreadutil.so.6.0.4 /lib/libthreadutil.so.6
+ln -s /fh/extend/upnp/upnpd.conf /etc/upnpd.conf
+
+
+exit 0

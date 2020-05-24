@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="GBK"?>
+<po>
+	<menu1 name="state" url="../state/deviceInfor_js.asp" >
+			<menu2 name="Device Information" url="../state/deviceInfor_js.asp" >
+					<menu3 name="Device Information" url="../state/deviceInfor_js.asp" />
+			</menu2>
+			<menu2 name="wan state" url="../state/wan_state.asp" >
+					<menu3 name="wan state" url="../state/wan_state.asp" />
+			</menu2>
+			<menu2 name="Optical Power" url="../state/opt_power.asp" >
+					<menu3 name="Optical Power" url="../state/opt_power.asp" />
+			</menu2>
+	</menu1>
+	<menu1 name="network" url="../internet/wan_jiangsu.asp" >
+			<menu2 name="broadband" url="../internet/wan_jiangsu.asp" >
+					<menu3 name="internet" url="../internet/wan_jiangsu.asp" />
+					<menu3 name="IPTV" url="../internet/iptv_cfg.asp" />
+			</menu2>
+			<menu2 name="dhcp_server" url="../internet/dhcp_service.asp" >
+					<menu3 name="dhcp_service" url="../internet/dhcp_service.asp" />
+			</menu2>
+            <menu2 name="remote_management" url="../tr069/tr069_jiangsu.asp" >
+					<menu3 name="ITMS Server" url="../tr069/tr069_jiangsu.asp" />
+			</menu2>
+			<menu2 name="auth_settings" url="../ont_auth/sncfg_jiangsu.asp" >
+					<menu3 name="olt_auth" url="../ont_auth/sncfg_jiangsu.asp" />
+			</menu2>
+	</menu1>
+	<menu1 name="management" url="../management/account_admin.asp" >
+			<menu2 name="user_admin" url="../management/account_admin.asp" >
+					<menu3 name="user_account_admin" url="../management/account_admin.asp" />
+			</menu2>
+			<menu2 name="device_admin" url="../management/restore.asp" >
+					<menu3 name="restore" url="../management/restore.asp" />
+					<menu3 name="adminRestore" url="../management/adminRestore.asp" />
+					<menu3 name="update" url="../management/update.asp" />
+					<menu3 name="reboot" url="../management/reboot.asp" />
+			</menu2>
+	</menu1>
+</po>  

@@ -1,0 +1,264 @@
+#!/bin/sh
+# Sample udhcpc renew script
+
+[ -n "$broadcast" ] && BROADCAST="broadcast $broadcast"
+[ -n "$subnet" ] && NETMASK="netmask $subnet"
+
+/sbin/ifconfig $interface $ip $BROADCAST $NETMASK
+
+
+    if [ $interface == "wan0" ]
+    then
+	    if [ -n "$router" ]
+	    then
+
+        rm /fhcfg/extend/dhcpforwan/dhcpcgateway0 2>/dev/null
+        
+        for i in $router
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcgateway0
+        done 
+      fi
+      
+      if [ -n "$subnet" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcmask0 2>/dev/null        
+        for i in $subnet
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcmask0
+        done 
+      fi
+      
+      if [ -n "$ip" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcip0 2>/dev/null       
+        for i in $ip
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcip0
+        done 
+      fi
+      
+ 	    if [ -n "$domain" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcdomain0 2>/dev/null 
+        
+        for i in $domain
+        do
+             echo $i >/fhcfg/extend/dhcpforwan/dhcpcdomain0
+        done     
+      fi     
+      
+      if [ -n "$dns" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcdns0 2>/dev/null         
+				for i in $dns
+				do
+				    echo $i >> /fhcfg/extend/dhcpforwan/dhcpcdns0
+				done    
+      fi 
+        
+    elif [ $interface == "wan1" ]
+    then
+	    if [ -n "$router" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcgateway1 2>/dev/null
+
+        for i in $router
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcgateway1
+        done 
+      fi
+      
+      if [ -n "$subnet" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcmask1 2>/dev/null      
+        for i in $subnet
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcmask1
+        done 
+      fi
+      
+      if [ -n "$ip" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcip1 2>/dev/null     
+        for i in $ip
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcip1
+        done 
+      fi
+      
+ 	    if [ -n "$domain" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcdomain1 2>/dev/null
+        
+        for i in $domain
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcdomain1
+        done     
+      fi     
+      
+      if [ -n "$dns" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcdns1 2>/dev/null          
+				for i in $dns
+				do
+				    echo $i >> /fhcfg/extend/dhcpforwan/dhcpcdns1
+				done    
+      fi 
+    elif [ $interface == "wan2" ]
+    then
+	    if [ -n "$router" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcgateway2 2>/dev/null
+        
+        for i in $router
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcgateway2
+        done 
+      fi
+      
+      if [ -n "$subnet" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcmask2 2>/dev/null      
+        for i in $subnet
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcmask2
+        done 
+      fi
+      
+      if [ -n "$ip" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcip2 2>/dev/null     
+        for i in $ip
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcip2
+        done 
+      fi
+      
+ 	    if [ -n "$domain" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcdomain2 2>/dev/null
+        
+        for i in $domain
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcdomain2
+        done     
+      fi     
+      
+      if [ -n "$dns" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcdns2 2>/dev/null      
+				for i in $dns
+				do
+				    echo $i >> /fhcfg/extend/dhcpforwan/dhcpcdns2
+				done    
+      fi   
+     elif [ $interface == "wan3" ]
+     then
+	    if [ -n "$router" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcgateway3 2>/dev/null
+        
+        for i in $router
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcgateway3
+        done 
+      fi
+      
+      if [ -n "$subnet" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcmask3 2>/dev/null      
+        for i in $subnet
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcmask3
+        done 
+      fi
+      
+      if [ -n "$ip" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcip3 2>/dev/null     
+        for i in $ip
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcip3
+        done 
+      fi
+      
+ 	    if [ -n "$domain" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcdomain3 2>/dev/null
+        
+        for i in $domain
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcdomain3
+        done     
+      fi     
+      
+      if [ -n "$dns" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcdns3 2>/dev/null    
+				for i in $dns
+				do
+				    echo $i >> /fhcfg/extend/dhcpforwan/dhcpcdns3
+				done    
+      fi
+      
+		 elif [ $interface == "tr0" ]
+     then
+	    if [ -n "$router" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcgateway4 2>/dev/null
+        
+        for i in $router
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcgateway4
+        done 
+      fi
+      
+      if [ -n "$subnet" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcmask4 2>/dev/null      
+        for i in $subnet
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcmask4
+        done 
+      fi
+      
+      if [ -n "$ip" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcip4 2>/dev/null     
+        for i in $ip
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcip4
+        done 
+      fi
+      
+ 	    if [ -n "$domain" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcdomain4 2>/dev/null
+        
+        for i in $domain
+        do
+                echo $i >/fhcfg/extend/dhcpforwan/dhcpcdomain4
+        done     
+      fi     
+      
+      if [ -n "$dns" ]
+	    then
+        rm /fhcfg/extend/dhcpforwan/dhcpcdns4 2>/dev/null    
+				for i in $dns
+				do
+				    echo $i >> /fhcfg/extend/dhcpforwan/dhcpcdns4
+				done    
+      fi        
+
+    fi
+
+
+
+
+
+
+
+
+
+

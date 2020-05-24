@@ -1,0 +1,1 @@
+exec /fh/extend/dhcp/udhcpc -i voip0 -f &

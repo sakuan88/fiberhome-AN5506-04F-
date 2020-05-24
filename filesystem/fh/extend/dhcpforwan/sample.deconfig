@@ -1,0 +1,46 @@
+#!/bin/sh
+# Sample udhcpc deconfig script
+
+/sbin/ifconfig $interface 0.0.0.0
+
+if [ $interface == "wan0" ]
+then
+	rm /fhcfg/extend/dhcpforwan/dhcpcgateway0 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcmask0 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcip0 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcdomain0 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcdns0 2>/dev/null
+	
+elif [ $interface == "wan1" ]
+then
+	rm /fhcfg/extend/dhcpforwan/dhcpcgateway1 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcmask1 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcip1 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcdomain1 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcdns1 2>/dev/null
+
+elif [ $interface == "wan2" ]
+then
+	rm /fhcfg/extend/dhcpforwan/dhcpcgateway2 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcmask2 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcip2 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcdomain2 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcdns2 2>/dev/null
+
+elif [ $interface == "wan3" ]
+then
+	rm /fhcfg/extend/dhcpforwan/dhcpcgateway3 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcmask3 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcip3 2>/dev/null 
+	rm /fhcfg/extend/dhcpforwan/dhcpcdomain3 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcdns3 2>/dev/null 
+
+elif [ $interface == "tr0" ]
+then
+	rm /fhcfg/extend/dhcpforwan/dhcpcgateway4 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcmask4 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcip4 2>/dev/null 
+	rm /fhcfg/extend/dhcpforwan/dhcpcdomain4 2>/dev/null
+	rm /fhcfg/extend/dhcpforwan/dhcpcdns4 2>/dev/null 
+        
+fi

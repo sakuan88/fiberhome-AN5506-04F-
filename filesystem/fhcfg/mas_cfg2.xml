@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configration>
+  <debug_level description="None: 0, Erorr: 1, Warn: 2, Info: 3, Debug: 4">
+    <Value>1</Value>
+  </debug_level>
+</Configration>

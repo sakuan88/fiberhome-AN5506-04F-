@@ -1,0 +1,36 @@
+#!/bin/sh
+ifconfig lo up
+route add -net 239.0.0.0 netmask 255.0.0.0 br0
+mkdir /fhcfg/linuxigd
+cd /usr
+mkdir share
+cd share
+mkdir man
+cd man
+mkdir man8
+mkdir /usr/share/man
+mkdir /usr/share/man/man8
+cp /fh/extend/upnp/upnpd.8 /usr/share/man/man8/upnpd.8
+cp /fh/extend/upnp/dummy.xml /fhcfg/linuxigd/dummy.xml
+cp /fh/extend/upnp/gateconnSCPD.xml /fhcfg/linuxigd/gateconnSCPD.xml
+cp /fh/extend/upnp/gatedesc.skl /fhcfg/linuxigd/gatedesc.skl
+cp /fh/extend/upnp/gatedesc.xml /fhcfg/linuxigd/gatedesc.xml
+cp /fh/extend/upnp/gateicfgSCPD.xml /fhcfg/linuxigd/gateicfgSCPD.xml
+cp /fh/extend/upnp/gateinfoSCPD.xml /fhcfg/linuxigd/gateinfoSCPD.xml
+ln -s /fh/extend/upnp/libupnp.so.2.0.1 /lib/libupnp.so
+ln -s /fh/extend/upnp/libupnp.so.2.0.1 /lib/libupnp.so.2
+ln -s /fh/extend/upnp/libixml.so.2.0.0 /lib/libixml.so
+ln -s /fh/extend/upnp/libixml.so.2.0.0 /lib/libixml.so.2
+ln -s /fh/extend/upnp/libthreadutil.so.2.0.0 /lib/libthreadutil.so
+ln -s /fh/extend/upnp/libthreadutil.so.2.0.0 /lib/libthreadutil.so.2
+ln -s /fh/extend/upnp/upnpd.conf /fhcfg/linuxigd/upnpd.conf
+
+
+if [ ! -e "/fhcfg/upnpid" ] 
+then
+/fh/extend/upnp/./upnpd ppp0 br0&
+#/fh/extend/upnp/./upnpd wan1 br0&
+fi
+
+
+exit 0

@@ -1,0 +1,18 @@
+#!/bin/sh
+# Currently, we only dispatch according to command.  However, a more
+# elaborate system might dispatch by command and interface or do some
+# common initialization first, especially if more dhcp event notifications
+# are added.
+
+#exec /usr/share/udhcpc/sample.$1
+
+#for 04F1
+#exec /fh/bin/dhcpforwan/sample.$1
+
+#for 04F2
+#exec /fh/extend/dhcpforwan/sample.$1
+exec /fh/extend/dhcpforwan/sample.$1
+
+#for 04F3
+#exec /fh/bin/dhcpforwan/sample.$1
+

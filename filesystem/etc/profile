@@ -1,0 +1,35 @@
+# /etc/profile: system-wide .profile file for the Bourne shells
+
+export PATH=/opt/bin:/bin:/sbin:/usr/bin:/usr/sbin:/opt/scripts:/fh/bin:/fh/extend
+export LD_LIBRARY_PATH=/lib:/fh/bin:/fh/extend
+
+
+mkdir -p /dev/shm/fh_ver_tmp
+
+if [ -e /sys/module/bcm63xx_nand/parameters/current_app_basic ];
+then
+        export ACTIVED_AIMAGE_FH=`cat /sys/module/bcm63xx_nand/parameters/current_app_basic`
+fi
+
+if [ -e /sys/module/bcm63xx_nand/parameters/current_app_extends ];
+then
+        export ACTIVED_AIMAGE_EX=`cat /sys/module/bcm63xx_nand/parameters/current_app_extends`
+fi
+
+if [ -e /sys/module/bcm63xx_nand/parameters/current_rootfs ];
+then
+        export LOADED_KERNEL=`cat /sys/module/bcm63xx_nand/parameters/current_rootfs`
+        export LOADED_UBOOT=`cat /sys/module/bcm63xx_nand/parameters/current_rootfs`
+        export MOUNTED_ROOTFS=`cat /sys/module/bcm63xx_nand/parameters/current_rootfs`
+fi
+
+mkdir -p /dev/shm/fiberhome_bsp
+if [ ! -f /dev/shm/fiberhome_bsp/.fh_autorun ]
+then
+    touch /dev/shm/fiberhome_bsp/.fh_autorun
+    if [ -f /fh/extend/userapp.sh ]
+    then
+        cd /fh/extend
+        /fh/extend/userapp.sh
+    fi
+fi

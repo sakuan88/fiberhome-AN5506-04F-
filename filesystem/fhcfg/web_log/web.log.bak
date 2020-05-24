@@ -1,0 +1,985 @@
+<web_utils>1970-00-01 00:40:57,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:40:57,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:40:57,../custom/wireless.c[137](wirelessBasicSync): enter wirelessBasicSync()!
+<web_utils>1970-00-01 00:40:59,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:40:59,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:40:59,../custom/internet.c[100](setLanSync): enter setLanSync()!
+<web_custom>1970-00-01 00:40:59,../custom/dhcp.c[833](dhcpServiceSync): enter dhcpServiceSync()!
+<web_utils>1970-00-01 00:41:03,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:41:03,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:41:03,../custom/wan.c[3453](GetWANsizeSync): GetWANsizeSync()!
+<web_custom>1970-00-01 00:41:03,../custom/wan.c[3457](GetWANsizeSync): MAS_GetAllWanServiceApi getRst= 0
+<web_custom>1970-00-01 00:41:03,../custom/wan.c[3138](WanSync): WanSync()!
+<web_utils>1970-00-01 00:41:08,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:41:08,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:41:08,../custom/default_route.c[392](v4_dr_sync): v4_dr_sync()!
+<web_utils>1970-00-01 00:41:08,../utils/utils_wan.c[622](wan_name_sync): enter wanNameSync()!
+<web_utils>1970-00-01 00:41:09,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:41:09,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:41:09,../custom/ipv4_static_route.c[428](get_v4_static_route_sync): enter get_v4_static_route_sync()!
+<web_utils>1970-00-01 00:41:09,../utils/utils_wan.c[622](wan_name_sync): enter wanNameSync()!
+<web_custom>1970-00-01 00:41:09,../custom/ipv4_static_route.c[353](v4_static_route_sync): enter v4_static_route_sync()!
+<web_utils>1970-00-01 00:43:56,../utils/cu_web_access_control.c[396](getLoginUserFromCookie): There isn't cookie! No login!
+<web_utils>1970-00-01 00:43:56,../utils/cu_web_access_control.c[87](web_access_control): can not find loginName in cookies !
+<web_custom>1970-00-01 00:43:56,../custom/weblogin.c[2324](getRegisterButton): enter getRegisterButton()!
+<web_utils>1970-00-01 00:43:57,../utils/cu_web_access_control.c[396](getLoginUserFromCookie): There isn't cookie! No login!
+<web_utils>1970-00-01 00:43:57,../utils/cu_web_access_control.c[87](web_access_control): can not find loginName in cookies !
+<web_custom>1970-00-01 00:43:57,../custom/weblogin.c[2324](getRegisterButton): enter getRegisterButton()!
+<web_utils>1970-00-01 00:44:37,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:44:37,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:44:37,../custom/account_admin.c[195](get_user_list_sync): enter get_user_list_sync()!
+<web_custom>1970-00-01 00:44:37,../custom/account_admin.c[130](user_list_sync): enter user_list_sync()!
+<web_custom>1970-00-01 00:44:37,../custom/account_admin.c[134](user_list_sync): string_buff: 2
+<web_utils>1970-00-01 00:44:39,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:44:39,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:44:41,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:44:41,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:44:41,../custom/vpn.c[82](setVPNEnableSync): enter setVPNEnableSync()!
+<web_custom>1970-00-01 00:44:41,../custom/vpn.c[87](setVPNEnableSync): VPNEnableSync VPNEnable=1
+<web_custom>1970-00-01 00:44:41,../custom/vpn.c[88](setVPNEnableSync): VPNEnableSync getRst=0
+<web_utils>1970-00-01 00:44:44,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:44:44,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:44:54,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:44:54,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:44:54,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.1, request_num = 1, diagtype = 1
+<web_custom>1970-00-01 00:44:54,../custom/ping_diagnosis.c[545](setPing):  command = ping -c 5 192.168.2.1
+<web_custom>1970-00-01 00:44:54,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+<web_utils>1970-00-01 00:44:54,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:44:54,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:44:54,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.1, request_num = 2, diagtype = 1
+<web_custom>1970-00-01 00:44:54,../custom/ping_diagnosis.c[618](setPing): responseText = 1|PING 192.168.2.1 (192.168.2.1): 56 data bytes
+
+<web_utils>1970-00-01 00:44:54,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:44:54,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:44:54,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.1, request_num = 3, diagtype = 1
+<web_custom>1970-00-01 00:44:54,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 192.168.2.1: seq=0 ttl=64 time=1.066 ms
+
+<web_utils>1970-00-01 00:44:54,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:44:54,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:44:54,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.1, request_num = 4, diagtype = 1
+<web_custom>1970-00-01 00:44:55,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 192.168.2.1: seq=1 ttl=64 time=0.638 ms
+
+<web_utils>1970-00-01 00:44:55,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:44:55,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:44:55,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.1, request_num = 5, diagtype = 1
+<web_custom>1970-00-01 00:44:56,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 192.168.2.1: seq=2 ttl=64 time=0.575 ms
+
+<web_utils>1970-00-01 00:44:56,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:44:56,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:44:56,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.1, request_num = 6, diagtype = 1
+<web_custom>1970-00-01 00:44:57,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 192.168.2.1: seq=3 ttl=64 time=0.552 ms
+
+<web_utils>1970-00-01 00:44:57,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:44:57,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:44:57,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.1, request_num = 7, diagtype = 1
+<web_custom>1970-00-01 00:44:58,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 192.168.2.1: seq=4 ttl=64 time=0.551 ms
+
+<web_utils>1970-00-01 00:44:58,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:44:58,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:44:58,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.1, request_num = 8, diagtype = 1
+<web_custom>1970-00-01 00:44:58,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+
+<web_utils>1970-00-01 00:44:58,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:44:58,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:44:58,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.1, request_num = 9, diagtype = 1
+<web_custom>1970-00-01 00:44:58,../custom/ping_diagnosis.c[618](setPing): responseText = 1|--- 192.168.2.1 ping statistics ---
+
+<web_utils>1970-00-01 00:44:58,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:44:58,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:44:58,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.1, request_num = 10, diagtype = 1
+<web_custom>1970-00-01 00:44:58,../custom/ping_diagnosis.c[618](setPing): responseText = 1|5 packets transmitted, 5 packets received, 0% packet loss
+
+<web_utils>1970-00-01 00:44:58,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:44:58,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:44:58,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.1, request_num = 11, diagtype = 1
+<web_custom>1970-00-01 00:44:58,../custom/ping_diagnosis.c[618](setPing): responseText = 1|round-trip min/avg/max = 0.551/0.676/1.066 ms
+
+<web_utils>1970-00-01 00:44:58,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:44:58,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:44:58,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.1, request_num = 12, diagtype = 1
+<web_custom>1970-00-01 00:44:58,../custom/ping_diagnosis.c[618](setPing): responseText = 0|
+<web_utils>1970-00-01 00:45:03,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:45:03,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:45:03,../custom/ping_diagnosis.c[516](setPing): ping_ip = 1.1.1.1, request_num = 1, diagtype = 1
+<web_custom>1970-00-01 00:45:03,../custom/ping_diagnosis.c[545](setPing):  command = ping -c 5 1.1.1.1
+<web_custom>1970-00-01 00:45:03,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+<web_utils>1970-00-01 00:45:03,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:45:03,../utils/cu_sessionManagement.c[129](checkSessionTimeOut): in checkSessionTimeOut pthread_mutex_lock fail.
+<web_custom>1970-00-01 00:45:03,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:45:03,../custom/ping_diagnosis.c[516](setPing): ping_ip = 1.1.1.1, request_num = 2, diagtype = 1
+<web_custom>1970-00-01 00:45:03,../custom/ping_diagnosis.c[618](setPing): responseText = 1|PING 1.1.1.1 (1.1.1.1): 56 data bytes
+
+<web_utils>1970-00-01 00:45:03,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:45:03,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:45:03,../custom/ping_diagnosis.c[516](setPing): ping_ip = 1.1.1.1, request_num = 3, diagtype = 1
+<web_custom>1970-00-01 00:45:03,../custom/ping_diagnosis.c[618](setPing): responseText = 0|
+<web_utils>1970-00-01 00:45:07,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:45:07,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:45:07,../custom/ping_diagnosis.c[516](setPing): ping_ip = 1.1.1.1, request_num = 1, diagtype = 2
+<web_custom>1970-00-01 00:45:07,../custom/ping_diagnosis.c[545](setPing):  command = traceroute -I 1.1.1.1
+<web_custom>1970-00-01 00:45:07,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+<web_utils>1970-00-01 00:45:07,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:45:07,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:45:07,../custom/ping_diagnosis.c[516](setPing): ping_ip = 1.1.1.1, request_num = 2, diagtype = 2
+<web_custom>1970-00-01 00:45:07,../custom/ping_diagnosis.c[618](setPing): responseText = 2|Failed! Network is unreachable!
+<web_utils>1970-00-01 00:45:14,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:45:14,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:45:14,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.1, request_num = 1, diagtype = 2
+<web_custom>1970-00-01 00:45:14,../custom/ping_diagnosis.c[545](setPing):  command = traceroute -I 192.168.2.1
+<web_custom>1970-00-01 00:45:14,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+<web_utils>1970-00-01 00:45:14,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:45:14,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:45:14,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.1, request_num = 2, diagtype = 2
+<web_custom>1970-00-01 00:45:14,../custom/ping_diagnosis.c[618](setPing): responseText = 1|traceroute to 192.168.2.1 (192.168.2.1), 30 hops max, 60 byte packets
+
+<web_utils>1970-00-01 00:45:14,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:45:14,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:45:14,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.1, request_num = 3, diagtype = 2
+<web_custom>1970-00-01 00:45:14,../custom/ping_diagnosis.c[618](setPing): responseText = 1| 1  192.168.2.1 (192.168.2.1)  2.479 ms  2.186 ms  2.269 ms
+
+<web_utils>1970-00-01 00:45:14,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:45:14,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:45:14,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.1, request_num = 4, diagtype = 2
+<web_custom>1970-00-01 00:45:14,../custom/ping_diagnosis.c[618](setPing): responseText = 0|
+<web_utils>1970-00-01 00:45:32,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:45:32,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:45:32,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.50.230, request_num = 1, diagtype = 1
+<web_custom>1970-00-01 00:45:32,../custom/ping_diagnosis.c[545](setPing):  command = ping -c 5 192.168.50.230
+<web_custom>1970-00-01 00:45:32,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+<web_utils>1970-00-01 00:45:32,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:45:32,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:45:32,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.50.230, request_num = 2, diagtype = 1
+<web_custom>1970-00-01 00:45:32,../custom/ping_diagnosis.c[618](setPing): responseText = 1|PING 192.168.50.230 (192.168.50.230): 56 data bytes
+
+<web_utils>1970-00-01 00:45:32,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:45:32,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:45:32,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.50.230, request_num = 3, diagtype = 1
+<web_custom>1970-00-01 00:45:32,../custom/ping_diagnosis.c[618](setPing): responseText = 0|
+<web_utils>1970-00-01 00:45:39,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:45:39,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:45:39,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.50.230, request_num = 1, diagtype = 2
+<web_custom>1970-00-01 00:45:39,../custom/ping_diagnosis.c[545](setPing):  command = traceroute -I 192.168.50.230
+<web_custom>1970-00-01 00:45:39,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+<web_utils>1970-00-01 00:45:39,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:45:39,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:45:39,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.50.230, request_num = 2, diagtype = 2
+<web_custom>1970-00-01 00:45:39,../custom/ping_diagnosis.c[618](setPing): responseText = 2|Failed! Network is unreachable!
+<web_utils>1970-00-01 00:45:41,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:45:41,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:45:59,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:45:59,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:46:03,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:46:03,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:46:03,../custom/multi_nat.c[519](GetMuti_NatsizeSync): GetMuti_NatsizeSync()!
+<web_utils>1970-00-01 00:46:03,../utils/utils_wan.c[622](wan_name_sync): enter wanNameSync()!
+<web_custom>1970-00-01 00:46:03,../custom/multi_nat.c[342](Muti_NatSync): enter Muti_NatSync()!
+<web_utils>1970-00-01 00:46:16,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:46:16,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:46:16,../custom/account_admin.c[195](get_user_list_sync): enter get_user_list_sync()!
+<web_custom>1970-00-01 00:46:16,../custom/account_admin.c[130](user_list_sync): enter user_list_sync()!
+<web_custom>1970-00-01 00:46:16,../custom/account_admin.c[134](user_list_sync): string_buff: 2
+<web_utils>1970-00-01 00:46:18,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:46:18,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:46:18,../custom/vpn.c[82](setVPNEnableSync): enter setVPNEnableSync()!
+<web_custom>1970-00-01 00:46:18,../custom/vpn.c[87](setVPNEnableSync): VPNEnableSync VPNEnable=1
+<web_custom>1970-00-01 00:46:18,../custom/vpn.c[88](setVPNEnableSync): VPNEnableSync getRst=0
+<web_utils>1970-00-01 00:46:18,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:46:18,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:46:18,../custom/firewall.c[133](firewallEnableSync): enter firewallEnableSync()!
+<web_custom>1970-00-01 00:46:18,../custom/firewall.c[138](firewallEnableSync): firewallEnableSync firewallEnable = 0
+<web_custom>1970-00-01 00:46:18,../custom/firewall.c[139](firewallEnableSync): firewallEnableSync getRst = 0
+<web_utils>1970-00-01 00:46:21,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:46:21,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:46:21,../custom/wireless.c[137](wirelessBasicSync): enter wirelessBasicSync()!
+<web_utils>1970-00-01 00:46:24,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:46:24,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:46:24,../custom/wan.c[3453](GetWANsizeSync): GetWANsizeSync()!
+<web_custom>1970-00-01 00:46:24,../custom/wan.c[3457](GetWANsizeSync): MAS_GetAllWanServiceApi getRst= 0
+<web_custom>1970-00-01 00:46:24,../custom/wan.c[3138](WanSync): WanSync()!
+<web_utils>1970-00-01 00:46:25,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:46:25,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:46:25,../custom/default_route.c[392](v4_dr_sync): v4_dr_sync()!
+<web_utils>1970-00-01 00:46:25,../utils/utils_wan.c[622](wan_name_sync): enter wanNameSync()!
+<web_utils>1970-00-01 00:46:27,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:46:27,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:46:27,../custom/ipv4_static_route.c[428](get_v4_static_route_sync): enter get_v4_static_route_sync()!
+<web_utils>1970-00-01 00:46:27,../utils/utils_wan.c[622](wan_name_sync): enter wanNameSync()!
+<web_custom>1970-00-01 00:46:27,../custom/ipv4_static_route.c[353](v4_static_route_sync): enter v4_static_route_sync()!
+<web_utils>1970-00-01 00:46:40,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:46:40,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:46:40,../custom/web_sncfg.c[474](sncfgSync): enter sncfgSync()!
+<web_custom>1970-00-01 00:46:40,../custom/web_sncfg.c[163](pwdcfgSync): enter pwdcfgSync()!
+<web_utils>1970-00-01 00:46:44,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:46:44,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:46:44,../custom/wan.c[3453](GetWANsizeSync): GetWANsizeSync()!
+<web_custom>1970-00-01 00:46:44,../custom/wan.c[3457](GetWANsizeSync): MAS_GetAllWanServiceApi getRst= 0
+<web_custom>1970-00-01 00:46:44,../custom/wan.c[3138](WanSync): WanSync()!
+<web_utils>1970-00-01 00:46:52,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:46:52,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:46:52,../custom/web_sncfg.c[474](sncfgSync): enter sncfgSync()!
+<web_custom>1970-00-01 00:46:52,../custom/web_sncfg.c[163](pwdcfgSync): enter pwdcfgSync()!
+<web_utils>1970-00-01 00:46:55,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:46:55,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:46:55,../custom/state.c[1730](setWAN_IPV6InfoSync): enter setWAN_IPV6InfoSync()!
+<web_custom>1970-00-01 00:46:55,../custom/state.c[1739](setWAN_IPV6InfoSync): MAS_GetWanIPv6IPApi rst = 0, ipv6_ip =
+<web_custom>1970-00-01 00:46:55,../custom/state.c[1745](setWAN_IPV6InfoSync): MAS_GetWanIPv6PrefixApi rst = 0, ipv6Prefix =
+<web_custom>1970-00-01 00:46:55,../custom/state.c[1751](setWAN_IPV6InfoSync): MAS_GetWanIPv6GatewayApi rst = 0, ipv6_gateway =
+<web_custom>1970-00-01 00:46:55,../custom/state.c[1757](setWAN_IPV6InfoSync): MAS_GetWanIPv6PriDnsApi rst = 0, ipv6_pridns =
+<web_custom>1970-00-01 00:46:55,../custom/state.c[1763](setWAN_IPV6InfoSync): MAS_GetWanIPv6PriDnsApi rst = 0, ipv6_secdns =
+<web_custom>1970-00-01 00:46:55,../custom/state.c[750](get_wan_detail): enter get_wan_detail()!
+<web_custom>1970-00-01 00:46:55,../custom/state.c[799](get_wan_detail): gl3_web_get_wan_index_by_name rst = -1
+<web_custom>1970-00-01 00:46:55,../custom/state.c[994](setWANInfoSync): enter setWANInfoSync()!
+<web_custom>1970-00-01 00:46:55,../custom/state.c[1791](mutiwan_ipv6_sync): enter mutiwan_ipv6_sync()!
+<web_utils>1970-00-01 00:47:01,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:01,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:03,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:03,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:47:03,../custom/state.c[2966](setWirelessstateSync): wifiStatGet ssidNo: 1
+<web_custom>1970-00-01 00:47:03,../custom/state.c[2966](setWirelessstateSync): wifiStatGet ssidNo: 2
+<web_custom>1970-00-01 00:47:03,../custom/state.c[2966](setWirelessstateSync): wifiStatGet ssidNo: 3
+<web_custom>1970-00-01 00:47:03,../custom/state.c[2966](setWirelessstateSync): wifiStatGet ssidNo: 4
+<web_utils>1970-00-01 00:47:04,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:04,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:47:04,../custom/wifimaclist.c[511](getWifiMac_IPListParam): enter getWifiMac_IPListParam()!
+<web_utils>1970-00-01 00:47:12,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:12,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:47:12,../custom/wireless.c[137](wirelessBasicSync): enter wirelessBasicSync()!
+<web_utils>1970-00-01 00:47:14,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:14,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:47:14,../custom/wifipowerctrl.c[138](wifiPowerCtrlSync): wifiPower = 100
+<web_utils>1970-00-01 00:47:16,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:16,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:47:16,../custom/wireless.c[1901](SecuritySync): enter SecuritySync()!
+<web_utils>1970-00-01 00:47:17,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:47:17,../custom/wireless.c[989](getSecurity): enter getSecurity num_ssid: 4
+<web_utils>1970-00-01 00:47:19,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:19,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:47:19,../custom/firewall.c[133](firewallEnableSync): enter firewallEnableSync()!
+<web_custom>1970-00-01 00:47:19,../custom/firewall.c[138](firewallEnableSync): firewallEnableSync firewallEnable = 0
+<web_custom>1970-00-01 00:47:19,../custom/firewall.c[139](firewallEnableSync): firewallEnableSync getRst = 0
+<web_utils>1970-00-01 00:47:21,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:21,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:47:21,../custom/vpn.c[82](setVPNEnableSync): enter setVPNEnableSync()!
+<web_custom>1970-00-01 00:47:21,../custom/vpn.c[87](setVPNEnableSync): VPNEnableSync VPNEnable=1
+<web_custom>1970-00-01 00:47:21,../custom/vpn.c[88](setVPNEnableSync): VPNEnableSync getRst=0
+<web_utils>1970-00-01 00:47:28,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:28,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:47:28,../custom/account_admin.c[195](get_user_list_sync): enter get_user_list_sync()!
+<web_custom>1970-00-01 00:47:28,../custom/account_admin.c[130](user_list_sync): enter user_list_sync()!
+<web_custom>1970-00-01 00:47:28,../custom/account_admin.c[134](user_list_sync): string_buff: 2
+<web_utils>1970-00-01 00:47:29,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:29,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:32,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:32,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:47:32,../custom/vpn.c[82](setVPNEnableSync): enter setVPNEnableSync()!
+<web_custom>1970-00-01 00:47:32,../custom/vpn.c[87](setVPNEnableSync): VPNEnableSync VPNEnable=1
+<web_custom>1970-00-01 00:47:32,../custom/vpn.c[88](setVPNEnableSync): VPNEnableSync getRst=0
+<web_utils>1970-00-01 00:47:33,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:33,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:35,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:35,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:47:35,../custom/port_forwarding.c[512](GetPortForwardsizeSync): GetPortForwardsizeSync()!
+<web_utils>1970-00-01 00:47:35,../utils/utils_wan.c[622](wan_name_sync): enter wanNameSync()!
+<web_custom>1970-00-01 00:47:35,../custom/port_forwarding.c[354](portForwardingSync): enter portForwardingSync()!
+<web_utils>1970-00-01 00:47:36,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:36,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:47:36,../custom/multi_nat.c[519](GetMuti_NatsizeSync): GetMuti_NatsizeSync()!
+<web_utils>1970-00-01 00:47:36,../utils/utils_wan.c[622](wan_name_sync): enter wanNameSync()!
+<web_custom>1970-00-01 00:47:36,../custom/multi_nat.c[342](Muti_NatSync): enter Muti_NatSync()!
+<web_utils>1970-00-01 00:47:52,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:52,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:47:52,../custom/firewall.c[133](firewallEnableSync): enter firewallEnableSync()!
+<web_custom>1970-00-01 00:47:52,../custom/firewall.c[138](firewallEnableSync): firewallEnableSync firewallEnable = 0
+<web_custom>1970-00-01 00:47:52,../custom/firewall.c[139](firewallEnableSync): firewallEnableSync getRst = 0
+<web_utils>1970-00-01 00:47:55,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:55,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:47:55,../custom/macaddr_filter.c[78](macaddr_filter_enableSync): enter macaddr_filter_enableSync()!
+<web_custom>1970-00-01 00:47:55,../custom/macaddr_filter.c[96](macaddr_filter_enableSync): macaddr_filter_enable = 0
+<web_custom>1970-00-01 00:47:55,../custom/macaddr_filter.c[101](macaddr_filter_enableSync): mac_black_white = 0
+<web_custom>1970-00-01 00:47:55,../custom/macaddr_filter.c[225](macaddr_getsizeSync): enter macaddr_getsizeSync()!
+<web_custom>1970-00-01 00:47:55,../custom/macaddr_filter.c[138](macaddr_filterSync): enter macaddr_filter_enableSync()!
+<web_utils>1970-00-01 00:47:57,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:57,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:47:57,../custom/macaddr_filter.c[593](macaddr_v6_filter_enableSync): enter macaddr_v6_filter_enableSync()!
+<web_custom>1970-00-01 00:47:57,../custom/macaddr_filter.c[611](macaddr_v6_filter_enableSync): macaddr_v6_filter_enable = 0
+<web_custom>1970-00-01 00:47:57,../custom/macaddr_filter.c[616](macaddr_v6_filter_enableSync): mac_v6_black_white = 0
+<web_custom>1970-00-01 00:47:57,../custom/macaddr_filter.c[740](macaddr_v6_getsizeSync): enter macaddr_v6_getsizeSync()!
+<web_custom>1970-00-01 00:47:57,../custom/macaddr_filter.c[653](macaddr_v6_filterSync): enter macaddr_v6_filterSync()!
+<web_utils>1970-00-01 00:47:58,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:47:58,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:47:58,../custom/dhcp_filter.c[90](DHCP_filter_enableSync): enter macaddr_filter_enableSync()!
+<web_custom>1970-00-01 00:47:58,../custom/dhcp_filter.c[108](DHCP_filter_enableSync): dhcp_filter_enable = 0
+<web_custom>1970-00-01 00:47:59,../custom/dhcp_filter.c[113](DHCP_filter_enableSync): dhcpmac_black_white = 0
+<web_custom>1970-00-01 00:47:59,../custom/dhcp_filter.c[236](DHCP_getsizeSync): enter DHCP_getsizeSync()!
+<web_custom>1970-00-01 00:47:59,../custom/dhcp_filter.c[242](DHCP_getsizeSync): ************** macaddr_filter_size =0
+<web_custom>1970-00-01 00:47:59,../custom/dhcp_filter.c[150](DHCP_filterSync): enter DHCP_filterSync()!
+<web_custom>1970-00-01 00:47:59,../custom/dhcp_filter.c[154](DHCP_filterSync): **********asdasdasd**** macaddr_filter_size = 0
+<web_utils>1970-00-01 00:48:00,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:00,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:00,../custom/url_filter.c[412](URL_Black_WhiteSync): enter URL_Black_WhiteSync()!
+<web_custom>1970-00-01 00:48:00,../custom/url_filter.c[416](URL_Black_WhiteSync): url_white = 0
+<web_custom>1970-00-01 00:48:00,../custom/url_filter.c[417](URL_Black_WhiteSync): url_enable = 0
+<web_custom>1970-00-01 00:48:00,../custom/url_filter.c[483](URL_filterSync): enter URL_filterSync()!
+<web_utils>1970-00-01 00:48:01,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:01,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:01,../custom/ipv6_filter.c[171](ipFilterSync_v6): enter ipFilterSync_v6()!
+<web_custom>1970-00-01 00:48:01,../custom/ipv6_filter.c[218](ipFilterSync_v6): up_enable = 0
+<web_custom>1970-00-01 00:48:01,../custom/ipv6_filter.c[219](ipFilterSync_v6): down_enable = 0
+<web_utils>1970-00-01 00:48:03,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:03,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:03,../custom/firewall.c[295](ipFilterSync): enter ip_filterSync()!
+<web_custom>1970-00-01 00:48:03,../custom/firewall.c[341](ipFilterSync): up_enable = 0
+<web_utils>1970-00-01 00:48:04,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:04,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:04,../custom/ipv6_filter.c[171](ipFilterSync_v6): enter ipFilterSync_v6()!
+<web_custom>1970-00-01 00:48:04,../custom/ipv6_filter.c[218](ipFilterSync_v6): up_enable = 0
+<web_custom>1970-00-01 00:48:04,../custom/ipv6_filter.c[219](ipFilterSync_v6): down_enable = 0
+<web_utils>1970-00-01 00:48:08,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:08,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:08,../custom/firewall.c[295](ipFilterSync): enter ip_filterSync()!
+<web_custom>1970-00-01 00:48:08,../custom/firewall.c[341](ipFilterSync): up_enable = 0
+<web_utils>1970-00-01 00:48:14,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:14,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:14,../custom/firewall.c[133](firewallEnableSync): enter firewallEnableSync()!
+<web_custom>1970-00-01 00:48:14,../custom/firewall.c[138](firewallEnableSync): firewallEnableSync firewallEnable = 0
+<web_custom>1970-00-01 00:48:14,../custom/firewall.c[139](firewallEnableSync): firewallEnableSync getRst = 0
+<web_utils>1970-00-01 00:48:16,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:16,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:16,../custom/remote_control.c[91](RemoteControlSync): enter RemoteControlSync()!
+<web_custom>1970-00-01 00:48:16,../custom/remote_control.c[289](HttpsEnableSync): enter HttpsEnableSync()!
+<web_custom>1970-00-01 00:48:16,../custom/web_port.c[69](webPortSync): enter webPortSync()!
+<web_utils>1970-00-01 00:48:20,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:20,../custom/remote_control.c[156](cfgRemoteControl): enter cfgRemoteControl!
+<web_utils>1970-00-01 00:48:20,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:20,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:20,../custom/remote_control.c[91](RemoteControlSync): enter RemoteControlSync()!
+<web_custom>1970-00-01 00:48:20,../custom/remote_control.c[289](HttpsEnableSync): enter HttpsEnableSync()!
+<web_custom>1970-00-01 00:48:20,../custom/web_port.c[69](webPortSync): enter webPortSync()!
+<web_utils>1970-00-01 00:48:22,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:22,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:22,../custom/routeqos_enable.c[78](QosEnableSync): enter QosEnableSync()!
+<web_custom>1970-00-01 00:48:22,../custom/routeqos_enable.c[84](QosEnableSync): get_route_qos_control getRst= 0
+<web_custom>1970-00-01 00:48:22,../custom/routeqos_enable.c[85](QosEnableSync): qos_Enable = 0
+<web_utils>1970-00-01 00:48:25,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:25,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:25,../custom/route_qos.c[360](RouteQOSSync): enter RouteQOSSync()!
+<web_custom>1970-00-01 00:48:26,../custom/route_qos.c[364](RouteQOSSync): gl3_web_get_route_qos  getRst = 0
+<web_utils>1970-00-01 00:48:28,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:28,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:28,../custom/port_scan.c[204](DdosSync): enter DdosSync()!
+<web_custom>1970-00-01 00:48:28,../custom/port_scan.c[209](DdosSync): dos_Enable = 1
+<web_custom>1970-00-01 00:48:28,../custom/port_scan.c[210](DdosSync): getRst = 0
+<web_utils>1970-00-01 00:48:34,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:34,../custom/port_scan.c[249](setDDOSEnable): enter setPortScanEnable()!
+<web_custom>1970-00-01 00:48:34,../custom/port_scan.c[254](setDDOSEnable): PortScan_Enable=disable
+<web_custom>1970-00-01 00:48:34,../custom/port_scan.c[271](setDDOSEnable): web_control_ddos=0
+<web_utils>1970-00-01 00:48:34,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:34,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:34,../custom/port_scan.c[204](DdosSync): enter DdosSync()!
+<web_custom>1970-00-01 00:48:34,../custom/port_scan.c[209](DdosSync): dos_Enable = 0
+<web_custom>1970-00-01 00:48:34,../custom/port_scan.c[210](DdosSync): getRst = 0
+<web_utils>1970-00-01 00:48:35,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:35,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:35,../custom/remote_control.c[289](HttpsEnableSync): enter HttpsEnableSync()!
+<web_utils>1970-00-01 00:48:36,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:36,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:36,../custom/firewall.c[133](firewallEnableSync): enter firewallEnableSync()!
+<web_custom>1970-00-01 00:48:36,../custom/firewall.c[138](firewallEnableSync): firewallEnableSync firewallEnable = 0
+<web_custom>1970-00-01 00:48:36,../custom/firewall.c[139](firewallEnableSync): firewallEnableSync getRst = 0
+<web_utils>1970-00-01 00:48:37,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:37,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:37,../custom/web_sncfg.c[474](sncfgSync): enter sncfgSync()!
+<web_custom>1970-00-01 00:48:37,../custom/web_sncfg.c[163](pwdcfgSync): enter pwdcfgSync()!
+<web_utils>1970-00-01 00:48:40,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:40,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:40,../custom/state.c[629](opt_powerSync): enter opt_powerSync()!
+<web_utils>1970-00-01 00:48:46,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:46,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:46,../custom/vpn.c[82](setVPNEnableSync): enter setVPNEnableSync()!
+<web_custom>1970-00-01 00:48:46,../custom/vpn.c[87](setVPNEnableSync): VPNEnableSync VPNEnable=1
+<web_custom>1970-00-01 00:48:46,../custom/vpn.c[88](setVPNEnableSync): VPNEnableSync getRst=0
+<web_utils>1970-00-01 00:48:47,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:47,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:47,../custom/account_admin.c[195](get_user_list_sync): enter get_user_list_sync()!
+<web_custom>1970-00-01 00:48:47,../custom/account_admin.c[130](user_list_sync): enter user_list_sync()!
+<web_custom>1970-00-01 00:48:47,../custom/account_admin.c[134](user_list_sync): string_buff: 2
+<web_utils>1970-00-01 00:48:49,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:49,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:50,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:50,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:50,../custom/log.c[327](LogSync): enter LogSync()!
+<web_utils>1970-00-01 00:48:51,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:51,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:51,../custom/account_admin.c[195](get_user_list_sync): enter get_user_list_sync()!
+<web_custom>1970-00-01 00:48:51,../custom/account_admin.c[130](user_list_sync): enter user_list_sync()!
+<web_custom>1970-00-01 00:48:51,../custom/account_admin.c[134](user_list_sync): string_buff: 2
+<web_utils>1970-00-01 00:48:52,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:52,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:52,../custom/vpn.c[82](setVPNEnableSync): enter setVPNEnableSync()!
+<web_custom>1970-00-01 00:48:52,../custom/vpn.c[87](setVPNEnableSync): VPNEnableSync VPNEnable=1
+<web_custom>1970-00-01 00:48:52,../custom/vpn.c[88](setVPNEnableSync): VPNEnableSync getRst=0
+<web_utils>1970-00-01 00:48:53,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:53,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:55,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:55,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:48:55,../custom/multi_nat.c[519](GetMuti_NatsizeSync): GetMuti_NatsizeSync()!
+<web_utils>1970-00-01 00:48:55,../utils/utils_wan.c[622](wan_name_sync): enter wanNameSync()!
+<web_custom>1970-00-01 00:48:55,../custom/multi_nat.c[342](Muti_NatSync): enter Muti_NatSync()!
+<web_utils>1970-00-01 00:48:57,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:57,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:58,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:48:58,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:28,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:28,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:49:28,../custom/account_admin.c[195](get_user_list_sync): enter get_user_list_sync()!
+<web_custom>1970-00-01 00:49:28,../custom/account_admin.c[130](user_list_sync): enter user_list_sync()!
+<web_custom>1970-00-01 00:49:28,../custom/account_admin.c[134](user_list_sync): string_buff: 2
+<web_utils>1970-00-01 00:49:29,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:29,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:49:29,../custom/vpn.c[82](setVPNEnableSync): enter setVPNEnableSync()!
+<web_custom>1970-00-01 00:49:29,../custom/vpn.c[87](setVPNEnableSync): VPNEnableSync VPNEnable=1
+<web_custom>1970-00-01 00:49:29,../custom/vpn.c[88](setVPNEnableSync): VPNEnableSync getRst=0
+<web_utils>1970-00-01 00:49:30,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:30,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:49:30,../custom/firewall.c[133](firewallEnableSync): enter firewallEnableSync()!
+<web_custom>1970-00-01 00:49:30,../custom/firewall.c[138](firewallEnableSync): firewallEnableSync firewallEnable = 0
+<web_custom>1970-00-01 00:49:30,../custom/firewall.c[139](firewallEnableSync): firewallEnableSync getRst = 0
+<web_utils>1970-00-01 00:49:31,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:31,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:49:31,../custom/wireless.c[137](wirelessBasicSync): enter wirelessBasicSync()!
+<web_utils>1970-00-01 00:49:33,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:33,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:49:33,../custom/web_sncfg.c[474](sncfgSync): enter sncfgSync()!
+<web_custom>1970-00-01 00:49:33,../custom/web_sncfg.c[163](pwdcfgSync): enter pwdcfgSync()!
+<web_utils>1970-00-01 00:49:33,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:33,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:49:33,../custom/firewall.c[133](firewallEnableSync): enter firewallEnableSync()!
+<web_custom>1970-00-01 00:49:33,../custom/firewall.c[138](firewallEnableSync): firewallEnableSync firewallEnable = 0
+<web_custom>1970-00-01 00:49:33,../custom/firewall.c[139](firewallEnableSync): firewallEnableSync getRst = 0
+<web_utils>1970-00-01 00:49:34,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:34,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:49:34,../custom/vpn.c[82](setVPNEnableSync): enter setVPNEnableSync()!
+<web_custom>1970-00-01 00:49:34,../custom/vpn.c[87](setVPNEnableSync): VPNEnableSync VPNEnable=1
+<web_custom>1970-00-01 00:49:34,../custom/vpn.c[88](setVPNEnableSync): VPNEnableSync getRst=0
+<web_utils>1970-00-01 00:49:35,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:35,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:37,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:37,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:38,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:38,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:40,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:40,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:49:40,../custom/multi_nat.c[519](GetMuti_NatsizeSync): GetMuti_NatsizeSync()!
+<web_utils>1970-00-01 00:49:40,../utils/utils_wan.c[622](wan_name_sync): enter wanNameSync()!
+<web_custom>1970-00-01 00:49:40,../custom/multi_nat.c[342](Muti_NatSync): enter Muti_NatSync()!
+<web_utils>1970-00-01 00:49:43,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:43,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:49:43,../custom/port_forwarding.c[512](GetPortForwardsizeSync): GetPortForwardsizeSync()!
+<web_utils>1970-00-01 00:49:43,../utils/utils_wan.c[622](wan_name_sync): enter wanNameSync()!
+<web_custom>1970-00-01 00:49:43,../custom/port_forwarding.c[354](portForwardingSync): enter portForwardingSync()!
+<web_utils>1970-00-01 00:49:49,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:49,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:49:49,../custom/ddns.c[255](ddnsSync): enter ddnsSync()!
+<web_custom>1970-00-01 00:49:49,../custom/ddns.c[259](ddnsSync): ddnsSync get_ddns_parameters=0
+<web_utils>1970-00-01 00:49:49,../utils/utils_wan.c[622](wan_name_sync): enter wanNameSync()!
+<web_utils>1970-00-01 00:49:58,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:49:58,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:13,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:13,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:50:13,../custom/wireless.c[137](wirelessBasicSync): enter wirelessBasicSync()!
+<web_utils>1970-00-01 00:50:15,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:15,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:50:15,../custom/default_route.c[392](v4_dr_sync): v4_dr_sync()!
+<web_utils>1970-00-01 00:50:15,../utils/utils_wan.c[622](wan_name_sync): enter wanNameSync()!
+<web_utils>1970-00-01 00:50:17,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:17,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:50:17,../custom/ipv4_static_route.c[428](get_v4_static_route_sync): enter get_v4_static_route_sync()!
+<web_utils>1970-00-01 00:50:17,../utils/utils_wan.c[622](wan_name_sync): enter wanNameSync()!
+<web_custom>1970-00-01 00:50:17,../custom/ipv4_static_route.c[353](v4_static_route_sync): enter v4_static_route_sync()!
+<web_utils>1970-00-01 00:50:41,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:50:41,../custom/ipv4_static_route.c[69](v4_static_route_cfg): enter v4_static_route_cfg()!
+<web_custom>1970-00-01 00:50:41,../custom/ipv4_static_route.c[81](v4_static_route_cfg): from page set_index: new wan: INTERNET_B_VID_1 pip: 192.168.50.0 pgateway: 192.168.2.1 pmask: 255.255.255.0
+<web_utils>1970-00-01 00:50:41,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:41,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:50:41,../custom/ipv4_static_route.c[428](get_v4_static_route_sync): enter get_v4_static_route_sync()!
+<web_utils>1970-00-01 00:50:41,../utils/utils_wan.c[622](wan_name_sync): enter wanNameSync()!
+<web_custom>1970-00-01 00:50:41,../custom/ipv4_static_route.c[353](v4_static_route_sync): enter v4_static_route_sync()!
+<web_utils>1970-00-01 00:50:44,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:44,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:44,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:44,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:44,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:44,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:50:44,../custom/web_sncfg.c[474](sncfgSync): enter sncfgSync()!
+<web_custom>1970-00-01 00:50:44,../custom/web_sncfg.c[163](pwdcfgSync): enter pwdcfgSync()!
+<web_utils>1970-00-01 00:50:44,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:44,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:46,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:46,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:50:46,../custom/wireless.c[137](wirelessBasicSync): enter wirelessBasicSync()!
+<web_utils>1970-00-01 00:50:47,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:47,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:50:47,../custom/internet.c[100](setLanSync): enter setLanSync()!
+<web_custom>1970-00-01 00:50:47,../custom/dhcp.c[833](dhcpServiceSync): enter dhcpServiceSync()!
+<web_utils>1970-00-01 00:50:49,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:49,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:50:49,../custom/default_route.c[392](v4_dr_sync): v4_dr_sync()!
+<web_utils>1970-00-01 00:50:49,../utils/utils_wan.c[622](wan_name_sync): enter wanNameSync()!
+<web_utils>1970-00-01 00:50:50,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:50,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:50:50,../custom/ipv4_static_route.c[428](get_v4_static_route_sync): enter get_v4_static_route_sync()!
+<web_utils>1970-00-01 00:50:50,../utils/utils_wan.c[622](wan_name_sync): enter wanNameSync()!
+<web_custom>1970-00-01 00:50:50,../custom/ipv4_static_route.c[353](v4_static_route_sync): enter v4_static_route_sync()!
+<web_utils>1970-00-01 00:50:59,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:59,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:50:59,../custom/vpn.c[82](setVPNEnableSync): enter setVPNEnableSync()!
+<web_custom>1970-00-01 00:50:59,../custom/vpn.c[87](setVPNEnableSync): VPNEnableSync VPNEnable=1
+<web_custom>1970-00-01 00:50:59,../custom/vpn.c[88](setVPNEnableSync): VPNEnableSync getRst=0
+<web_utils>1970-00-01 00:50:59,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:50:59,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:51:00,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:51:00,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:51:07,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:51:07,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:51:07,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.50.1, request_num = 1, diagtype = 1
+<web_custom>1970-00-01 00:51:07,../custom/ping_diagnosis.c[545](setPing):  command = ping -c 5 192.168.50.1
+<web_custom>1970-00-01 00:51:07,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+<web_utils>1970-00-01 00:51:07,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:51:07,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:51:07,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.50.1, request_num = 2, diagtype = 1
+<web_custom>1970-00-01 00:51:07,../custom/ping_diagnosis.c[618](setPing): responseText = 1|PING 192.168.50.1 (192.168.50.1): 56 data bytes
+
+<web_utils>1970-00-01 00:51:07,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:51:07,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:51:07,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.50.1, request_num = 3, diagtype = 1
+<web_custom>1970-00-01 00:51:07,../custom/ping_diagnosis.c[618](setPing): responseText = 0|
+<web_utils>1970-00-01 00:51:18,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:51:18,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:51:18,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.50.1, request_num = 1, diagtype = 2
+<web_custom>1970-00-01 00:51:18,../custom/ping_diagnosis.c[545](setPing):  command = traceroute -I 192.168.50.1
+<web_custom>1970-00-01 00:51:18,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+<web_utils>1970-00-01 00:51:18,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:51:18,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:51:18,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.50.1, request_num = 2, diagtype = 2
+<web_custom>1970-00-01 00:51:18,../custom/ping_diagnosis.c[618](setPing): responseText = 2|Failed! Network is unreachable!
+<web_utils>1970-00-01 00:51:28,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:51:28,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:51:28,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.222, request_num = 1, diagtype = 2
+<web_custom>1970-00-01 00:51:28,../custom/ping_diagnosis.c[545](setPing):  command = traceroute -I 192.168.2.222
+<web_custom>1970-00-01 00:51:28,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+<web_utils>1970-00-01 00:51:28,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:51:28,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:51:28,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.222, request_num = 2, diagtype = 2
+<web_custom>1970-00-01 00:51:31,../custom/ping_diagnosis.c[618](setPing): responseText = 1|traceroute to 192.168.2.222 (192.168.2.222), 30 hops max, 60 byte packets
+
+<web_utils>1970-00-01 00:51:31,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:51:31,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:51:31,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.222, request_num = 3, diagtype = 2
+<web_custom>1970-00-01 00:51:31,../custom/ping_diagnosis.c[618](setPing): responseText = 1| 1  192.168.2.2 (192.168.2.2)  3004.714 ms !H  3004.313 ms !H  3004.263 ms !H
+
+<web_utils>1970-00-01 00:51:31,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:51:31,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:51:31,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.222, request_num = 4, diagtype = 2
+<web_custom>1970-00-01 00:51:31,../custom/ping_diagnosis.c[618](setPing): responseText = 0|
+<web_utils>1970-00-01 00:51:37,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:51:37,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:51:37,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.222, request_num = 1, diagtype = 1
+<web_custom>1970-00-01 00:51:37,../custom/ping_diagnosis.c[545](setPing):  command = ping -c 5 192.168.2.222
+<web_custom>1970-00-01 00:51:37,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+<web_utils>1970-00-01 00:51:37,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:51:37,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:51:37,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.222, request_num = 2, diagtype = 1
+<web_custom>1970-00-01 00:51:51,../custom/ping_diagnosis.c[618](setPing): responseText = 1|PING 192.168.2.222 (192.168.2.222): 56 data bytes
+
+<web_utils>1970-00-01 00:51:51,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:51:51,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:51:51,../custom/wireless.c[137](wirelessBasicSync): enter wirelessBasicSync()!
+<web_utils>1970-00-01 00:51:51,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:51:52,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:51:52,../custom/internet.c[100](setLanSync): enter setLanSync()!
+<web_custom>1970-00-01 00:51:52,../custom/dhcp.c[833](dhcpServiceSync): enter dhcpServiceSync()!
+<web_utils>1970-00-01 00:51:52,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:51:52,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:51:52,../custom/ping_diagnosis.c[516](setPing): ping_ip = 192.168.2.222, request_num = 3, diagtype = 1
+<web_custom>1970-00-01 00:51:52,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+
+<web_utils>1970-00-01 00:52:12,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:52:12,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:52:12,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:52:13,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:52:13,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:52:13,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:52:13,../custom/web_sncfg.c[474](sncfgSync): enter sncfgSync()!
+<web_custom>1970-00-01 00:52:13,../custom/web_sncfg.c[163](pwdcfgSync): enter pwdcfgSync()!
+<web_utils>1970-00-01 00:52:13,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:52:13,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:52:14,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:52:14,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:52:14,../custom/wireless.c[137](wirelessBasicSync): enter wirelessBasicSync()!
+<web_utils>1970-00-01 00:52:16,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:52:16,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:52:16,../custom/internet.c[100](setLanSync): enter setLanSync()!
+<web_custom>1970-00-01 00:52:16,../custom/dhcp.c[833](dhcpServiceSync): enter dhcpServiceSync()!
+<web_utils>1970-00-01 00:53:06,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:53:06,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:53:06,../custom/internet.c[100](setLanSync): enter setLanSync()!
+<web_custom>1970-00-01 00:53:06,../custom/dhcp.c[833](dhcpServiceSync): enter dhcpServiceSync()!
+<web_utils>1970-00-01 00:53:36,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:53:36,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:53:36,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:53:36,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:53:36,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:53:36,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:53:36,../custom/web_sncfg.c[474](sncfgSync): enter sncfgSync()!
+<web_custom>1970-00-01 00:53:36,../custom/web_sncfg.c[163](pwdcfgSync): enter pwdcfgSync()!
+<web_utils>1970-00-01 00:53:36,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:53:36,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:53:38,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:53:38,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:53:39,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:53:39,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:53:41,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:53:41,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:53:41,../custom/wireless.c[137](wirelessBasicSync): enter wirelessBasicSync()!
+<web_utils>1970-00-01 00:53:42,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:53:42,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:53:42,../custom/internet.c[100](setLanSync): enter setLanSync()!
+<web_custom>1970-00-01 00:53:42,../custom/dhcp.c[833](dhcpServiceSync): enter dhcpServiceSync()!
+<web_utils>1970-00-01 00:53:59,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:53:59,../custom/internet.c[483](setLan): enter setLan()!
+<web_custom>1970-00-01 00:53:59,../custom/dhcp.c[691](setDhcp): enter setDhcp()!
+<web_utils>1970-00-01 00:53:59,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:53:59,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:53:59,../custom/internet.c[100](setLanSync): enter setLanSync()!
+<web_custom>1970-00-01 00:53:59,../custom/dhcp.c[833](dhcpServiceSync): enter dhcpServiceSync()!
+<web_utils>1970-00-01 00:54:04,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:54:04,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:54:04,../custom/account_admin.c[195](get_user_list_sync): enter get_user_list_sync()!
+<web_custom>1970-00-01 00:54:04,../custom/account_admin.c[130](user_list_sync): enter user_list_sync()!
+<web_custom>1970-00-01 00:54:04,../custom/account_admin.c[134](user_list_sync): string_buff: 2
+<web_utils>1970-00-01 00:54:06,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:54:06,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:54:08,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:54:08,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:54:10,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:54:10,../custom/restore.c[660](reboot): enter reboot()!
+<web_init>1970-00-01 00:54:10,main.c[311](main): Begin to close web!!!!! finished = 1
+<web_init>1970-00-01 00:54:10,main.c[336](main): release file lock OK!
+<web_utils>1970-00-01 00:00:52,../utils/flash_api.c[502](web_flash_clear): /fhcfg/webconfig exists! Web delete it for init!
+<web_init>1970-00-01 00:00:52,main.c[205](main): param version is null. default version = 0
+<web_init>1970-00-01 00:00:52,main.c[473](initWebs): host_ip = 0.0.0.0
+<web_init>1970-00-01 00:00:52,main.c[497](initWebs): webdir = ./web
+<web_init>1970-00-01 00:00:52,main.c[515](initWebs): ipaddr = 0.0.0.0
+<web_init>1970-00-01 00:00:52,main.c[543](initWebs): config file /fhcfg/web_portcfg not exsit!
+<web_init>1970-00-01 00:00:52,main.c[563](initWebs): port = 80
+<web_init>1970-00-01 00:00:57,../utils/boot_version_control.c[225](init_params_U_ISP): ISP_NAME is illegal! ISP_NAME = INDONESIA_TELKOM
+<web_init>1970-00-01 00:00:57,../utils/boot_version_control.c[329](init_params_U_ISP): ISP_MINOR_NAME is illegal! ISP_MINOR_NAME = INDONESIA_TELKOM
+<web_init>1970-00-01 00:00:57,../utils/device_classiy.c[1525](getHardwareConfig): The device hardware configration value ((0x69))
+<web_init>1970-00-01 00:00:57,../utils/device_classiy.c[834](checkDeviceFunction): Device type AN5506-04-F4G, voip: 1 wifi: 1 usb: 1 lan_port_num: 4 voip_port_num: 2
+<web_utils>1970-00-01 00:00:57,../utils/cu_sessionManagement.c[88](initSessionList): initSessionList OK!
+<web_custom>1970-00-01 00:00:57,../custom/weblogin.c[291](init_Login_retry_List): initSessionList OK!
+<web_init>1970-00-01 00:00:57,../utils/device_classiy.c[1577](initVoipProtocolType): Tr104GetProtocolTypeFromScript voipProtocolType: 4
+<web_init>1970-00-01 00:00:57,../utils/device_classiy.c[2011](initMenuCfg): acMenuPath = sfu/tongyong/multiroute/sip
+<web_utils>1970-00-01 00:00:57,../utils/cu_log.c[455](delete_oldhead): ****************lineNum = 78
+<web_init>1970-00-01 00:07:57,main.c[311](main): Begin to close web!!!!! finished = 1
+<web_init>1970-00-01 00:07:57,main.c[336](main): release file lock OK!
+<web_utils>1970-00-01 00:00:51,../utils/flash_api.c[502](web_flash_clear): /fhcfg/webconfig exists! Web delete it for init!
+<web_init>1970-00-01 00:00:51,main.c[205](main): param version is null. default version = 0
+<web_init>1970-00-01 00:00:51,main.c[473](initWebs): host_ip = 192.168.1.1
+<web_init>1970-00-01 00:00:51,main.c[497](initWebs): webdir = ./web
+<web_init>1970-00-01 00:00:52,main.c[515](initWebs): ipaddr = 192.168.1.1
+<web_init>1970-00-01 00:00:52,main.c[543](initWebs): config file /fhcfg/web_portcfg not exsit!
+<web_init>1970-00-01 00:00:52,main.c[563](initWebs): port = 80
+<web_init>1970-00-01 00:00:56,../utils/boot_version_control.c[225](init_params_U_ISP): ISP_NAME is illegal! ISP_NAME = INDONESIA_TELKOM
+<web_init>1970-00-01 00:00:56,../utils/boot_version_control.c[329](init_params_U_ISP): ISP_MINOR_NAME is illegal! ISP_MINOR_NAME = INDONESIA_TELKOM
+<web_init>1970-00-01 00:00:56,../utils/device_classiy.c[1525](getHardwareConfig): The device hardware configration value ((0x69))
+<web_init>1970-00-01 00:00:56,../utils/device_classiy.c[834](checkDeviceFunction): Device type AN5506-04-F4G, voip: 1 wifi: 1 usb: 1 lan_port_num: 4 voip_port_num: 2
+<web_utils>1970-00-01 00:00:56,../utils/cu_sessionManagement.c[88](initSessionList): initSessionList OK!
+<web_custom>1970-00-01 00:00:56,../custom/weblogin.c[291](init_Login_retry_List): initSessionList OK!
+<web_init>1970-00-01 00:00:56,../utils/device_classiy.c[1577](initVoipProtocolType): Tr104GetProtocolTypeFromScript voipProtocolType: 4
+<web_init>1970-00-01 00:00:56,../utils/device_classiy.c[2011](initMenuCfg): acMenuPath = sfu/tongyong/multiroute/sip
+<web_utils>1970-00-01 00:00:56,../utils/cu_log.c[455](delete_oldhead): ****************lineNum = 78
+<web_init>1970-00-01 00:00:56,../custom/custom.c[759](restoreUMDb): Warning! UM_GROUP_ADMIN_OPERATOR umAddAccessLimit failed! iRst = -4
+<web_init>1970-00-01 00:00:56,../custom/custom.c[792](restoreUMDb): Warning! UM_GROUP_ADMIN_SUPER umAddAccessLimit failed! iRst = -4
+<web_utils>1970-00-01 00:00:52,../utils/flash_api.c[502](web_flash_clear): /fhcfg/webconfig exists! Web delete it for init!
+<web_init>1970-00-01 00:00:53,main.c[205](main): param version is null. default version = 0
+<web_init>1970-00-01 00:00:53,main.c[473](initWebs): host_ip = 192.168.1.1
+<web_init>1970-00-01 00:00:53,main.c[497](initWebs): webdir = ./web
+<web_init>1970-00-01 00:00:53,main.c[515](initWebs): ipaddr = 192.168.1.1
+<web_init>1970-00-01 00:00:53,main.c[543](initWebs): config file /fhcfg/web_portcfg not exsit!
+<web_init>1970-00-01 00:00:53,main.c[563](initWebs): port = 80
+<web_init>1970-00-01 00:00:57,../utils/boot_version_control.c[225](init_params_U_ISP): ISP_NAME is illegal! ISP_NAME = INDONESIA_TELKOM
+<web_init>1970-00-01 00:00:57,../utils/boot_version_control.c[329](init_params_U_ISP): ISP_MINOR_NAME is illegal! ISP_MINOR_NAME = INDONESIA_TELKOM
+<web_init>1970-00-01 00:00:57,../utils/device_classiy.c[1525](getHardwareConfig): The device hardware configration value ((0x69))
+<web_init>1970-00-01 00:00:57,../utils/device_classiy.c[834](checkDeviceFunction): Device type AN5506-04-F4G, voip: 1 wifi: 1 usb: 1 lan_port_num: 4 voip_port_num: 2
+<web_utils>1970-00-01 00:00:57,../utils/cu_sessionManagement.c[88](initSessionList): initSessionList OK!
+<web_custom>1970-00-01 00:00:57,../custom/weblogin.c[291](init_Login_retry_List): initSessionList OK!
+<web_init>1970-00-01 00:00:57,../utils/device_classiy.c[1577](initVoipProtocolType): Tr104GetProtocolTypeFromScript voipProtocolType: 4
+<web_init>1970-00-01 00:00:57,../utils/device_classiy.c[2011](initMenuCfg): acMenuPath = sfu/tongyong/multiroute/sip
+<web_utils>1970-00-01 00:00:57,../utils/cu_log.c[455](delete_oldhead): ****************lineNum = 78
+<web_utils>1970-00-01 00:00:52,../utils/flash_api.c[502](web_flash_clear): /fhcfg/webconfig exists! Web delete it for init!
+<web_init>1970-00-01 00:00:52,main.c[205](main): param version is null. default version = 0
+<web_init>1970-00-01 00:00:52,main.c[473](initWebs): host_ip = 192.168.1.1
+<web_init>1970-00-01 00:00:52,main.c[497](initWebs): webdir = ./web
+<web_init>1970-00-01 00:00:52,main.c[515](initWebs): ipaddr = 192.168.1.1
+<web_init>1970-00-01 00:00:52,main.c[543](initWebs): config file /fhcfg/web_portcfg not exsit!
+<web_init>1970-00-01 00:00:52,main.c[563](initWebs): port = 80
+<web_init>1970-00-01 00:00:56,../utils/boot_version_control.c[225](init_params_U_ISP): ISP_NAME is illegal! ISP_NAME = INDONESIA_TELKOM
+<web_init>1970-00-01 00:00:56,../utils/boot_version_control.c[329](init_params_U_ISP): ISP_MINOR_NAME is illegal! ISP_MINOR_NAME = INDONESIA_TELKOM
+<web_init>1970-00-01 00:00:56,../utils/device_classiy.c[1525](getHardwareConfig): The device hardware configration value ((0x69))
+<web_init>1970-00-01 00:00:56,../utils/device_classiy.c[834](checkDeviceFunction): Device type AN5506-04-F4G, voip: 1 wifi: 1 usb: 1 lan_port_num: 4 voip_port_num: 2
+<web_utils>1970-00-01 00:00:56,../utils/cu_sessionManagement.c[88](initSessionList): initSessionList OK!
+<web_custom>1970-00-01 00:00:56,../custom/weblogin.c[291](init_Login_retry_List): initSessionList OK!
+<web_init>1970-00-01 00:00:56,../utils/device_classiy.c[1577](initVoipProtocolType): Tr104GetProtocolTypeFromScript voipProtocolType: 4
+<web_init>1970-00-01 00:00:56,../utils/device_classiy.c[2011](initMenuCfg): acMenuPath = sfu/tongyong/multiroute/sip
+<web_utils>1970-00-01 00:00:56,../utils/cu_log.c[455](delete_oldhead): ****************lineNum = 78
+<web_utils>1970-00-01 00:01:56,../utils/cu_web_access_control.c[396](getLoginUserFromCookie): There isn't cookie! No login!
+<web_utils>1970-00-01 00:01:56,../utils/cu_web_access_control.c[87](web_access_control): can not find loginName in cookies !
+<web_custom>1970-00-01 00:01:57,../custom/weblogin.c[2324](getRegisterButton): enter getRegisterButton()!
+<web_custom>1970-00-01 00:02:05,../custom/weblogin.c[499](webLogin): enter webLogin()!
+<web_custom>1970-00-01 00:02:05,../custom/weblogin.c[564](webLogin): *************userGroupName = 2
+<web_custom>1970-00-01 00:02:05,../custom/weblogin.c[635](webLogin): Login success!
+<web_utils>1970-00-01 00:02:06,../utils/cu_sessionManagement.c[465](findUser): no user named admin !
+<web_utils>1970-00-01 00:02:06,../utils/cu_sessionManagement.c[465](findUser): no user named admin !
+<web_utils>1970-00-01 00:02:06,../utils/cu_sessionManagement.c[238](createSession): create user admin!
+<web_utils>1970-00-01 00:02:06,../utils/cu_web_access_control.c[247](cu_login_post_deal): createSession result = 0 !
+<web_utils>1970-00-01 00:02:06,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:02:06,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:02:06,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:02:06,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:02:06,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:02:06,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:02:06,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:02:07,../custom/web_sncfg.c[474](sncfgSync): enter sncfgSync()!
+<web_custom>1970-00-01 00:02:07,../custom/web_sncfg.c[163](pwdcfgSync): enter pwdcfgSync()!
+<web_utils>1970-00-01 00:02:26,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:02:26,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:02:26,../custom/vpn.c[82](setVPNEnableSync): enter setVPNEnableSync()!
+<web_custom>1970-00-01 00:02:26,../custom/vpn.c[87](setVPNEnableSync): VPNEnableSync VPNEnable=1
+<web_custom>1970-00-01 00:02:26,../custom/vpn.c[88](setVPNEnableSync): VPNEnableSync getRst=0
+<web_utils>1970-00-01 00:02:27,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:02:27,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:04:42,../utils/cu_web_access_control.c[396](getLoginUserFromCookie): There isn't cookie! No login!
+<web_utils>1970-00-01 00:04:42,../utils/cu_web_access_control.c[87](web_access_control): can not find loginName in cookies !
+<web_custom>1970-00-01 00:04:42,../custom/weblogin.c[2324](getRegisterButton): enter getRegisterButton()!
+<web_custom>1970-00-01 00:05:19,../custom/weblogin.c[499](webLogin): enter webLogin()!
+<web_custom>1970-00-01 00:05:19,../custom/weblogin.c[564](webLogin): *************userGroupName = 2
+<web_custom>1970-00-01 00:05:19,../custom/weblogin.c[635](webLogin): Login success!
+<web_utils>1970-00-01 00:05:19,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:05:19,../utils/cu_web_access_control.c[247](cu_login_post_deal): createSession result = 0 !
+<web_utils>1970-00-01 00:05:19,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:05:19,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:05:20,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:05:20,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:05:20,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:05:20,../custom/web_sncfg.c[474](sncfgSync): enter sncfgSync()!
+<web_custom>1970-00-01 00:05:20,../custom/web_sncfg.c[163](pwdcfgSync): enter pwdcfgSync()!
+<web_utils>1970-00-01 00:05:20,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:05:20,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:05:40,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:05:40,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:05:40,../custom/web_sncfg.c[474](sncfgSync): enter sncfgSync()!
+<web_custom>1970-00-01 00:05:40,../custom/web_sncfg.c[163](pwdcfgSync): enter pwdcfgSync()!
+<web_utils>1970-00-01 00:05:51,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:05:51,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:05:52,../custom/vpn.c[82](setVPNEnableSync): enter setVPNEnableSync()!
+<web_custom>1970-00-01 00:05:52,../custom/vpn.c[87](setVPNEnableSync): VPNEnableSync VPNEnable=1
+<web_custom>1970-00-01 00:05:52,../custom/vpn.c[88](setVPNEnableSync): VPNEnableSync getRst=0
+<web_utils>1970-00-01 00:05:56,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:05:56,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:06:11,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:11,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:11,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 1, diagtype = 1
+<web_custom>1970-00-01 00:06:11,../custom/ping_diagnosis.c[545](setPing):  command = ping -c 5 127.0.0.1
+<web_custom>1970-00-01 00:06:11,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+<web_utils>1970-00-01 00:06:11,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:11,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:11,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 2, diagtype = 1
+<web_custom>1970-00-01 00:06:11,../custom/ping_diagnosis.c[618](setPing): responseText = 1|PING 127.0.0.1 (127.0.0.1): 56 data bytes
+
+<web_utils>1970-00-01 00:06:11,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:11,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:11,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 3, diagtype = 1
+<web_custom>1970-00-01 00:06:11,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 127.0.0.1: seq=0 ttl=64 time=0.690 ms
+
+<web_utils>1970-00-01 00:06:11,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:11,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:11,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 4, diagtype = 1
+<web_custom>1970-00-01 00:06:12,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 127.0.0.1: seq=1 ttl=64 time=0.226 ms
+
+<web_utils>1970-00-01 00:06:12,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:12,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:12,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 5, diagtype = 1
+<web_custom>1970-00-01 00:06:13,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 127.0.0.1: seq=2 ttl=64 time=0.203 ms
+
+<web_utils>1970-00-01 00:06:13,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:13,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:13,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 6, diagtype = 1
+<web_custom>1970-00-01 00:06:14,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 127.0.0.1: seq=3 ttl=64 time=0.217 ms
+
+<web_utils>1970-00-01 00:06:14,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:14,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:14,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 7, diagtype = 1
+<web_custom>1970-00-01 00:06:15,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 127.0.0.1: seq=4 ttl=64 time=0.213 ms
+
+<web_utils>1970-00-01 00:06:15,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:15,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:15,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 8, diagtype = 1
+<web_custom>1970-00-01 00:06:15,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+
+<web_utils>1970-00-01 00:06:15,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:15,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:15,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 9, diagtype = 1
+<web_custom>1970-00-01 00:06:15,../custom/ping_diagnosis.c[618](setPing): responseText = 1|--- 127.0.0.1 ping statistics ---
+
+<web_utils>1970-00-01 00:06:15,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:15,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:15,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 10, diagtype = 1
+<web_custom>1970-00-01 00:06:15,../custom/ping_diagnosis.c[618](setPing): responseText = 1|5 packets transmitted, 5 packets received, 0% packet loss
+
+<web_utils>1970-00-01 00:06:15,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:15,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:15,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 11, diagtype = 1
+<web_custom>1970-00-01 00:06:15,../custom/ping_diagnosis.c[618](setPing): responseText = 1|round-trip min/avg/max = 0.203/0.309/0.690 ms
+
+<web_utils>1970-00-01 00:06:15,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:15,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:15,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 12, diagtype = 1
+<web_custom>1970-00-01 00:06:15,../custom/ping_diagnosis.c[618](setPing): responseText = 0|
+<web_utils>1970-00-01 00:06:33,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:33,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:33,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 1, diagtype = 1
+<web_custom>1970-00-01 00:06:33,../custom/ping_diagnosis.c[545](setPing):  command = ping -c 5 127.0.0.1
+<web_custom>1970-00-01 00:06:33,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+<web_utils>1970-00-01 00:06:33,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:33,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:33,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 2, diagtype = 1
+<web_custom>1970-00-01 00:06:33,../custom/ping_diagnosis.c[618](setPing): responseText = 1|PING 127.0.0.1 (127.0.0.1): 56 data bytes
+
+<web_utils>1970-00-01 00:06:33,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:33,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:33,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 3, diagtype = 1
+<web_custom>1970-00-01 00:06:33,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 127.0.0.1: seq=0 ttl=64 time=0.467 ms
+
+<web_utils>1970-00-01 00:06:33,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:33,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:33,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 4, diagtype = 1
+<web_custom>1970-00-01 00:06:34,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 127.0.0.1: seq=1 ttl=64 time=0.269 ms
+
+<web_utils>1970-00-01 00:06:34,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:34,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:34,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 5, diagtype = 1
+<web_custom>1970-00-01 00:06:35,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 127.0.0.1: seq=2 ttl=64 time=0.216 ms
+
+<web_utils>1970-00-01 00:06:35,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:35,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:35,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 6, diagtype = 1
+<web_custom>1970-00-01 00:06:36,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 127.0.0.1: seq=3 ttl=64 time=0.213 ms
+
+<web_utils>1970-00-01 00:06:36,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:36,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:36,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 7, diagtype = 1
+<web_custom>1970-00-01 00:06:37,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 127.0.0.1: seq=4 ttl=64 time=0.221 ms
+
+<web_utils>1970-00-01 00:06:37,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:37,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:37,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 8, diagtype = 1
+<web_custom>1970-00-01 00:06:37,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+
+<web_utils>1970-00-01 00:06:37,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:37,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:37,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 9, diagtype = 1
+<web_custom>1970-00-01 00:06:37,../custom/ping_diagnosis.c[618](setPing): responseText = 1|--- 127.0.0.1 ping statistics ---
+
+<web_utils>1970-00-01 00:06:37,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:37,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:37,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 10, diagtype = 1
+<web_custom>1970-00-01 00:06:37,../custom/ping_diagnosis.c[618](setPing): responseText = 1|5 packets transmitted, 5 packets received, 0% packet loss
+
+<web_utils>1970-00-01 00:06:37,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:37,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:37,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 11, diagtype = 1
+<web_custom>1970-00-01 00:06:37,../custom/ping_diagnosis.c[618](setPing): responseText = 1|round-trip min/avg/max = 0.213/0.277/0.467 ms
+
+<web_utils>1970-00-01 00:06:37,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:06:37,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:06:37,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 12, diagtype = 1
+<web_custom>1970-00-01 00:06:37,../custom/ping_diagnosis.c[618](setPing): responseText = 0|
+<web_utils>1970-00-01 00:08:30,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:08:30,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:08:30,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:08:30,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:08:30,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:08:30,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:08:30,../custom/web_sncfg.c[474](sncfgSync): enter sncfgSync()!
+<web_custom>1970-00-01 00:08:30,../custom/web_sncfg.c[163](pwdcfgSync): enter pwdcfgSync()!
+<web_utils>1970-00-01 00:08:30,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:08:30,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:08:41,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:08:41,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:08:41,../custom/vpn.c[82](setVPNEnableSync): enter setVPNEnableSync()!
+<web_custom>1970-00-01 00:08:41,../custom/vpn.c[87](setVPNEnableSync): VPNEnableSync VPNEnable=1
+<web_custom>1970-00-01 00:08:41,../custom/vpn.c[88](setVPNEnableSync): VPNEnableSync getRst=0
+<web_utils>1970-00-01 00:08:44,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:08:44,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:08:44,../custom/account_admin.c[195](get_user_list_sync): enter get_user_list_sync()!
+<web_custom>1970-00-01 00:08:44,../custom/account_admin.c[130](user_list_sync): enter user_list_sync()!
+<web_custom>1970-00-01 00:08:44,../custom/account_admin.c[134](user_list_sync): string_buff: 2
+<web_utils>1970-00-01 00:08:44,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:08:44,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:08:44,../custom/vpn.c[82](setVPNEnableSync): enter setVPNEnableSync()!
+<web_custom>1970-00-01 00:08:44,../custom/vpn.c[87](setVPNEnableSync): VPNEnableSync VPNEnable=1
+<web_custom>1970-00-01 00:08:44,../custom/vpn.c[88](setVPNEnableSync): VPNEnableSync getRst=0
+<web_utils>1970-00-01 00:08:45,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:08:45,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_utils>1970-00-01 00:09:01,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:09:01,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:09:01,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 1, diagtype = 1
+<web_custom>1970-00-01 00:09:01,../custom/ping_diagnosis.c[545](setPing):  command = ping -c 5 127.0.0.1
+<web_custom>1970-00-01 00:09:01,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+<web_utils>1970-00-01 00:09:01,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:09:01,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:09:01,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 2, diagtype = 1
+<web_custom>1970-00-01 00:09:01,../custom/ping_diagnosis.c[618](setPing): responseText = 1|PING 127.0.0.1 (127.0.0.1): 56 data bytes
+
+<web_utils>1970-00-01 00:09:01,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:09:01,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:09:01,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 3, diagtype = 1
+<web_custom>1970-00-01 00:09:01,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 127.0.0.1: seq=0 ttl=64 time=0.459 ms
+
+<web_utils>1970-00-01 00:09:01,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:09:01,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:09:01,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 4, diagtype = 1
+<web_custom>1970-00-01 00:09:02,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 127.0.0.1: seq=1 ttl=64 time=0.258 ms
+
+<web_utils>1970-00-01 00:09:02,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:09:02,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:09:02,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 5, diagtype = 1
+<web_custom>1970-00-01 00:09:03,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 127.0.0.1: seq=2 ttl=64 time=0.240 ms
+
+<web_utils>1970-00-01 00:09:03,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:09:03,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:09:03,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 6, diagtype = 1
+<web_custom>1970-00-01 00:09:04,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 127.0.0.1: seq=3 ttl=64 time=0.223 ms
+
+<web_utils>1970-00-01 00:09:04,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:09:04,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:09:04,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 7, diagtype = 1
+<web_custom>1970-00-01 00:09:05,../custom/ping_diagnosis.c[618](setPing): responseText = 1|64 bytes from 127.0.0.1: seq=4 ttl=64 time=0.220 ms
+
+<web_utils>1970-00-01 00:09:05,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:09:05,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:09:05,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 8, diagtype = 1
+<web_custom>1970-00-01 00:09:05,../custom/ping_diagnosis.c[618](setPing): responseText = 1|
+
+<web_utils>1970-00-01 00:09:05,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:09:05,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:09:05,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 9, diagtype = 1
+<web_custom>1970-00-01 00:09:05,../custom/ping_diagnosis.c[618](setPing): responseText = 1|--- 127.0.0.1 ping statistics ---
+
+<web_utils>1970-00-01 00:09:05,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.
+<web_custom>1970-00-01 00:09:05,../custom/ping_diagnosis.c[504](setPing): enter setPing()!
+<web_custom>1970-00-01 00:09:05,../custom/ping_diagnosis.c[516](setPing): ping_ip = 127.0.0.1, request_num = 10, diagtype = 1
+<web_custom>1970-00-01 00:09:05,../custom/ping_diagnosis.c[618](setPing): responseText = 1|5 packets transmitted, 5 packets received, 0% packet loss
+
+<web_utils>1970-00-01 00:09:05,../utils/cu_sessionManagement.c[378](resetSessionTimeout): reset user admin time.

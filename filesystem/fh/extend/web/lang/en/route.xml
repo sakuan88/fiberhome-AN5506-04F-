@@ -1,0 +1,15 @@
+<po>
+  <message msgid="apply" msgstr="Apply" />
+  <message msgid="cancel" msgstr="Cancel" />
+  
+  <message msgid="dr_prompt" msgstr="On this page, you can configure IPv4/IPv6 the default route." />
+
+  <message msgid="dr_v4_enableTitle" msgstr="Enable the IPv4 default route" />
+  <message msgid="dr_v6_enableTitle" msgstr="Enable the IPv6 default route" />
+  <message msgid="dr_wanTitle" msgstr="WAN Name" />
+  <message msgid="dr_wanDefaultTitle" msgstr="Please choose" />
+  
+  <message msgid="dr_wannameNUllAlert" msgstr="Please choose a wan!" />
+  
+</po>
+

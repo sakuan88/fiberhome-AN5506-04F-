@@ -1,0 +1,22 @@
+export LD_LIBRARY_PATH=/fh/extend/tr069/bin:/fh/bin:$LD_LIBRARY_PATH
+echo  $LD_LIBRARY_PATH
+chmod 700 /fh/extend/tr069/bin/agent
+chmod 700 /fh/extend/tr069/bin/tr069_config_version_check.sh
+chmod 700 /fh/extend/tr069/bin/cpe_patch_update_control.sh
+chmod 700 /fh/extend/tr069/bin/cpe_patch_update_process.sh
+chmod 700 /fh/extend/tr069/bin/runtime_default_fhcfg_fetch.sh
+
+#echo 4 > /proc/sys/net/net_debug/wan_to_lan
+# init  tr069  directory 
+if [ ! -d   /fhcfg/tr069  ];then
+        echo  "  no  /fhcfg/tr069 "
+	mkdir  /fhcfg/tr069
+fi
+if [ ! -d   /fhcfg/tr069/fhcfg  ];then
+	echo "  no  /fhcfg/tr069/fhcfg "
+	mkdir  /fhcfg/tr069/fhcfg
+fi
+
+
+
+/fh/extend/tr069/bin/agent -F /fhcfg/ -L 0 -M 1  -S 600  &

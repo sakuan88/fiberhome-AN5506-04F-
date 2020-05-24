@@ -1,0 +1,338 @@
+/*
+ *	Frame Style
+ *	主页框架样式表	
+ */
+body {
+    /*background-color: #F3F3F3;*/
+	background: url('../images/background.png');
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+div#main {
+	width: 935px;
+	height: 600px;
+	margin: 0px auto;
+	background: url('../images/menuback_admin.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/* header */
+div#main div#header {
+	height: 90px;
+}
+div#main div#header div#headerLogoImg {
+	float: left;
+	height: 90px;
+	width: 300px;
+	/*background: url('../images/unicom_WO.png') no-repeat center;*/
+}
+div#main div#header div#headerRight {
+	float:right;
+	height: 90px;
+}
+div#main div#header div#headerRight div#headerBlank {
+	height: 40px;
+}
+div#main div#header div#headerRight div#headerUCLogo {
+	float:right;
+	height: 50px;
+	width: 80px;
+	/*background: url('../images/unicom_s.png') no-repeat center;*/
+}
+div#main div#header div#headerContent {
+	float: left;
+	height: 90px;
+	width: 635px;
+}
+div#main div#header div#headerContent div#headerInfo {
+	float: left;
+	height: 23px;
+	width: 635px;
+}
+
+div#main div#header div#headerContent div#headerInfo div#headerTitle {
+	text-align: left;
+}
+div#main div#header div#headerContent div#headerInfo div#headerLogout {
+	text-align: right;
+}
+div#main div#header div#headerContent div#headerTab div#headerTab2 div#headerTab2Right span {
+	float: left;
+	height: 75px;
+	width: 75px;
+	color: #000000;
+	line-height: 32px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+
+div#main div#header div#headerContent div#headerTab {
+	float: left;
+	height: 67px;
+	width: 635px;
+	clear: both;
+	line-height: 25px;
+}
+div#main div#header div#headerContent div#headerTab div#headerTab1 {
+	float: left;
+	height: 67px;
+	width: 520px;
+	clear: both;
+	line-height: 25px;
+}
+div#main div#header div#headerContent div#headerTab div#headerTab2 {
+	float: right;
+	height: 76px;
+	width: 115px;
+	line-height: 25px;
+}
+
+div#main div#header div#headerContent div#headerTab div#headerTab2 div#headerTab2Right {
+	float: left;
+	height: 40px;
+	width: 75px;
+	cursor: pointer;
+	margin: 0px 0px;
+	color: #606060;
+    text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+}
+div#main div#header div#headerContent div#headerTab ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+div#main div#header div#headerContent div#headerTab ul li {
+	float: left;
+	height: 41px;
+    width: 85px;
+	cursor: pointer;
+	margin: 0px 0px;
+	color: #FFFFFF;
+    text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+}
+div#main div#header div#headerContent div#headerTab ul li div {
+	height: 35px;
+}
+div#main div#header div#headerContent div#headerTab ul li div.tabBtnLeft {
+
+}
+div#main div#header div#headerContent div#headerTab ul li div.tabBtnCenter {
+	
+}
+div#main div#header div#headerContent div#headerTab ul li div.tabBtnRight {
+
+}
+div#main div#header div#headerContent div#headerTab ul li.selected div.tabBtnLeft {
+	background-image:url(../images/1_down_admin.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #996600;
+}
+div#main div#header div#headerContent div#headerTab ul li.selected div.tabBtnCenter {
+	background-image:url(../images/1_down_admin.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #996600;
+}
+div#main div#header div#headerContent div#headerTab ul li.selected div.tabBtnRight {
+	background-image:url(../images/1_down_admin.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #996600;
+}
+div#main div#headerSpace {
+	height: 30px;
+	width: 935px;
+}
+/* end header */
+
+/* center */
+div#main div#center {
+	height: 480px;
+	width: 935px;
+}
+div#main div#center div#nav {
+	width: 220px;
+	float: left;
+	background-color: #F1F1F1;
+}
+
+div#main div#center div#nav div#navFooter {
+	height:25px;
+}
+div#main div#center div#navtop {
+	float: left;
+	width: 120px;
+	height: 9px;
+}
+div#main div#center div#navLeft {
+	float: left;
+	width: 40px;
+	height: 400px;
+}
+div#main div#center div#navRight {
+	float: left;
+	width: 23px;
+	height: 400px;
+}
+div#main div#center div#navCenter {
+	float: left;
+	width: 110px;
+	height: 400px;
+}
+div#main div#center div#nav div#navCentent div#navCenter div#navLoginInfo {
+	height: 100px;
+	text-align:center;
+}
+.menuUser {
+	color: #78B92E;
+    font-weight: bold;
+}
+div#main div#center div#navCenter div#navMenu {
+    float: left;
+	height: 273px;
+}
+div#main div#center div#navCenter div#navMenu ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+div#main div#center div#navCenter div#navMenu ul li.subMenu div {
+
+	height: 30px;
+	width: 90px;
+	vertical-align:middle;
+	font-size: 12px;
+	color: #606060;
+	text-align:center;
+	cursor: pointer;
+	line-height: 25px;
+	font-weight: bold;
+	margin-bottom: 3px;
+	padding-left: 10px;
+	background-image: url(../images/2_up.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+div#main div#center div#navCenter div#navMenu ul li.hover div {
+	height: 30px;
+	width: 90px;
+	vertical-align:middle;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 1px;
+	cursor: pointer;
+	color: #FFFFFF;
+	background-image: url(../images/2_down_admin.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+div#main div#center div#navCenter div#navMenu ul li.subMenu ul li.sub2Menu div {
+
+	height: 30px;
+	width: 95px;
+	
+	cursor: pointer;
+	font-size: 12px;
+	text-align:center;
+	line-height: 25px;
+	margin-bottom: 1px;
+	padding-left: 10px;
+    color: #606060;
+    font-weight: normal;
+	background-image: url();
+	background-repeat: no-repeat;
+
+	
+	
+
+}
+div#main div#center div#navCenter div#navMenu ul li.subMenu ul li.hover div {
+    height: 30px;
+	width: 95px;
+	font-size: 12px;
+	color: #FF6633;
+    font-weight: bold;
+	background-image: url();
+	background-repeat: no-repeat;
+
+
+}
+
+div#main div#center div#content {
+	float: left;
+	width: 737px;
+	height: 400px;
+/*	background-color: #DDEDD7;*//* 内容背景 */
+	
+}
+div#main div#center div#content div#topNav {
+	float: left;
+	width: 737px;
+	height: 22px;
+	/*background-color: #C0C0C0; 面包屑背景 */
+	
+}
+div#main div#center div#content div#frameWarpContent {
+	float: left;
+	width: 737px;
+	height: 378px;
+}
+
+div#main div#center div#contentRight {
+	float: left;
+	width: 25px;
+	height: 400px;
+}
+
+div#main div#center div#logo_uc {
+	height: 80px;
+	width: 935px;
+	float: left;
+}
+
+div#main div#center div#content div#copyrightInfo {
+	height: 50px;
+	color: #434343;
+	text-align: center;
+	clear: both;
+	font-size: 12px;
+}
+/* end center */
+
+/* footer */
+div#main div#footer {
+	clear: both;
+	height: 25px;
+	color: #434343;
+	width:955px;
+	text-align: center;
+/*	background-color: #CDE5B5;*/
+}
+div#main table {
+	height: 100%;
+	margin: 0px auto;
+}
+div#main div#footer #footerLogo {
+	height: 25px;
+	width: 40px;
+}
+div#main div#footer #footerText {
+	color: #434343;
+	font-size: 12px;
+}
+/* end footer */
+
+/* fresh */
+div#main div#fresh {
+	display: none;
+}
+/* end fresh */
