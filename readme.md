@@ -2,21 +2,33 @@
 
 	Modem Indihome Jadul
 
-## Root Access via UART/Serial
+## Root Access via UART/Serial (First Oprek)
 
 - Colokin aja USB TTL di board ada tandanya kok `tx,rx,gnd`
 - Pass ada tulisan 'CTR-C', pencet aja. nanti masuk root shell sblm system boot
-- Modif script utk menjalankan telnetd:
-	
-	```
-	mount -o remount,rw /fh/extend
-	echo "telnetd -l /bin/sh >> userapps.sh"
-	mount -o remount,ro /fh/extend
-	reboot
-	```
-- sekarang bisa konek root via `telnet 192.168.1.1`
+- jalankan: `telnetd -l /bin/sh`
+- lalu `initialize.sh` biar proses boot berlanjut
+- sekarang bisa konek root via `telnet 192.168.1.1` (autologin root tanpa password)
+
+## Script Oprek
+
+Sebelum jalanin script oprek, pastikan partisi sudah di **remount rw**
+
+``` bash
+# remount rw fh_extend
+mount -o remount,rw /fh/extend
+
+# Root Shell on UART
+sed -i 's/\/fh\/extend\/load_cli$/#&/' /fh/extend/initialize.sh
+
+# Root Shell via telnetd
+echo "telnetd -l /bin/sh >> /fh/extend/userapp.sh"
+
+```
 
 ## Mounting JFFS2 Big-Endian
+
+	Cek di folder `filesystem/*` sebelum mounting jffs2 di pc anda, mungkin file yg anda cari sudah ada disitu.
 
 Convert JFFS2 big endian to little
 ```
@@ -96,3 +108,4 @@ mtd:app_extend on /fh/extend type jffs2 (ro,relatime)
 mtd:data on /fhcfg type jffs2 (rw,relatime)
 devpts on /dev/pts type devpts (rw,relatime,mode=620,ptmxmode=000)
 ```
+
