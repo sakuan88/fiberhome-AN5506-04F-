@@ -19,14 +19,14 @@ Sebelum jalanin script oprek, pastikan partisi sudah di **remount rw**
 mount -o remount,rw /fh/extend
 mount -o remount,rw /
 
-# Change root password
+# Change root password, but no effect.
 sed -i 's/"root:.\+\?"/"root:B7AIKYar5C1XQ:0:0:root:\/:bin\/sh"/' /fs/extend/mount-fs.sh
 
 # Root Shell on UART
 sed -i 's/\/fh\/extend\/load_cli$/#&/' /fh/extend/initialize.sh
 
 # Root Shell via telnetd
-echo "telnetd -l /bin/sh >> /fh/extend/userapp.sh"
+echo "telnetd -l /bin/sh" >> /fh/extend/userapp.sh
 
 # Custom init from USB
 cat <<EOF > /fh/extend/userapp.sh
@@ -56,20 +56,25 @@ maka masih ada cara mudah untuk menanganinya. yaitu dengan boot menggunakan part
 Caranya:
 
 - Colokan USB TTL
-- Nyalakan Router, pas ada promp "Press Enter" tekan enter 1 kali
-- Anda akan masuk ke U-Boot CVE promp. ketikan `help` untuk list command
-- ketikan `c` (Change booline parameters)
+- Nyalakan Router, pas ada prompt "Press Enter..." tekan enter 1 kali
+- Anda akan masuk ke U-Boot CVE prompt. ketikan `help` untuk list command.
+- ketikan `c` (Change bootline parameters)
 - untuk nilai yg tidak diubah, cukup tekan `enter`
 - ubah pada bagian Boot image/App basic/App extend tergantung partisi mana yg filenya problem.
-- reboot
+- ketikan `r` untuk boot
 
 ## ftp-sync
 
 Use sublime-text with SFTP Plugin
 ```
-sed 's/^local_root\=.*/local_root=\//' /fhcfg/vsftpd.conf
+sed -i 's/^local_root\=.*/local_root=\//' /fhcfg/vsftpd.conf
 killall vsftpd
-vsftpd
+mount -o remount,rw /
+sed -i 's/:50:/:0:/' /etc/passwd
+mount -o remount,ro /
+mount -o remount,rw /fh/extend/
+chmod -R g+xw /fh/extend
+vsftpd &
 ```
 
 ## Mounting JFFS2 Big-Endian
@@ -88,6 +93,32 @@ Mount it:
 sudo ./mount-mtd.sh mtd-little/rootfs
 sudo ./mount-mtd.sh mtd-little/app_extend
 sudo ./mount-mtd.sh mtd-little/data
+```
+
+## Re-Flash MTD / Recovery
+
+Dump Partisi MTD ada di folder `mtd-ori`. Copikan ke FD, lalu mount. untuk mengembalikannya:
+```
+flash_eraseall /dev/mtd0
+nandwrite -n -m /dev/mtd0 /mnt/mtd-ori/rootfs
+flash_eraseall /dev/mtd1
+nandwrite -n -m /dev/mtd1 /mnt/mtd-ori/rootfs_update
+flash_eraseall /dev/mtd2
+nandwrite -n -m /dev/mtd2 /mnt/mtd-ori/app_basic
+flash_eraseall /dev/mtd3
+nandwrite -n -m /dev/mtd3 /mnt/mtd-ori/app_basic_update
+flash_eraseall /dev/mtd4
+nandwrite -n -m /dev/mtd4 /mnt/mtd-ori/app_extend
+flash_eraseall /dev/mtd5
+nandwrite -n -m /dev/mtd5 /mnt/mtd-ori/app_extend_update
+```
+
+## LED
+
+led 0 = off, 1 = on, 2 = blink
+
+```
+echo 1 > /sys/module/reset_led_button_drv/parameters/usb1_led_status
 ```
 
 ## System Information
@@ -179,4 +210,39 @@ Boot with backup previous partition
 0x0000051a0000-0x000006600000 : "app_extend_update"
 0x000007a60000-0x000007f00000 : "data"
 0x000000000000-0x000000020000 : "nvram"
+```
+
+## Modules
+
+```
+# lsmod
+i2cdev 10313 0 - Live 0xc1609000 (O)
+reset_led_button_drv 4792 2 - Live 0xc15fc000 (O)
+misc_drv 10232 6 - Live 0xc15ef000 (O)
+rdpa_cmd 100922 0 - Live 0xc15ca000
+endpointdd 3835326 0 - Live 0xc11c1000 (P)
+pcmshim 1354 0 - Live 0xc0ead000
+wl 2921613 0 - Live 0xc0b9b000 (P)
+wlemf 49862 1 wl, Live 0xc0802000 (P)
+wfd 19536 1 wl, Live 0xc07e4000
+pon_l2_config 4226 0 - Live 0xc07d5000 (PO)
+pon_l2_driver 304375 1 pon_l2_config, Live 0xc0779000 (O)
+pktrunner 19040 0 - Live 0xc071b000 (P)
+bcm_enet 200340 2 wl,pon_l2_driver, Live 0xc06d2000 (O)
+iomsg_drv 4146 13 i2cdev,pon_l2_driver,bcm_enet, Live 0xc067f000 (O)
+laser_i2c 4777 0 - Live 0xc0676000
+gpon_l2_omci_drv 35438 7 wl,pon_l2_driver,bcm_enet, Live 0xc0665000 (O)
+gpon_l2_init 22199 3 pon_l2_driver,bcm_enet,gpon_l2_omci_drv, Live 0xc064f000 (O)
+rdpa_upper 64544 4 pon_l2_config,pon_l2_driver,gpon_l2_omci_drv,gpon_l2_init, Live 0xc0630000 (PO)
+bcmgpon 500253 0 - Live 0xc057b000 (P)
+gpon_i2c 11264 0 - Live 0xc04c0000
+i2c_bcm6xxx 7214 1 - Live 0xc04b4000
+pktflow 111186 1 pktrunner, Live 0xc048d000 (P)
+chipinfo 1277 0 - Live 0xc0466000 (P)
+bcmbrfp 6814 0 - Live 0xc045f000
+rdpa_mw 27896 3 rdpa_cmd,pktrunner,bcmbrfp, Live 0xc044b000
+rdpa 1198092 2 pon_l2_driver,gpon_l2_init, Live 0xc02e4000 (P)
+rdpa_gpl 15987 12 rdpa_cmd,wfd,pon_l2_driver,pktrunner,bcm_enet,gpon_l2_omci_drv,gpon_l2_init,rdpa_upper,bcmgpon,bcmbrfp,rdpa_mw,rdpa, Live 0xc0135000
+bdmf 172809 14 rdpa_cmd,wfd,pon_l2_config,pon_l2_driver,pktrunner,bcm_enet,gpon_l2_omci_drv,gpon_l2_init,rdpa_upper,bcmgpon,bcmbrfp,rdpa_mw,rdpa,rdpa_gpl, Live 0xc00ef000
+wlcsm 5156 6 - Live 0xc00a5000 (P)
 ```
