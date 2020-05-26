@@ -1,0 +1,67 @@
+#!/bin/sh
+echo "dhcpc:$1 $interface ip:$ip siaddr:$siaddr subn:$subnet router:$router dns:$dns namesrv:$namesrv" > /dev/kmsg
+DIR=/fhcfg/extend/dhcpforwan
+
+case "$1" in
+	deconfig)
+        ifconfig $interface 0.0.0.0
+        rm $DIR/dhcpc-$interface-gateway 2> /dev/null
+        rm $DIR/dhcpc-$interface-mask 2> /dev/null
+        rm $DIR/dhcpc-$interface-ip 2> /dev/null
+        rm $DIR/dhcpc-$interface-domain 2> /dev/null
+        rm $DIR/dhcpc-$interface-dns 2> /dev/null
+		;;
+
+	bound)
+        [ -n "$broadcast" ] && BROADCAST="broadcast $broadcast"
+        [ -n "$subnet" ] && NETMASK="netmask $subnet"
+        ifconfig $interface $ip $BROADCAST $NETMASK
+
+        if [ -n "$router" ]; then
+            rm $DIR/dhcpc-$interface-gateway 2> /dev/null
+            for i in $router; do
+                echo $i >$DIR/dhcpc-$interface-gateway
+            done
+            ip route add default via $router dev $interface
+        fi
+        if [ -n "$subnet" ]; then
+            rm $DIR/dhcpc-$interface-mask 2> /dev/null 
+            for i in $subnet; do
+                echo $i >$DIR/dhcpc-$interface-mask
+            done
+        fi
+        if [ -n "$ip" ]; then
+            rm $DIR/dhcpc-$interface-ip 2> /dev/null
+            for i in $ip; do
+                echo $i >$DIR/dhcpc-$interface-ip
+            done
+        fi
+        if [ -n "$domain" ]; then
+            rm $DIR/dhcpc-$interface-domain 2> /dev/null 
+            for i in $domain; do
+                echo $i >$DIR/dhcpc-$interface-domain
+            done
+        fi
+        if [ -n "$dns" ]; then
+            rm $DIR/dhcpc-$interface-dns 2> /dev/null
+            echo "# Autoset by klampok.sh -> /etc/dhcp.wan " > /var/fyi/sys/dns
+            for i in $dns; do
+                echo $i >> $DIR/dhcpc-$interface-dns
+                echo "nameserver $i" >> /var/fyi/sys/dns
+            done    
+        fi
+		;;
+
+	nak)
+        echo Received a NAK: $message > /dev/kmsg
+		;;
+
+	renew)
+        echo Received a RENEW: $message > /dev/kmsg
+		;;
+
+	*)
+        echo "dhcp.wan: $1 Unhandled" > /dev/kmsg
+		;;
+
+esac

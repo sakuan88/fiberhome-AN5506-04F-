@@ -120,6 +120,14 @@ led 0 = off, 1 = on, 2 = blink
 ```
 echo 1 > /sys/module/reset_led_button_drv/parameters/usb1_led_status
 ```
+## How initialize.sh started?
+
+Still investigating
+
+## Customize Boot init
+
+`/etc/init.d/bcm-base-drivers.sh` contains default SDK Driver load. but this not loaded/linked 
+in /etc/rc3.d/ because the developer use custom /fh/extend/initialize.sh to load the drivers and do OEM thing.
 
 ## System Information
 
