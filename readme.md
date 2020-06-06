@@ -77,6 +77,17 @@ chmod -R g+xw /fh/extend
 vsftpd &
 ```
 
+## PROBLEM DRIVER
+
+Ketika menggunakan driver bawaan tanpa custom dari fiberhome maka ada paket dhcp yg di forward.
+(kemungkinan) terdapat pada custom driver wl.ko / bcm_enet.ko
+jadi dhcpserver untuk client yg konek wifi gak akan dapet IP
+```
+test net_wlan_dhcp_pkt_filter_func-
+```
+## TODO
+Rebuild bcm_enet.ko and/or wl.ko to make it universal
+
 ## Mounting JFFS2 Big-Endian
 
     Cek di folder `filesystem/*` sebelum mounting jffs2 di pc anda, mungkin file yg anda cari sudah ada disitu.
@@ -254,3 +265,33 @@ rdpa_gpl 15987 12 rdpa_cmd,wfd,pon_l2_driver,pktrunner,bcm_enet,gpon_l2_omci_drv
 bdmf 172809 14 rdpa_cmd,wfd,pon_l2_config,pon_l2_driver,pktrunner,bcm_enet,gpon_l2_omci_drv,gpon_l2_init,rdpa_upper,bcmgpon,bcmbrfp,rdpa_mw,rdpa,rdpa_gpl, Live 0xc00ef000
 wlcsm 5156 6 - Live 0xc00a5000 (P)
 ```
+
+## similar?
+
+**DPN-124G**
+GPON ONT Wireless VoIP Gateway with 1 GPON Port, 4 10/100/1000Base-T Ports, 2 FXS Ports, and 1 USB Port
+http://www.dlink.lt/mn/products/1383/2177.html
+**DPN-144DG**
+GPON ONT Dual Band Wireless AC1200 VoIP Gateway with 1 GPON Port, 4 10/100/1000Base-T Ports, 2 FXS Ports, and 1 USB Port
+http://www.dlink.lt/mn/products/1383/2176.html
+
+https://wikidevi.wi-cat.ru/SerComm_RV6699_v2
+
+https://wikidevi.wi-cat.ru/index.php/Special:Ask?title=Special%3AAsk&q=%3Cq%3E%5B%5BCPU1+model::~BCM68380*%5D%5D+OR+%5B%5BCPU2+model::~BCM68380*%5D%5D%3C%2Fq%3E&po=%3FEmbedded+system+type=Type%0D%0A%3FFCC+ID%0D%0A%3FManuf%0D%0A%3FManuf+product+model=Manuf.+mdl%0D%0A%3FCPU1+model=CPU1%0D%0A%3FCPU1+clock+speed%0D%0A%3FCPU2+model=CPU2%0D%0A%3FCPU2+clock+speed=CPU2+clock+speed%0D%0A%3FFLA1+amount=FLA1%0D%0A%3FFLA2+amount=FLA2%0D%0A%3FRAM1+amount=RAM1%0D%0A%3FRAM2+amount=RAM2%0D%0A%3FWI1+chip1+model=WI1+chip1%0D%0A%3FWI1+chip2+model=WI1+chip2%0D%0A%3FWI1+MIMO+config=WI1+MIMO%0D%0A%3FWI2+chip1+model=WI2+chip1%0D%0A%3FWI2+chip2+model=WI2+chip2%0D%0A%3FWI2+MIMO+config=WI2+MIMO%0D%0A%3FSupported+802dot11+protocols=PHY+modes%0D%0A%3FOUI%0D%0A%3FOUI+(ethernet)=OUI+(Eth)%0D%0A%3FEstimated+year+of+release=Est.+year&eq=yes&p%5Bformat%5D=broadtable&order%5B0%5D=ASC&sort_num=&order_num=ASC&p%5Blimit%5D=200&p%5Boffset%5D=&p%5Blink%5D=all&p%5Bsort%5D=&p%5Bheaders%5D=show&p%5Bmainlabel%5D=&p%5Bintro%5D=&p%5Boutro%5D=&p%5Bsearchlabel%5D=%E2%80%A6+further+results&p%5Bdefault%5D=&p%5Bclass%5D=sortable+wikitable+smwtable
+
+## Possible rebuild
+
+Firmware Source:
+https://github.com/weihutaisui/BCM
+make PROFILE=96838FHSFU SHELL=/bin/bash
+
+## Reffs
+
+PROCESSOR: bcm96838
+https://github.com/paldier/rax20
+https://github.com/paldier/rax200/tree/8819cdd1cec89071f496306da1b1285d9e86e837/rdp/projects/PON_6838
+https://github.com/MerlinRdev/tuf-ax3000
+
+https://github.com/minhng99/iGate_GW040/tree/master/Datasheet%20%7C%20Reference%20Design
+
+https://github.com/search?q=bcm96838&type=Code

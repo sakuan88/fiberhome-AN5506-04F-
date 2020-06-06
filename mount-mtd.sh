@@ -6,7 +6,7 @@ if [ $# -lt 1 ]; then
 fi
 
 if [ "$(whoami)" != "root" ]; then
-    exec sudo "$*"
+    exec sudo $0 "$*"
     exit 1
 fi
 
